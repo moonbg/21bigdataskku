@@ -1,0 +1,1001 @@
+Unnamed: 0,번호,제목,저자,출판사,출판일
+,1,"Guest Editorial: Big Media Data: Understanding, Search, and Mining (Part 2)","Wang, J.; Qi, G.; Sebe, N.; Aggarwal, C. C.",unknown,2015
+,2,Guest Editorial: Big Scholar Data Discovery and Collaboration,"Lin, Y.; Tong, H.; Tang, J.; Candan, K. S.",unknown,2016
+,3,Guest Editorial: Big Data Analytics and the Web,"Sheng, M.; Vasilakos, A. V.; Yu, Q.; You, L.",unknown,2016
+,4,Parallel computing for preserving privacy using k-anonymisation algorithms from big data,"Yaji, Sharath; Neelima, B.",Inderscience,2018
+,5,NoSQL databases for big data,"Oussous, Ahmed; Benjelloun, Fatima-Zahra; Lahcen, Ayoub Ait; Belfkih, Samir",Inderscience,2017
+,6,Computation migration: a new approach to execute big-data bioinformatics workflows,"Nunes, Rickey T. P.; Deshpande, Santosh L.",Inderscience,2018
+,7,Towards a real-time big data analytics platform for health applications,"Chrimes, Dillon; Kuo, Mu-Hsing; Moa, Belaid; Hu, Wei",Inderscience,2017
+,8,A new approach for accurate distributed cluster analysis for Big Data: competitive K-Means,"Esteves, Rui Máximo; Hacker, Thomas; Rong, Chunming",Inderscience,2014
+,9,A five-layer architecture for big data processing and analytics,"Zhu, Julie Yixuan; Tang, Bo; Li, Victor O.K.",Inderscience,2019
+,10,Towards Max-Min Fair Resource Allocation for Stream Big Data Analytics in Shared Clouds,"Jiang, Y.; Huang, Z.; Tsang, D. H.",unknown,2018
+,11,Large-scale spectral clustering for managing big data in healthcare operations,"Liu, Maoqing; Fard, Nasser; Sadeghzadeh, Keivan",Inderscience,2017
+,12,A Hierarchical Distributed Processing Framework for Big Image Data,"Dong, L.; Lin, Z.; Liang, Y.; He, L.; Zhang, N.; Chen, Q.; Cao, X.; Izquierdo, E.",unknown,2016
+,13,A platform for big data analytics on distributed scale-out storage system,"Aye, Kyar Nyo; Thein, Thandar",Inderscience,2015
+,14,Online Similarity Learning for Big Data with Overfitting,"Cong, Y.; Liu, J.; Fan, B.; Zeng, P.; Yu, H.; Luo, J.",unknown,2018
+,15,Towards quality-of-service driven consistency for Big Data management,"García-Recuero, Álvaro; Esteves, Sérgio; Veiga, Luís",Inderscience,2014
+,16,A platform for big data analytics on distributed scaleout storage system,"Aye, Kyar Nyo; Thein, Thandar",Inderscience,2015
+,17,Current trends in predictive analytics of big data,"Wlodarczyk, Tomasz Wiktor; Hacker, Thomas J.",Inderscience,2014
+,18,Classification and comparison of NoSQL big data models,"Sharma, Sugam; Tim, Udoyara Sunday; Gadia, Shashi; Wong, Johnny; Shandilya, Ritu; Peddoju, Sateesh K.",Inderscience,2015
+,19,A survey on big data processing infrastructure: evolving role of FPGA,"Nunna, Krishna Chaitanya; Mehdipour, Farhad; Trouvé, Antoine; Murakami, Kazuaki J.",Inderscience,2015
+,20,Fast approaches for semantic service composition in big data environment,"Huang, Jun; Zhou, Yide; Duan, Qiang; Xing, Cong-Cong",Inderscience,2019
+,21,Secure multi-owner-based cloud computing scheme for big data,"Al-Shablan, Maram; Tian, Yuan; Al-Rodhaan, Mznah",Inderscience,2016
+,22,Corporate governance fraud detection from annual reports using big data analytics,"Sadasivam, G. Sudha; Subrahmanyam, Mutyala; Himachalam, Dasaraju; Pinnamaneni, Bhanu Prasad; Lakshme, S. Maha",Inderscience,2016
+,23,Fuzzy Based Scalable Clustering Algorithms for Handling Big Data Using Apache Spark,"Bharill, N.; Tiwari, A.; Malviya, A.",unknown,2016
+,24,Privacy models for big data: a survey,"Victor, Nancy; Lopez, Daphne; Abawajy, Jemal H.",Inderscience,2016
+,25,Towards quality-of-service driven consistency for Big Data management,"García-Recuero, Álvaro; Esteves, Sérgio; Veiga, Luís",Inderscience,2014
+,26,A new approach for accurate distributed cluster analysis for Big Data: competitive K-Means,"Esteves, Rui Máximo; Hacker, Thomas; Rong, Chunming",Inderscience,2014
+,27,PaloPro: a platform for knowledge extraction from big social data and the news,"Makrynioti, Nantia; Grivas, Andreas; Sardianos, Christos; Tsirakis, Nikos; Varlamis, Iraklis; Vassalos, Vasilis; Poulopoulos, Vassilis; Tsantilas, Panagiotis",Inderscience,2017
+,28,2017 Index IEEE Transactions on Big Data Vol. 3,unknown,unknown,2018
+,29,Hybridisation of classifiers for anomaly detection in big data,"Alguliyev, Rasim M.; Aliguliyev, Ramiz M.; Abdullayeva, Fargana Jabbar",Inderscience,2019
+,30,Toward Efficient and Flexible Metadata Indexing of Big Data Systems,"Zhao, D.; Qiao, K.; Zhou, Z.; Li, T.; Lu, Z.; Xu, X.",unknown,2017
+,31,Structural Balance Theory-Based E-Commerce Recommendation over Big Rating Data,"Qi, L.; Xu, X.; Zhang, X.; Dou, W.; Hu, C.; Zhou, Y.; Yu, J.",unknown,2018
+,32,Petuum: A New Platform for Distributed Machine Learning on Big Data,"Xing, E. P.; Ho, Q.; Dai, W.; Kim, J. K.; Wei, J.; Lee, S.; Zheng, X.; Xie, P.; Kumar, A.; Yu, Y.",unknown,2015
+,33,"Special Issue on Biomedical Big Data: Understanding, Learning and Applications","Zhu, J.; Liu, A.; Chen, M.; Tasdizen, T.; Su, H.",unknown,2017
+,34,Smart Monitoring Cameras Driven Intelligent Processing to Big Surveillance Video Data,"Shao, Z.; Cai, J.; Wang, Z.",unknown,2018
+,35,Distributed Feature Selection for Efficient Economic Big Data Analysis,"Zhao, L.; Chen, Z.; Hu, Y.; Min, G.; Jiang, Z.",unknown,2018
+,36,An Extended Spatio-Temporal Granger Causality Model for Air Quality Estimation with Heterogeneous Urban Big Data,"Zhu, J. Y.; Sun, C.; Li, V. O.",unknown,2017
+,37,HDM: A Composable Framework for Big Data Processing,"Wu, D.; Zhu, L.; Lu, Q.; Sakr, S.",unknown,2018
+,38,2016 Index IEEE Transactions on Big Data Vol. 2,unknown,unknown,2017
+,39,An Enhanced Visualization Method to Aid Behavioral Trajectory Pattern Recognition Infrastructure for Big Longitudinal Data,"Fang, H.; Zhang, Z.",unknown,2018
+,40,DiP-SVM : Distribution Preserving Kernel Support Vector Machine for Big Data,"Singh, D.; Roy, D.; Mohan, C. K.",unknown,2017
+,41,Availability modelling and assurance for a big data computing,"Ke, Zuqiang; Park, Nohpill",Inderscience,2019
+,42,Deduplication on Encrypted Big Data in Cloud,"Yan, Z.; Ding, W.; Yu, X.; Zhu, H.; Deng, R. H.",unknown,2016
+,43,Guest Editorial: Special Issue on Big Scholar Data Discovery and Collaboration (Continued),"Lin, Y.; Tong, H.; Tang, J.; Selcuk Candan, K.",unknown,2016
+,44,Kvasir: Scalable Provision of Semantically Relevant Web Content on Big Data Framework,"Wang, L.; Tasoulis, S.; Roos, T.; Kangasharju, J.",unknown,2016
+,45,Perceptions of independent financial advisors on the usefulness of big data in the context of decision making in the UK,"Grishikashvili, Ketty; Bechter, Clemens",Inderscience,2019
+,46,Optimized Deep Learning for EEG Big Data and Seizure Prediction BCI via Internet of Things,"Hosseini, M.; Pompili, D.; Elisevich, K.; Soltanian-Zadeh, H.",unknown,2017
+,47,AlgorithmSeer: A System for Extracting and Searching for Algorithms in Scholarly Big Data,"Tuarob, S.; Bhatia, S.; Mitra, P.; Giles, C. L.",unknown,2016
+,48,Taxi-Passenger-Demand Modeling Based on Big Data from a Roving Sensor Network,"Zhang, D.; He, T.; Lin, S.; Munir, S.; Stankovic, J. A.",unknown,2017
+,49,Big data analytics for security and criminal investigations,"Pramanik, M.I.; Lau, Raymond Y.K.; Yue, Wei T.; Ye, Yunming; Li, Chunping",John Wiley & Sons Ltd,2017
+,50,Data discretization: taxonomy and big data challenge,"Ramírez‐Gallego, Sergio; García, Salvador; Mouriño‐Talín, Héctor; Martínez‐Rego, David; Bolón‐Canedo, Verónica; Alonso‐Betanzos, Amparo; Benítez, José Manuel; Herrera, Francisco",John Wiley & Sons Ltd,2016
+,51,Big data analytics—a review of data‐mining models for small and medium enterprises in the transportation sector,"Mohd Selamat, Siti Aishah; Prakoonwit, Simant; Sahandi, Reza; Khan, Wajid; Ramachandran, Manoharan",John Wiley & Sons Ltd,2018
+,52,Big data analytics on Apache Spark,"Salloum, S.; Dautov, R.; Chen, X.; Peng, P. X.; Huang, J. Z.",Springer Science + Business Media,2016
+,53,Applying big data analytics to support Kansei engineering for hotel service development,"Chen, Mu-Chen; Hsiao, Yu-Hsiang; Chang, Kuo-Chien; Lin, Ming-Ke",Emerald Publishing,2019
+,54,Big data analytics with swarm intelligence,"Cheng, Shi; Zhang, Qingyu; Qin, Quande",Emerald Group Publishing Limited,2016
+,55,Entity deduplication in big data graphs for scholarly communication,"Manghi, Paolo; Atzori, Claudio; De Bonis, Michele; Bardi, Alessia",Emerald Publishing,2020
+,56,Special issue: First International Conference on Big Data and Smart Computing (BigComp2014),"Kim, J.; Kwok, J.; Sumiya, K.; Zhang, B. T.","Elsevier Science B.V., Amsterdam.",2016
+,57,BIG DATA and fusion,"Zhang, Jixian",Taylor & Francis,2015
+,58,"Big data with cloud computing: an insight on the computing environment, mapreduce, and programming frameworks","Fernández, Alberto; del Río, Sara; López, Victoria; Bawakid, Abdullah; del Jesus, María J.; Benítez, José M.; Herrera, Francisco",John Wiley & Sons Ltd,2014
+,59,"Big data, big results: Knowledge discovery in output from large?scale analytics","McCormick, T.H.; Ferrell, R.; Karr, A.F.; Ryan, P.B.","John Wiley & Sons, Ltd",2014
+,60,Data Mining with Big Data,"Xindong, W.; Xingquan, Z.; Gong-Qing, W.; Wei, D.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2014
+,61,Data analysis on big data: improving the map and shuffle phases in Hadoop Map Reduce,"Lakshmi, J.V.N.",Inderscience,2018
+,62,An analysis of academic librarians competencies and skills for implementation of Big Data analytics in libraries,"Ahmad, Khurshid; JianMing, Zheng; Rafi, Muhammad",Emerald Publishing,2019
+,63,Big Data doesn't always yield big benefits,unknown,SOURCE MEDIA INC.,2015
+,64,Big Data Improves Care,unknown,SOURCE MEDIA INC.,2015
+,65,Big data analytics – enabled cyber-physical system: model and applications,"Luo, Shuai; Liu, Hongwei; Qi, Ershi",Emerald Group Publishing Limited,2019
+,66,"Big, Bigger, Biggest: Data repositories balloon to unprecedented levels. Coping with ``Big Data.''",unknown,SOURCE MEDIA INC.,2013
+,67,"Big Data, the Internet of Things, and the Revised Knowledge Pyramid","Jennex,  Murray E.",ACM SIGMIS,2017
+,68,Handling Big Dimensions in Distrubted Data Warehouses using the DWS Technique,"Costa, M.; Madeira, H.","ACM,",2004
+,69,Quality Assessment of Peer-Produced Content in Knowledge Repositories Using Big Data and Social Networks: The Case of Implicit Collaboration in Wikipedia,"Velichety, Srikar",ACM SIGMIS,2019
+,70,Big data analytics: Machine learning and Bayesian learning perspectives—What is done? What is not?,"Suthaharan, Shan",John Wiley & Sons Ltd,2019
+,71,Big Data Paradigm: What is the Status of Privacy and Security?,"Strang, K. D.; Sun, Z.",Springer Science + Business Media,2017
+,72,Big Data technologies to process spatial and attribute data when designing and operating mine-engineering systems,"Stepanov, Yuri A.; Stepanov, Alexander V.",Taylor & Francis,2019
+,73,"Towards Big Linked Data: A Large-Scale, Distributed Semantic Data Storage",Bo Hu; Nuno Carvalho; Takahide Matsutsuka,Idea Group Pub,2013
+,74,In-Memory Big Data Management and Processing: A Survey,"Hao, Z.; Gang, C.; Beng, C. O.; Kian-Lee, T.; Meihui, Z.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2015
+,75,Spatial Data Mining: A Perspective of Big Data,Shuliang Wang; Hanning Yuan,Idea Group Pub,2014
+,76,From big data to big analysis: a perspective of geographical conditions monitoring,"Zhai, Liang; Zhang, Na; Hou, Wei; Feng, Zhixian; Qiao, Qinghua; Luo, Minghai",Taylor & Francis,2018
+,77,Practical Big Data,unknown,SOURCE MEDIA INC.,2014
+,78,Exploring Big Data Analysis: Fundamental Scientific Problems,"Xu, Z.; Shi, Y.",Springer Science + Business Media,2015
+,79,Managing big data in coal-fired power plants: a business intelligence framework,"Chongwatpol, Jongsawas",Emerald Group Publishing Limited,2016
+,80,Analytics Partners Allina Health teams up with Health Catalyst to garner the benefits of big data,unknown,SOURCE MEDIA INC.,2016
+,81,Using data to build a better EM: EM* for big data,"Kurban, H.; Jenne, M.; Dalkilic, M. M.",Springer Science + Business Media,2017
+,82,Tensor-Based Big Data Management Scheme for Dimensionality Reduction Problem in Smart Grid Systems: SDN Perspective,"Kaur, D.; Aujla, G. S.; Kumar, N.; Zomaya, A. Y.; Perera, C.; Ranjan, R.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2018
+,83,"Michael Buck talks about living his dream of being a bioinformaticist, and the emerging alternatives to big data warehouses",unknown,SOURCE MEDIA INC.,2012
+,84,EU data privacy laws face big shake-up,"Mullock, J.",Palgrave Macmillan,2012
+,85,A Scalable Multi-Data Sources Based Recursive Approximation Approach for Fast Error Recovery in Big Sensing Data on Cloud,"Yang, Chi; Xu, Xianghua; Ramamohanarao, Kotagiri; Chen, Jinjun",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2020
+,86,Flexible Heavy Tailed Distributions for Big Data,"Zhang, Y.; Nadarajah, S.",Springer Science + Business Media,2017
+,87,"Semantics Meets Big Data: Formal Models, Practical Issues, Novel Paradigms","Cuzzocrea, A.",Springer,2016
+,88,Forecasting with Big Data: A Review,"Hassani, H.; Silva, E. S.",Springer Science + Business Media,2015
+,89,How China Deals with Big Data,"Shi, Y.; Shan, Z.; Li, J.; Fang, Y.",Springer Science + Business Media,2017
+,90,A Detailed Review on the Prominent Compression Methods Used for Reducing the Data Volume of Big Data,"Anuradha, D.; Bhuvaneswari, S.",Springer Science + Business Media,2016
+,91,MongoDB-Based Modular Ontology Building for Big Data Integration,"Abbes, H.; Gargouri, F.",Springer,2018
+,92,A Scalable Data Chunk Similarity Based Compression Approach for Efficient Big Sensing Data Processing on Cloud,"Yang, C.; Chen, J.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2017
+,93,Fuzzy rule based classification systems for big data with MapReduce: granularity analysis,"Fernández, A.; Río, S.; Bawakid, A.; Herrera, F.",Springer Science + Business Media,2017
+,94,Cell phone big data to compute mobility scenarios for future smart cities,"Tosi, D.",Springer Science + Business Media,2017
+,95,Semantics-Aware Approaches to Big Data Engineering,"Cuzzocrea, A.; Sellis, T.",Springer,2017
+,96,Smart city big data analytics: An advanced review,"Soomro, Kamran; Bhutta, Muhammad Nasir Mumtaz; Khan, Zaheer; Tahir, Muhammad A.",John Wiley & Sons Ltd,2019
+,97,A watchdog approach - name-matching algorithm for big data risk intelligence,"Kirubakaran, Anusuya; Aramudhan, M.",Inderscience,2018
+,98,An intelligent approach to Big Data analytics for sustainable retail environment using Apriori-MapReduce framework,"Verma, Neha; Singh, Jatinder",Emerald Group Publishing Limited,2017
+,99,How organisations leverage Big Data: a maturity model,"Comuzzi, Marco; Patel, Anit",Emerald Group Publishing Limited,2016
+,100,Effective and efficient distributed management of big clinical data: a framework,"Cuzzocrea, Alfredo; Grasso, Giorgio Mario; Nolich, Massimiliano",Inderscience,2019
+,1,SIMD parallel MCMC sampling with applications for big-data Bayesian analytics,"Mahani, A. S.; Sharabiani, M. T.","Elsevier Science B.V., Amsterdam.",2015
+,2,A Framework for Evaluating Design Methodologies for Big Data Warehouses: Measurement of the Design Process,Francesco Di Tria; Ezio Lefons; Filippo Tangorra,Idea Group Pub,2018
+,3,Stakeholder Perceptions and Word-of-Mouth on CSR Dynamics: A Big Data Analysis from Twitter,Andrée Marie López-Fernández; Zamira Burgos Silva,"Idea Group Pub.,",2018
+,4,Efficient Skyline Computation on Big Data,"Xixian, H.; Jianzhong, L.; Donghua, Y.; Jinbao, W.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2013
+,5,Incremental Query Processing on Big Data Streams,"Fegaras, L.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,6,Barriers of embedding big data solutions in smart factories: insights from SAP consultants,"Li, Shuyang; Peng, Guo Chao; Xing, Fei",Emerald Group Publishing Limited,2019
+,7,Extracting Kernel Dataset from Big Sensory Data in Wireless Sensor Networks,"Cheng,  Siyao; Cai,  Zhipeng; Li,  Jianzhong; Gao,  Hong",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2017
+,8,An insight into application of big data analytics in healthcare,"Nalluri, Sravani; Sasikala, R.",Inderscience,2020
+,9,Quantile regression in big data: A divide and conquer based strategy,"Chen, Lanjue; Zhou, Yong","Elsevier Science B.V., Amsterdam.",2020
+,10,A review on sentiment discovery and analysis of educational big‐data,"Han, Zhongmei; Wu, Jiyi; Huang, Changqin; Huang, Qionghao; Zhao, Meihua",John Wiley & Sons Ltd,2020
+,11,MR plot: A big data tool for distinguishing distributions,"Ardakani, Omid M.; Asadi, Majid; Ebrahimi, Nader; Soofi, Ehsan S.","John Wiley & Sons, Ltd",2020
+,12,An overview of online based platforms for sharing and analyzing electrophysiology data from big data perspective,"Chen, Yang; Wang, Zhong‐yi; Yuan, Gang; Huang, Lan",John Wiley & Sons Ltd,2017
+,13,A Holistic View of Big Data,Won Kim; Ok-Ran Jeong; Chulyun Kim,Idea Group Pub,2014
+,14,Modeling and Evaluating the Effects of Big Data Storage Resource Allocation in Global Scale Cloud Architectures,Enrico Barbierato; Marco Gribaudo; Mauro Iacono,Idea Group Pub,2016
+,15,Scalable machine‐learning algorithms for big data analytics: a comprehensive review,"Gupta, Preeti; Sharma, Arun; Jindal, Rajni",John Wiley & Sons Ltd,2016
+,16,Advancing science and technology with big data analytics,"Li, Jia","John Wiley & Sons, Ltd",2018
+,17,i$^2$ MapReduce: Incremental MapReduce for Mining Evolving Big Data,"Yanfeng, Z.; Shimin, C.; Qiang, W.; Ge, Y.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2015
+,18,A Multi-Step Nonlinear Dimension-Reduction Approach with Applications to Big Data,unknown,IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2019
+,19,Efficient and Distributed Generalized Canonical Correlation Analysis for Big Multiview Data,unknown,IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2019
+,20,Web Media and Stock Markets : A Survey and Future Directions from a Big Data Perspective,"Li, Q.; Chen, Y.; Wang, J.; Chen, Y.; Chen, H.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2018
+,21,K Nearest Neighbour Joins for Big Data on MapReduce: A Theoretical and Experimental Analysis,"Song, G.; Rochas, J.; Beze, L. E.; Huet, F.; Magoules, F.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,22,Haery: A Hadoop Based Query System on Accumulative and High-Dimensional Data Model for Big Data,"Song, Jie; He, Hongyan; Thomas, Richard; Bao, Yubin; Yu, Ge",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2020
+,23,VA-Store: A Virtual Approximate Store Approach to Supporting Repetitive Big Data in Genome Sequence Analyses,unknown,IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2020
+,24,On the Feasibility of Distributed Kernel Regression for Big Data,"Xu, Chen; Zhang, Yongquan; Li, Runze; Wu, Xindong",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,25,Scalable Algorithms for Nearest-Neighbor Joins on Big Trajectory Data,"Fang,  Yixiang; Cheng,  Reynold; Tang,  Wenbin; Maniu,  Silviu; Yang,  Xuan",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,26,The Gamma Matrix to Summarize Dense and Sparse Data Sets for Big Data Analytics,"Ordonez, C.; Zhang, Y.; Cabrera, W.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,27,An uncertainty measure and fusion rule for conflict evidences of big data via Dempster–Shafer theory,"Dutta, Palash",Taylor & Francis,2018
+,28,T-PCCE: Twitter Personality based Communicative Communities Extraction System for Big Data,"Kafeza, Eleanna; Kanavos, Andreas; Makris, Christos; Pispirigos, Georgios; Vikatos, Pantelis",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2020
+,29,Mining Suspicious Tax Evasion Groups in Big Data,"Tian, F.; Lan, T.; Chao, K.; Godwin, N.; Zheng, Q.; Shah, N.; Zhang, F.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,30,Bias Correction in a Small Sample from Big Data,"Jianguo, L.; Dingding, L.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2013
+,31,A Novel Pipeline Approach for Efficient Big Data Broadcasting,"Wu, C.; Ku, C.; Ho, J.; Chen, M.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,32,Enhanced Graph Transforming V2 Algorithm for Non-Simple Graph in Big Data Pre-Processing,"Sutedi, Sutedi",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2019
+,33,"Big business, big government and big legal questions Big data is here to stay, but what does it mean for IP? Todd Vare and Michael Mattioli look at how big data can be protected in the US, and ask whether it can thrive under the existing legal framework",unknown,EUROMONEY PUBLICATIONS PLC,2014
+,34,Big data creating new knowledge as support in decision-making: practical examples of big data use and consequences of using big data as decision support,"Fredriksson, Cecilia",Taylor & Francis,2018
+,35,"Big data small data. The concept of big data is hard to quantify, so it's good to remember hat big data is made up of small data","Randall, C.",CENTAUR MEDIA PLC,2013
+,36,BIG DATA IS A BIG DEAL The E&amp;P industry must work with ``big data'' to meet future demand from a growing global population,unknown,SOCIETY OF PETROLEUM ENGINEERS OF AIME,2013
+,37,Big Security for Big Data: Addressing Security Challenges for the Big Data Infrastructure,"Demchenko, Y.; Ngo, C.; de Laat, C.; Membrey, P.; Gordijenko, D.",SPRINGER-VERLAG,2014
+,38,"Big Data, Big Knowledge: Big Data for Personalized Healthcare","Viceconti, M.; Hunter, P.; Hose, R.",IEEE,2015
+,39,"Big Bang, Big Data, Big Iron: Fifteen Years of Cosmic Microwave Background Data Analysis at NERSC","Borrill, J.; Keskitalo, R.; Kisner, T.",IEEE,2015
+,40,"Big Data, Big Impact Four of this year's Computerworld Honors Laureates are using big data to battle the effects of unemployment and climate change, raise social awareness and help at-risk students",unknown,CW COMMUNICATIONS INC.,2013
+,41,"Big Data: Big Gain or Big Pain for Lawyers? Huge quantities of data offer a potential boon to lawyers, but they will cause headaches, too","Nelson, S.D.; Simek, J.W.",AMERICAN BAR ASSOCIATION,2013
+,42,"Big data, big money Mining big data can make a major difference, but there is even more value in spinning off the data",unknown,BRW MEDIA,2013
+,43,Big Data and Risk Management The financial services industry provides lessons on how to prevent ``Big Data'' from becoming a big problem,unknown,RISK MANAGEMENT SOC PUBLISHING INC,2012
+,44,"Big Data, Big Jobs? : As companies embrace big data, they're in the market for high-level strategists and communicators. Do you have the chops to snag a big data job?",unknown,CW COMMUNICATIONS INC.,2013
+,45,Big data driven smart energy management: From big data to big insights,"Zhou, Kaile; Fu, Chao; Yang, Shanlin","Elsevier Science B.V., Amsterdam.",2016
+,46,BIG data – BIG gains? Understanding the link between big data analytics and innovation,"Niebel, Thomas; Rasel, Fabienne; Viete, Steffen",Taylor & Francis,2019
+,47,"Big Data, Big Questions Can emerging big data technologies work in old-school companies? Sears is trying",unknown,"CMP PUBLICATIONS, INC.",2012
+,48,Does big data mean big knowledge? KM perspectives on big data and analytics,"Pauleen, David J.; Wang, William Y.C.",Emerald Group Publishing limited,2017
+,49,Is big data a big deal? A competition law approach to big data,"Sivinski, Greg; Okuliar, Alex; Kjolbye, Lars",Taylor & Francis,2017
+,50,Think Big with Big Data: Identifying Suitable Big Data Strategies in Corporate Environments,"Ebner, K.; Buhnen, T.; Urbach, N.",IEEE,2014
+,51,"Cognitive big data: survey and review on big data research and its implications. What is really ""new"" in big data?","Lugmayr, Artur; Stockleben, Björn; Scheib, Christoph; Mailaparampil, Mathew A.",Emerald Group Publishing limited,2017
+,52,"Digital Data, Administrative Data, and Survey Compared: Updating the Classical Toolbox for Assessing Data Quality of Big Data, Exemplified by the Generation of Corruption Data","Graeff, Peter; Baur, Nina",UNIVERSITY OF COLOGNE,2020
+,53,When big data meets software-defined networking: SDN for big data and big data for SDN,"Laizhong, C.; Yu, F. R.; Qiao, Y.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2016
+,54,Is Big Data in Healthcare about Big Hope or Big Hype? Early Health Technology Assessment of Big Data Analytics in Healthcare,"Bakker, LJ; Aarts, J; Redekop, WK","Elsevier Science B.V., Amsterdam",2016
+,55,Is Big Data in Healthcare about Big Hope or Big Hype? Early Health Technology Assessment of Big Data Analytics in Healthcare,"Bakker, L.; Aarts, J.; Redekop, W.","Elsevier Science B.V., Amsterdam",2016
+,56,Does big data mean big knowledge? Integration of big data analysis and conceptual model for social commerce research,"Tian, X.; Liu, L.",Springer Science + Business Media,2017
+,57,"Snapshot of Big Data Trends in Latin America Latin American countries have a long way to go in using Big Data analytics, but the time is now to develop a regional strategy for Big Data","Gomes, L.F.A.M.",NATIONAL ACADEMY OF ENGINEERING,2014
+,58,"The politics of big data. Big data, big brother?","Mager, Astrid",Taylor & Francis,2019
+,59,Guest Editorial: What’s so big about Big Data? Finding the spaces and perils of Big Data,"Burns, R.; Thatcher, J.",Springer Science + Business Media,2015
+,60,"The Politics of Big Data: Big Data, Big Brother?A.R.SætnanI.SchneiderN.Green (eds 2018LondonRoutledge 346 pp., £ 105 ISBN 987‐1‐138‐29374‐8","King, Tom",John Wiley & Sons Ltd,2019
+,61,The Case for Big Data: New York City's Kalvi HUMAN Project Aims to Use Big Data in Resolving Big Health Questions,"Mertz, L.",INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS,2016
+,62,Listen up CMOs: it's time you turned big data into big action. Big data presents unlimited opportunities to marketers but they must know how to use it. By interpreting and auctioning insights correctly. Marketers and their brands will see consumers coming back time and time again,"Naggar, P.",CENTAUR MEDIA PLC,2014
+,63,A Framework for Identifying and Analyzing Major Issues in Implementing Big Data and Data Analytics in E-Learning: Introduction to Special Issue on Big Data and Data Analytics,"Corbeil,  Maria Elena; Corbeil,  Joseph Rene; Khan,  Badrul H.",EDUCATIONAL TECHNOLOGY PUBLICATIONS,2017
+,64,Big Data Migration between Data Centers in Online Cloud Environment,"Teli, Prasad; Thomas, Manoj V.; Chandrasekaran, K.","Elsevier Science B.V., Amsterdam",2016
+,65,Big Plateaus of Big Data on the Big Island,"Walter,  Todd",VLDB Endowment,2015
+,66,"Big Data, Big Tech, and Protecting Patient Privacy","Cohen, I. G.; Mello, M. M.",AMA AMERICAN MEDICAL ASSOCIATION,2019
+,67,"Data, More Data, Big Data","de Koning,  Jos J.",HUMAN KINETICS,2017
+,68,Big Data from Sparse Data: Diverse Scientific Benchmarks Reveal Optimization Imperatives for Implicit Membrane Energy Functions,"Alford, Rebecca F.; Gray, Jeffrey J.","Elsevier Science B.V., Amsterdam",2020
+,69,Big hopes for big data,unknown,Emerald Group Publishing Limited,2017
+,70,"Big Data Promises to Pay Big Dividends ...for SWD, Inc., a continuous-improvement-minded provider of metal-finishing and fastener-sorting services. New data-discovery and analysis software allows SWD management to unlock new pathways to improved performance, and serves as the foundation for its customer-communication strategy of the future",unknown,PRECISION METALFORMING,2015
+,71,"Big data As the digital revolution continues to unleash ever more data sources upon the world, a new report from the CII and Ordnance Survey looks at how this information can be harnessed",unknown,BOUVERIE CONTRACT PUBLISHING LTD.,2013
+,72,Big help with big data Large health systems like Mayo Clinic and Intermountain Health-care are turning to outside firms to boost their analytical capabilities,unknown,AMERICAN HOSPITAL PUBLISHING INC,2013
+,73,Data centres: The next big challenges. What do we really know about data centres?,"Hayes, J.",Institution of Engineering and Technology,2011
+,74,Big data and big business: Should statisticians join in?,"Walker, D.; Fung, K.","John Wiley & Sons, Ltd",2013
+,75,"Big Data, Big Opportunities","Wrobel, S.; Voss, H.; Köhler, J.; Beyer, U.; Auer, S. r.",Springer Science + Business Media,2015
+,76,Big data for big pharma,"Festa, Giuseppe; Safraou, Imen; Cuomo, Maria Teresa; Solima, Ludovico",Emerald Group Publishing Limited,2018
+,77,"Data Science, Predictive Analytics, and Big Data: A Revolution That Will Transform Supply Chain Design and Management","Waller, M. A.; Fawcett, S. E.",COUNCIL OF LOGISTICTS MANAGEMENT,2013
+,78,Big data and the reform of the European data protection framework: an overview of potential concerns associated with proposals for risk management-based approaches to the concept of personal data,"Pearce, Henry",Taylor & Francis,2017
+,79,Big Ideas or Big Data? [President's Message],"Sayed, Ali H.",INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS,2018
+,80,Big Data's Big Unintended Consequences,"Wigan, M. R.; Clarke, R.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2013
+,81,Data Analytics and Machine Learning for Smart Process Manufacturing: Recent Advances and Perspectives in the Big Data Era,"Shang, Chao; You, Fengqi",Elsevier Science B.V. Amsterdam,2019
+,82,"Big Data Revolution This open source data processing platform has won fans among Web giants for its low cost, scalability, and flexibility, and now Hadoop's headed for wider use",unknown,"CMP PUBLICATIONS, INC.",2011
+,83,Big Data in E&amp;P: Real-Time Adaptive Analytics and Data-Flow Architecture,"Brule, M.R.","Red Hook, NY; Curran Associates, Inc.",2013
+,84,"Big Data: As utilities seek to extract value from their technology assets, smart grid and metering data is becoming a gold mine for insights about how to improve service and save money","Danigelis, A.",PUBLIC UTILITIES REPORTS INC,2012
+,85,"Big Data, Little Data, No Data: Scholarship in the Networked World. By Christine L. Borgman","Lemieux,  Thomas Mayer",CANADIAN JOURNAL OF COMMUNICATION CORPORATION,2017
+,86,``Big Data'' in the Intensive Care Unit: Closing the Data Loop,"Celi, L.A.; Mark, R.G.; Stone, D.J.; Montgomery, R.A.",American Thoracic Society; 1998,2013
+,87,Data Clustering Using Big Bang-Big Crunch Algorithm,"Hatamlou, A.; Abdullah, S.; Hatamlou, M.",Springer Science and Business Media,2011
+,88,Big Data access and infrastructure for modern biology: case studies in data repository utility,"Boles, N. C.; Stone, T.; Bergeron, C.; Kiehl, T. R.",John Wiley & Sons Ltd,2017
+,89,Big data and the legal framework for data quality,"Hoeren, T.",Oxford University Press,2017
+,90,"Data daze Big Data is surrounded by hype, but there is substance behind it after all",unknown,BANKING TECHNOLOGY LTD,2012
+,91,data management An open approach to big data,"Dynes,  Ciaran",MORGAN GRAMPIAN,2017
+,92,BIG Work in Progress: Big Data Public Private Forum and Public Sector,"Munne, R.",Reading; Academic Conferences and Publishing International Limited,2013
+,93,Big data analytics: transforming data to action,"Bumblauskas, Daniel; Nold, Herb; Bumblauskas, Paul; Igou, Amy",Emerald Group Publishing Limited,2017
+,94,"Big Data and Its Role in Health Economics and Outcomes Research: A Collection of Perspectives on Data Sources, Measurement, and Analysis","Onukwugha, E.",Springer Science + Business Media,2016
+,95,Big Data Begets Big Database Theory,"Suciu, D.",SPRINGER-VERLAG,2013
+,96,Big Data's Big Handprint,"Harper,  Stephen; Sarni,  William",THE ENVIRONMENTAL LAW INSTITUTE,2017
+,97,Data Management based Big Data Technology for Implementing Remote Vehicle Diagnostic System,Lionel Nkenyereye; Jong-Wook Jang,International Information Institute,2016
+,98,"Data quality management, data usage experience and acquisition intention of big data analytics","Kwon, O.; Lee, N.; Shin, B.","Elsevier Science B.V., Amsterdam.",2014
+,99,BIG IS BEST Big isn't always best in the world of data - Jay Inamdar explains more,unknown,INSTITUE OF CREDIT MANAGEMENT,2017
+,100,Big data: big opportunities or big challenges?,"Elder, Dave P.",RUSSELL PUBLISHING LTD,2018
+,1,Data Analytics-Stat : University of Pittsburgh Medical Center invests $100 million in big data analytics,unknown,"CMP PUBLICATIONS, INC.",2012
+,2,Big data to knowledge: common pitfalls in transcriptomics data analysis and representation,"Abedi, Maryam; Fatehi, Razieh; Moradzadeh, Kobra; Gheisari, Yousof",LANDES BIOSCIENCE,2019
+,3,"Big Universe, Big Data: Machine Learning and Image Analysis for Astronomy","Kremer, J.; Stensbo-Smidt, K.; Gieseke, F.; Pedersen, K. S.; Igel, C.",COMPUTER SOCIETY,2017
+,4,"Big data analytics: An expert interview with Bipin Chadha, data scientist for United Services Automobile Association (USAA)","Swain, Ajaya K.",Taylor & Francis,2016
+,5,Data Flood — What the Navies Want from Big Data,"Friedman, Norman",BERNARD & GRAEFE VERLAG,2019
+,6,"Big Data, Bigger Outcomes Healthcare is Embracing the Big Data Movement, Which Could Revolutionize HIM","Fernandes, L.; O Connor, M.; Weaver, V.",HEALTH INFORMATION MANAGEMENT ASSOCIATION,2012
+,7,"Big Daddy of Big Data GE stakes a claim in the ``Industrial Internet,'' where it would extract data to boost machines' efficiency",unknown,MCGRAW-HILL,2012
+,8,"Big data is the biggest change for brands since broadcast media. Gemma Carver, group marketing director of restaurant reservation service Livebookings, reveals the importance of mobile to its plans to increase personalisation and how it is dealing with big data","Smith, N.",CENTAUR MEDIA PLC,2012
+,9,Big Questions for “Big Data”,"Wears, R. L.; Williams, D. J.","Elsevier Science B.V., Amsterdam",2016
+,10,Big data challenge: a data management perspective,"Chen, J.; Chen, Y.; Du, X.; Li, C.; Lu, J.; Zhao, S.; Zhou, X.",Springer Science + Business Media,2013
+,11,"Big Data, Big Challenges","Boland, M. V.","Elsevier Science B.V., Amsterdam.",2016
+,12,Big Data and Learning Analytics: A Big Potential to Improve e-Learning,Khalid Adam ; Noor Akma Abu Bakar ; Mohammed Adam Ibrahim Fakhreldin ; Mazlina Abdul Majid,American Scientific Publishers,2018
+,13,"Big Data, Big Opportunities, and Big Challenges","Frelinger, Jeffrey A.",Springer Nature,2015
+,14,Big Data and Big Money: The Role of Data in the Financial Sector,"Trelewicz, J. Q.",IEEE,2017
+,15,Big Data: A Big Opportunity for Librarians,"Gordon-Murnane, L.",ONLINE INC,2012
+,16,Big data and data eco-system,"Kitsuregawa, M.",JAPAN INFORMATION CENTER OF SCIENCE AND TECHNOLOGY,2013
+,17,Big Fight for Big Data Tech giants vie for consumer information,unknown,BEIJING REVIEW,2017
+,18,"Big data: analyse that In the first of a series, Katharine Bagshaw FCA examines the scope and use of data analytics in audit",unknown,INSTITUTE OF CHARTERED ACCOUNTANTS,2017
+,19,"Big Data Analytics, Data Science and the CIS [President's Message]","Yao, X.",INSTITUTE OF ELECTRICAL & ELECTRONIC ENGINEERS,2015
+,20,Big data creates big opportunities: The promises and challenges of large veterinary health datasets,unknown,Elsevier Science B.V. Amsterdam,2019
+,21,Big Dilemma Is big data a threat or opportunity for finance?,"Panivko,  Igor",AFP,2015
+,22,Big Money and Big Data,"Henderson,  Lisa",ASTER PUBLISHING CORPORATION,2017
+,23,Big Data and Data Analytics Research: From Metaphors to Value Space for Collective Wisdom in Human Decision Making and Smart Machines,"Lytras,  Miltiadis D.; Raghavan,  Vijay; Damiani,  Ernesto",IDEA GROUP PUBLISHING,2017
+,24,Data Intelligence for Local Government? Assessing the Benefits and Barriers to Use of Big Data in the Public Sector,"Malomo, F.; Sena, V.",John Wiley & Sons Ltd,2017
+,25,BIG DATA: LEVERAGING BIG DATA TO IMPROVE SUBSCRIBER SERVICE MANAGEMENT,unknown,CAHNERS BUSINESS INFORMATION,2012
+,26,Data Management and Financial Regulation: Using a Big Data Approach to Regulatory Compliance,"Nasar, M.; Bomers, J.V.",The Data Warehouse Institute,2012
+,27,Big Data in little optics How intelligent use of data can help create more responsive patient services,unknown,REED BUSINESS PUBLISHING,2013
+,28,Big data pre-processing methods with vehicle driving data using MapReduce techniques,"Cho, W.; Choi, E.",Springer Science + Business Media,2017
+,29,"Big Data: Manage it, don't drown in it The exponential growth of data is challenging our ability to process it effectively to exploit what it contains","Kwan, M.",ADAMS BUSINESS MEDIA,2012
+,30,"Big Data, Big Future","Huwe, T.K.",INFORMATION TODAY INC,2012
+,31,Big data: What does big data mean? And what are its implications for marketers and brands?,unknown,CENTAUR MEDIA PLC,2012
+,32,Big data in healthcare: a discussion on the big challenges,"Stylianou, A.; Talias, M. A.",Springer Science + Business Media,2017
+,33,"Big Search, Big Data","Badke, W.",ONLINE INC,2012
+,34,Data analytics and big data in construction project and asset management,"Aibinu, Ajibade A.; Koch, Fernando; Ng, S. Thomas",Emerald,2019
+,35,"Big Data, Big Borther, Big Bucks: Equifax is creating new analytics products from 800 billion business and consumer records worldwide. This is CIO innovation on the edge","Nash, K.S.",CXO MEDIA,2012
+,36,Data-Driven Decision Making in Precision Agriculture: The Rise of Big Data in Agricultural Systems,"Tantalaki, Nicoleta; Souravlas, Stavros; Roumeliotis, Manos",Taylor & Francis,2019
+,37,Big Heart Data: Advancing Health Informatics Through Data Sharing in Cardiovascular Imaging,"Suinesiaputra, A.; Medrano-Gracia, P.; Cowan, B. R.; Young, A. A.",IEEE,2015
+,38,"Big Data Challenges Indexing Large-Volume, Heterogeneous EO Datasets for Effective Data Discovery","Waterfall,  A.; Bennett,  V.; Donegan,  S.",European Space Agency,2016
+,39,Big data meets materials science: Training the future generation Capitalizing on the promise of ``big data'' will require materials scientists who are trained in data informatics. Several universities are answering the call,"Dickey,  Elizabeth; Arthur,  Greer",AMERICAN CERAMIC SOCIETY,2017
+,40,Big data's big bias in drug safety,unknown,British Medical Association,2017
+,41,Big Data. Experts discuss customer data treatment,"Cuddeford-Jones, M.",CENTAUR MEDIA PLC,2013
+,42,"Big data, big metadata and quantitative study of science: A workflow model for big scientometrics","Bratt, S.; Hemsley, J.; Qin, J.; Costa, M.",John Wiley & Sons Ltd,2017
+,43,Big Data + Big Analytics = Big Opportunity,"Johnson, J.E.",FINANCIAL EXECUTIVES INSTITUTE,2012
+,44,Big Data Interpolation an Efficient Sampling Alternative for Sensor Data Aggregation (Extended Abstract),"Daltrophe, H.; Dolev, S.; Lotker, Z.",SPRINGER-VERLAG,2013
+,45,"Big Data, Little Data, No Data: Scholarship in the Networked World","Fu, Tao",Taylor & Francis,2017
+,46,"Big Data, Open Data, Midata ... It's All Linked","Deane-Johns, S.",SOCIETY FOR COMPUTERS AND LAW,2013
+,47,"Big Books, Big Data, and Reading Literary Histories","Ezell,  Margaret J. M.",Duke University Press,2017
+,48,Big Data Preliminary Analysis: A Framework for Easier Data Sharing and Discovery,Seong Eun Hong; Hwa Jong Kim; Kyung Jin Cha,International Information Institute,2018
+,49,Data Experience — Marktforschung in den Zeiten von Big Data,"Binder, J.; Weber, F.",Springer Science + Business Media,2015
+,50,Big Data How companies can ensure public confidence during the arrival of Big Data,unknown,BOUVERIE CONTRACT PUBLISHING LTD.,2015
+,51,Big Data: Friend or Foe of Digital Advertising? Five Ways Marketers Should Use Digital Big Data to Their Advantage,"Fulgoni, G.",World Advertising Research Center,2013
+,52,Big Data needs big planning,"Mouratsing, D.",NTC PUBLICATIONS,2013
+,53,Data source selection for information integration in big data era,"Lin, Yiming; Wang, Hongzhi; Li, Jianzhong; Gao, Hong","Elsevier Science B.V., Amsterdam.",2019
+,54,Big Data Analytics - Sentiment Analysis of Twitter Data using Clustering Techniques (822),"Hutchison, K.; Kumara, S.",Norcross; Institute of Industrial Engineers,2013
+,55,Big Data Opportunities and Challenges: Discussions from Data Analytics Perspectives [Discussion Forum],"Zhou, Z.-H.; Chawla, N.V.; Jin, Y.; Williams, G.J.",INSTITUTE OF ELECTRICAL & ELECTRONIC ENGINEERS,2014
+,56,BIG DATA and Data-Driven Intelligent Predictive Algorithms to support creativity in Industrial Engineering,"Rousseaux, Francis","Elsevier Science B.V., Amsterdam.",2017
+,57,"Big data can cause big mistakes: using the Societas Europaea Herpetologica atlas by Sillero et al. (2014), the distribution of Emys orbicularis will be misunderstood","Vamberger, M.; Fritz, U.",Springer Science + Business Media,2018
+,58,Big data on a big new market: Insights from Washington State’s legal cannabis market,"Caulkins, Jonathan P.; Bao, Yilun; Davenport, Steve; Fahli, Imane; Guo, Yutian; Kinnard, Krista; Najewicz, Mary; Renaud, Lauren; Kilmer, Beau","Elsevier Science B.V., Amsterdam.",2018
+,59,Big data and big cities: the promises and limitations of improved measures of urban life,"Glaeser, Edward L.; Kominers, Scott Duke; Luca, Michael; Naik, Nikhil",John Wiley & Sons Ltd,2018
+,60,Data Locality-Aware Big Data Query Evaluation in Distributed Clouds,"Xia, Q.; Liang, W.; Xu, Z.",Oxford University Press,2017
+,61,Big Data Opportunities and Challenges: Discussions from Data Analytics Perspectives,"Zhou, Z.-H.; Chawla, N.V.; Jin, Y.; Williams, G.J.",IET,2014
+,62,Big Building Data - a Big Data Platform for Smart Buildings,"Linder, Lucy; Vionnet, Damien; Bacher, Jean-Philippe; Hennebert, Jean","Elsevier Science B.V., Amsterdam",2017
+,63,"Big data, big challenges: As researchers begin analyzing massive datasets, Opportunities for chaos and errors multiply","Saey, T. H.",SCIENCE NEWS,2015
+,64,"Big Data, Little Individual: Considering the Human Side of Big Data",Michael N. Karim; Jon C. Willford; Tara S. Behrend,Blackwell Pub.,2015
+,65,Big data analytics and big data science: a survey,"Chen, Yong; Chen, Hong; Gorkhali, Anjee; Lu, Yang; Ma, Yiqian; Li, Ling",Taylor & Francis,2016
+,66,"Big or Small Data, It's Analytics that Brings Home the Bacon Having invested in the creation and storage of data, use analytics to derive insights from the information",unknown,Institute of Singapore Chartered Accountants,2014
+,67,Big genetic data and its big data protection challenges,"Quinn, Paul; Quinn, Liam","Elsevier Science B.V., Amsterdam",2018
+,68,Big Data Meets Big Science,"Wright, A.",ACM ASSOCIATION FOR COMPUTING MACHINERY,2014
+,69,Data Protection in an Era of Big Data: The Challenges Posed by Big Personal Data,"Paterson, Moira; McDonagh, Maeve",unknown,2018
+,70,Data-driven medicinal chemistry in the era of big data,"Lusher, S. J.; McGuire, R.; van Schaik, R. C.; Nicholson, C. D.; de Vlieg, J.","Elsevier Science B.V., Amsterdam.",2014
+,71,Big data biology – Just the next big hype?,"Falter-Braun, Pascal; Calderwood, Michael A.","Elsevier Science B.V., Amsterdam",2017
+,72,BIG DATA Early Building Blocks of the Learning Health System Fall into Place,unknown,"HEALTH DATA ANALYSIS, INC.",2015
+,73,Big Data Takeaways - This is a report of a two-hour special event at the UCSD campus called ``Big Data at work: A Conversation with the Experts'',"Yoo, H.J.; Otsuji, R.",AGAINST THE GRAIN,2014
+,74,"Data quality for data science, predictive analytics, and big data in supply chain management: An introduction to the problem and suggestions for research and applications","Hazen, B. T.; Boone, C. A.; Ezell, J. D.; Jones-Farmer, L. A.","Elsevier Science B.V., Amsterdam.",2014
+,75,Data Privacy and Big Data-Compliance Issues and Considerations,"Yu, W.E.",Information Systems Audit and Control Association,2014
+,76,"Big Data Analytic, Big Step for Patient Management and Care in Puerto Rico","Borrero,  Ernesto E.","University of Puerto Rico, Medical Sciences Campus; 1999",2018
+,77,Big Data In the third and final article of this series Jonathan Kettleborough highlights a number of emerging issues and potential pitfalls to be aware of when using Big Data,unknown,FENMAN LTD,2014
+,78,Big data -+-politics-=-open data: The case of health care data in England,"Keen, J.; Calinescu, R.; Paige, R.; Rooksby, J.",Wiley,2013
+,79,"Big Data Are, After All, Just Data","Schultz, J. R.",WILEY,2014
+,80,Big-Data Challenge Advances highlight big issues,unknown,BEIJING REVIEW,2014
+,81,"Data barns, ambient intelligence and cloud computing: the tacit epistemology and linguistic representation of Big Data","Portmess, L.; Tower, S.",Springer Science + Business Media,2015
+,82,DATA RELATIONSHIP BUILDING Vendors and drug researchers put the logic of science to work in vetting big data,unknown,ACS AMERICAN CHEMICAL SOCIETY,2014
+,83,"Big Data, a Big Mistake?","Lejay, Anne; Chakfe, Nabil","Elsevier Science B.V., Amsterdam",2019
+,84,"Big Data for Healthy Cities: Using Location-Aware Technologies, Open Data and 3D Urban Models to Design Healthier Built Environment",HARVEY J. MILLER; KRISTIN TOLLE,Kogan Page,2016
+,85,Data (with Big Data and Database Semantics).,"Hjørland, Birger",INDEKS Verlag,2018
+,86,BIG DATA/BIG COMPUTE TECHNOLOGIES AND THE REALM OF POSSIBILITIES: The Emergence of Real-Time Risk Enterprises in the Capital Markets Industry,MAYIZ HABBAL,Institutional Investor,2014
+,87,"BIG DATA, BIG DECISIONS: The Coming Change in Technology Investments",DAVID L. MEITZ,Institutional Investor,2014
+,88,Data Quality Issues Concerning Statistical Data Gathering Supported by Big Data Technology,"Maslankowski, J.",Springer Science and Business Media,2014
+,89,Big data trends in stroke epidemiology in the United States: But are they good data?,"Prabhakaran,  S.",American Academy of Neurology,2018
+,90,BIG DATA AND THE LEARNING HEALTH SYSTEM,"Raths,  David","HEALTH DATA ANALYSIS, INC.",2017
+,91,BIG DATA: NAVIGATING FEDERAL AIMS STATE PRIVACY LAWS What are the potential pitfalls of applying Big Data to healthcare? A legal expert at the law firm Foley &amp; Lardner offers advice for complying with federal and state privacy laws,"Habte, M.L.","HEALTH DATA ANALYSIS, INC.",2015
+,92,Big Changes From Big Data,"Dysart, J.",NATIONAL TELEPHONE COOPERATIVE ASSOCIATION,2014
+,93,"Big Data, Sport, and the Digital Divide; Theorizing How Athletes Might Respond to Big Data Monitoring",Andrew Baerg,SAGE PERIODICALS PRESS,2017
+,94,"Big, Bigger, Biggest: Big Data and You","Fredrick, K.",Libraries Unlimited,2014
+,95,Data Intelligence in the Context of Big Data: A Survey,"Hicham M. Safhi, Bouchra Frikh, Badr Hirchoua, Brahim Ouhbi, Ismail Khalil",Rinton Press,2017
+,96,"Big data in cryoEM: automated collection, processing and accessibility of EM data","Baldwin, Philip R; Tan, Yong Zi; Eng, Edward T; Rice, William J; Noble, Alex J; Negro, Carl J; Cianfrocco, Michael A; Potter, Clinton S; Carragher, Bridget","Elsevier Science B.V., Amsterdam.",2018
+,97,"Data as an asset: What the oil and gas sector can learn from other industries about ""Big Data""","Perrons, Robert K.; Jensen, Jesse W.","Elsevier Science B.V., Amsterdam.",2015
+,98,Big data from small data: data-sharing in the 'long tail' of neuroscience,"Ferguson, A. R.; Nielson, J. L.; Cragin, M. H.; Bandrowski, A. E.; Martone, M. E.",Nature Publishing Group,2014
+,99,Data access control in data exchanging supporting big data arena,"Jia, Haoyang; Sheng, Yimin; Han, Weili; Wang, X. Sean",Taylor & Francis,2018
+,100,Big Data Mining or Turning Data Mining into Predictive Analytics from Large-Scale 3Vs Data: The Future Challenge for Knowledge Discovery,"Cuzzocrea, A.",SPRINGER-VERLAG,2014
+,1,Big data promises big opportunity,"Davis, B.",INSTITUTE OF PETROLEUM,2014
+,2,"Big data vs accurate data in health research: Large-scale physical activity monitoring, smartphones, wearable devices and risk of unconscious bias","Brodie, M.A.; Pliner, E.M.; Ho, A.; Li, Kalina; Chen, Z.; Gandevia, S.C.; Lord, S.R.","Elsevier Science B.V., Amsterdam",2018
+,3,Data stream classification and big data analytics,"Krawczyk, B.; Stefanowski, J.; Wozniak, M.","Elsevier Science B.V., Amsterdam.",2015
+,4,Big Data and Privacy: Why Public Organizations Adopt Big Data,"Prince, Christopher",University of Toronto Press; 1998,2017
+,5,Big data on individuals in the architectural design process: combining individual's data with the architects toolset,"Meekings, Scott; Schnabel, Marc Aurel",Taylor & Francis,2017
+,6,Big Data Operations: Basis for Benchmarking a Data Grid,"Rajasekar, A.; Moore, R.; Huang, S.; Xin, Y.",SPRINGER-VERLAG,2014
+,7,Big Data Benchmark - Big DS,"Zhao, J.-M.; Wang, W.-S.; Liu, X.; Chen, Y.-F.",SPRINGER-VERLAG,2014
+,8,Big Data and the Ownership in Data: Recent Developments in Europe,"Hoeren, T.",SWEET & MAXWELL/ESC PUBLISHING,2014
+,9,"Big Surveys, Big Data Centres","Schade,  D.",The Society,2015
+,10,"`Big data' approaches to trauma outcome prediction and autonomous resuscitation Shiming Yang, Mary Njoku and Colin F Mackenzie discuss how massive clinical data are used in learning prediction models at level 1 trauma centres to support decision making in trauma patients",unknown,Mark Allen Publishing,2014
+,11,Big data becomes big business: Computing infrastructure,Dan Barnes,Financial News Ltd,2012
+,12,Big Data Analysis with Signal Processing on Graphs: Representation and processing of massive data sets with irregular structure,"Sandryhaila, A.; Moura, J.",INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS,2014
+,13,Big data and data science in health care: What nurses and midwives need to know,"O'Connor, S.",John Wiley & Sons Ltd,2018
+,14,Big Data + Big Cities: Graph Signals of Urban Air Pollution [Exploratory SP],"Jain, R.; Moura, J.; Kontokosta, C.",INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS,2014
+,15,Big Complex Biomedical Data: Towards a Taxonomy of Data,"Holzinger, A.; Stocker, C.; Dehmer, M.",Springer Science and Business Media,2014
+,16,‘Big data’ or ‘big knowledge’? Brazilian genomics and the process of academic marketization,"Bicudo, Edison",CAMBRIDGE UNIVERSITY PRESS,2018
+,17,Data verification tasks scheduling based on dynamic resource allocation in mobile big data storage,"Xu, Guangwei; Bai, Yanke; Pan, Qiao; Huang, Qiubo; Yang, Yanbin","Elsevier Science B.V., Amsterdam.",2017
+,18,Big Data Security: Understanding the Risks,"Hamami, O.",The Data Warehouse Institute,2014
+,19,Big Data for Healthcare and Life Sciences: Learning Useful Insights from Imperfect Data,"Hu,  Jianying; Shah,  Nigam; Malin,  Bradley; Ryan,  Patrick B.; Jain,  Anil",American Medical Informatics Association,2016
+,20,"`Big data' and the analytics course Given student expectations and industry demands, it's time to re-frame content to make analytics course big-data friendly","Bell, P.C.",INSTITUTE FOR OPERATIONS RESEARCH AND THE MANAGEMENT,2014
+,21,"BIG DATA, BIGGER QUESTIONS: DATA-BASED BUSINESS MODELS AND THEIR IMPLICATIONS FOR ORGANIZATIONAL BOUNDARIES, DATA GOVERNANCE, AND SOCIETY","Shantz, Angelique Slade",Emerald,2018
+,22,Data ex Machina: Introduction to Big Data,"Lazer, David; Radford, Jason",ANNUAL REVIEWS INC,2017
+,23,"BIG DATA | The semiconductor industry: Out in front, but lagging behind Capital equipment suppliers must provide advanced analytical systems that leverage data generated by their tools to help their fab customers address the challenges of Big Data and advanced analytics","Mariano, T.",SOLID STATE TECHNOLOGY,2014
+,24,"Data-intensive applications, challenges, techniques and technologies: A survey on Big Data","Philip Chen, C. L.; Zhang, C. Y.","Elsevier Science B.V., Amsterdam.",2014
+,25,``Big Data'' Management and Security Application to Telemetry Data Products,"Kalibjian, J.","San Diego, Calif; International Foundation for Telemetering",2014
+,26,Data Modeling in the Age of Big Data,"Stiglich, P.",The Data Warehouse Institute,2014
+,27,"BIG DATA, BIG INNOVATION : (Book excerpt.) Enabling competitive differentiation through business analytics","Stubbs, E.",Mediaweb Ltd,2014
+,28,Big data: More than big data sets,"Cobb, Adrienne N.; Benjamin, Andrew J.; Huang, Erich S.; Kuo, Paul C.","Elsevier Science B.V., Amsterdam",2018
+,29,Big data is or big data are,"Samaranayake, L.",Nature Publishing Group,2018
+,30,Big data and medicine: a big deal?,"Mayer‐Schönberger, V.; Ingelsson, E.",John Wiley & Sons Ltd,2018
+,31,"Big Data, Big Concerns: Ethics in the Digital Age","Jurkiewicz, Carole L.",Taylor & Francis,2018
+,32,Big Biotech Data: Implementing Large-Scale Data Processing and Analysis for Bioprocessing,"Montgomery, S. Anne; Graham, Lisa J.",INFORMA LIFE SCIENCES GROUP,2018
+,33,Big Data Strategy Approaches: Business-Driven or Discovery-Based?,"Williams, S.",The Data Warehouse Institute,2014
+,34,Big data: a big opportunity for the petroleum and petrochemical industry,"Hassani, Hossein; Silva, Emmanuel Sirimal","John Wiley & Sons, Ltd",2018
+,35,"Big Data, Cloud and Bring Your Own Device: How the Data Protection Law Addresses the Impact of ""Datafication"" ",Sonny Zulhuda ; Ida Madieha Abdul Ghani Azmi ; Nashrul Hakiem ,American Scientific Publishers,2015
+,36,Data Transfer Scheduling for Maximizing Throughput of Big-Data Computing in Cloud Systems,"Xie, R.; Jia, X.",IEEE,2018
+,37,"Big Data In the second of three articles about L&amp;D and Big Data, Jonathan Kettleborough examines why L&amp;D has historically struggled to get the best out of the information it has",unknown,FENMAN LTD,2014
+,38,Big Data and Open Data are not closed topics,"Wilson, L.A.",MRS MATERIALS RESEARCH SOCIETY,2013
+,39,"Big data, big brother China uses social media to rate all citizens",unknown,IPC MAGAZINES LTD,2015
+,40,"""Big Tigers, Big Data"": Learning Social Reactions to China's Anticorruption Campaign through Online Feedback","Zhu, Jiangnan; Huang, Huang; Zhang, Dong",Wiley-Blackwell,2019
+,41,"Big Data Blues The fact that corporations have access to reams of data about their customers stokes consumers' fears. Companies are responding with internal controls, open privacy policies, ethical codes and greater candor over how they're collecting and parsing personal data",unknown,CW COMMUNICATIONS INC.,2013
+,42,Big data analytics in marketing From hype to real help: Finding valuable consumer insight in a stream of data,"Svilar, M.; Chakraborty, A.; Kanioura, A.",INSTITUTE FOR OPERATIONS RESEARCH AND THE MANAGEMENT,2013
+,43,"Big data, aging, and dementia: Pathways for international harmonization on data sharing","Khachaturian, A. S.; Meranus, D. H.; Kukull, W. A.; Khachaturian, Z. S.",ELSEVIER SCIENCE B.V. AMSTERDAM,2013
+,44,Big Data and Data Science in Critical Care,"Sanchez-Pinto, L. Nelson; Luo, Yuan; Churpek, Matthew M.","Elsevier Science B.V., Amsterdam",2018
+,45,Big Data: Issues for an International Political Sociology of Data Practices1,"Madsen, A. K.; Flyverbom, M.; Hilbert, M.; Ruppert, E.",Oxford University Press,2016
+,46,"Big data for big insights: Investigating language-specific drivers of hotel satisfaction with 412,784 user-generated reviews","Liu, Yong; Teichert, Thorsten; Rossi, Matti; Li, Hongxiu; Hu, Feng","Elsevier Science B.V., Amsterdam.",2017
+,47,Data learning from big data,"Torrecilla, José L.; Romo, Juan","Elsevier Science B.V., Amsterdam.",2018
+,48,"Big Data and Predictive Analytics and Manufacturing Performance: Integrating Institutional Theory, Resource‐Based View and Big Data Culture","Dubey, Rameshwar; Gunasekaran, Angappa; Childe, Stephen J.; Blome, Constantin; Papadopoulos, Thanos",John Wiley & Sons Ltd,2019
+,49,Data Science and Prediction Big data promises automated actionable knowledge creation and predictive models for use by both humans and computers,"Dhar, V.",ACM ASSOCIATION FOR COMPUTING MACHINERY,2013
+,50,"Data, data everywhere. Is Big Data more than just a myth or a marketing device. Here, various stakeholders from the public and private sectors discuss the concept - its positives and negatives",unknown,Hemming Information Services,2014
+,51,"Data by data, Big Data","Hackenberger, Branimir K.",MEDICINSKA NAKLADA,2019
+,52,Big data trends in stroke epidemiology in the United States: But are they good data?,"Prabhakaran,  S.",American Academy of Neurology,2017
+,53,Data Prefetching and Eviction Mechanisms of In-Memory Storage Systems Based on Scheduling for Big Data Processing,unknown,"THE IEEE, INC.",2019
+,54,BIG RESULTS WITH BIG DATA,unknown,BNP Publication,2019
+,55,Data mining-based big data analytics: parameters and layered framework,"Bhatnagar, V.",Inderscience,2013
+,56,Big Data: Big Pain or Big Gain for Lawyers?,"Nelson, S.D.; Simek, J.W.",AMERICAN BAR ASSOCIATION,2013
+,57,Big Data: Progress or a Big Headache?,"Dhawan, A.; Brand, J.C.; Rossi, M.J.; Lubowitz, J.H.",unknown,2018
+,58,Big data - real time fact-based decision: the next big thing in supply chain,"Rai, Sandhya",Inderscience,2019
+,59,"Big Data Is `Buzzword du Jour;' CS Academics `Have the Best Job' Michael Stonebraker analyzes the different varieties of Big Data, while Judy Robertson considers the rewards of teaching computer science",unknown,ACM ASSOCIATION FOR COMPUTING MACHINERY,2013
+,60,Big Data Analytics and Mining for Effective Visualization and Trends Forecasting of Crime Data,unknown,IEEE,2019
+,61,"Big data in telecommunication operators: data, platform and practices","Wang, Z.; Wei, G.; Zhan, Y.; Sun, Y.",Springer Science + Business Media,2017
+,62,"Big Data, Big Deal","Verma,  Amit",ECONOMIC & POLITICAL WEEKLY,2017
+,63,Big-Sensing-Data Curation for the Cloud is Coming: A Promise of Scalable Cloud-Data-Center Mitigation for Next-Generation IoT and Wireless Sensor Networks,"Yang, C.; Puthal, D.; Mohanty, S.; Kougianos, E.",IEEE,2017
+,64,"Big data: internal audit Liz Sandwith of the Chartered Institute of Internal Auditors, looks at how big data affects the internal audit process",unknown,INSTITUTE OF CHARTERED ACCOUNTANTS,2017
+,65,Big Data and security policies: Towards a framework for regulating the phases of analytics and use of Big Data,"Broeders, Dennis; Schrijvers, Erik; van der Sloot, Bart; van Brakel, Rosamunde; de Hoog, Josta; Hirsch Ballin, Ernst","Elsevier Science B.V., Amsterdam",2017
+,66,"Big Data Is the current campaign concerning Big Data a pipe dream or can it unleash huge gains in turbine design, operations, maintenance and reliability?","Robb, D.",BUSINESS JOURNALS INC,2013
+,67,"Big Data‐Savvy Teams' Skills, Big Data‐Driven Actions and Business Performance","Akhtar, Pervaiz; Frynas, Jędrzej George; Mellahi, Kamel; Ullah, Subhan",John Wiley & Sons Ltd,2019
+,68,Big Data for Big Legal Research Questions: How Legal-Analytics Databases Allow Reference Law Librarians to Meet Increasing Demand for More Comprehensive Information at More Efficient Rates,"Masarek, Adam M.",Taylor & Francis,2019
+,69,Big data solar power forecasting based on deep learning and multiple data sources,"Torres, José F.; Troncoso, Alicia; Koprinska, Irena; Wang, Zheng; Martínez‐Álvarez, Francisco",John Wiley & Sons Ltd,2019
+,70,Big Data and Its Utility in Social Work: Learning from the Big Data Revolution in Business and Healthcare,"Zetino, Jeffrey; Mendoza, Natasha",Taylor and Francis,2019
+,71,Big data in radiation biology and epidemiology; an overview of the historical and contemporary landscape of data and biomaterial archives,"Schofield, Paul N.; Kulka, Ulrike; Tapio, Soile; Grosche, Bernd",Informa Healthcare,2019
+,72,Big Data for a Big Problem: Precision Medicine of Stroke in Neurocritical Care,"Liebeskind, D.S.",unknown,2018
+,73,"Big Data, Big Storage",unknown,CW COMMUNICATIONS INC.,2013
+,74,"Big Data Analytics, Big Financial Institutions, and Big Money Fraud Litigation","Debenham,  David",CARSWELL,2017
+,75,Big Data: The Fourth Data Management Generation,"Watson, H.J.; Marjanovic, O.",The Data Warehouse Institute,2013
+,76,"Data, Not Dogma: Big Data, Open Data, and the Opportunities Ahead","Hand, D.J.",SPRINGER-VERLAG,2013
+,77,"``Big data'' and device reprocessing among FDA's device science goals - FDA's device Center Science Council wants to leverage so-called big data and evidence from real-world clinical experience, improve reprocessing of reusable medical devices, and enhance use of health information technology and device cybersecurity, among other FY 2016 regulatory science goals",unknown,Elsevier Business Inteligence,2015
+,78,"Big Data, not Magic Data","Earls, M.; Bentley, A.",NTC PUBLICATIONS,2013
+,79,Big data and talent management: Using hard data to make the soft stuff easy,"Russell, C.; Bennett, N.","Elsevier Science B.V., Amsterdam.",2015
+,80,Big Data Approaches to Phenotyping Acute Ischemic Stroke Using Automated Lesion Segmentation of Multi-Center Magnetic Resonance Imaging Data,"Wu, Ona; Winzeck, Stefan; Giese, Anne-Katrin; Hancock, Brandon L.; Etherton, Mark R.; Bouts, Mark J.R.J.; Donahue, Kathleen; Schirmer, Markus D.; Irie, Robert E.; Mocking, Steven J.T.; McIntosh, Elissa C.; Bezerra, Raquel; Kamnitsas, Konstantinos; Frid, P",American Heart Association; Lippincott Williams and Wilkins,2019
+,81,Data-driven stochastic robust optimization: General computational framework and algorithm leveraging machine learning for optimization under uncertainty in the big data era,"Ning, Chao; You, Fengqi","Elsevier Science B.V., Amsterdam.",2018
+,82,"BIG DATA The biggest shake-up in data laws in two decades, the General Data Protection Regulation, is just four months away. If you haven't already, you need to be getting your head round it","Crossman,  Howard; Aschettino,  Leah",INSTITUTE OF LIGHTING ENGINEERS,2018
+,83,Big Data and the Big Questions Surrounding Vesicoureteral Reflux Management,"Garcia-Roig, Michael; Kirsch, Andrew J.",ELSEVIER SCIENCE B.V. AMSTERDAM,2018
+,84,Big Data and Big Numbers,"White, S. M.; Moppett, I. K.; Griffiths, R.",Blackwell Publishing Ltd,2014
+,85,Big Data Processing With Minimal Delay and Guaranteed Data Resolution in Disaster Areas,unknown,IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2019
+,86,Big Data-Based Improved Data Acquisition and Storage System for Designing Industrial Data Platform,unknown,IEEE,2019
+,87,"Data Science, Predictive Analytics, and Big Data in Supply Chain Management: Current State and Future Potential","Schoenherr, T.; Speier-Pero, C.",COUNCIL OF LOGISTICTS MANAGEMENT,2015
+,88,Data-Driven Mary Hammon explains how to leverage the potential of big data-in Planning Practice,unknown,APA AMERICAN PLANNING ASSOCIATION,2015
+,89,Data mining of unstructured big data in cloud computing,"Reshmy, A.K.; Paulraj, D.",Inderscience,2018
+,90,"Data warehousing and OLAP over Big Data: a survey of the state-of-the-art, open problems and future challenges","Cuzzocrea, Alfredo",Inderscience,2015
+,91,Big Data Quality Assurance Through Data Traceability: A Case Study of the National Standard Reference Data Program of Korea,unknown,IEEE,2019
+,92,"Big data, big problems: causation, confounders and cohorts","Choi, S. W.; Wong, G. T.",John Wiley & Sons Ltd,2018
+,93,BIG DATA Making better use of data offers numerous ways to add value to a company's activities,unknown,PHARMACEUTICAL MARKETING,2014
+,94,Data dangers Why big data is in the sights of EU regulators,unknown,CASPIAN PUBLISHING,2013
+,95,Big data! Big deal?,"Mackie, P.; Sim, F.; Johnman, C.","Elsevier Science B.V., Amsterdam",2015
+,96,Big data analytics sentiment: US-China reaction to data collection by business and government,"LaBrie, Ryan C.; Steinke, Gerhard H.; Li, Xiangmin; Cazier, Joseph A.","Elsevier Science B.V., Amsterdam.",2018
+,97,"Big Data In the first of three articles on Big Data, Jonathan Kettleborough provides an introduction to BD and its role within L&amp;D",unknown,FENMAN LTD,2014
+,98,Big data driven lithium-ion battery modeling method based on SDAE-ELM algorithm and data pre-processing technology,"Li, Shuangqi; He, Hongwen; Li, Jianwei","Elsevier Science B.V., Amsterdam.",2019
+,99,Big data in multiple sclerosis: development of a web-based longitudinal study viewer in an imaging informatics-based eFolder system for complex data analysis and management [9418-40],unknown,The Society,2015
+,100,Data Fusion of Small Sample Flying Test Data and Big Sample Simulation Test Data Based on Equivalent Sample for Equipment Efficiency Evaluation,"Ning,  Xiaolei; Wu,  Yingxia; Zhang,  Hailin; Zhao,  Xin",Springer,2016
+,1,Big data or big brother? Rob Budden describes how banks are making more use of information to build up detailed profiles of their customers and to combat fraud,unknown,TOTAL PUBLISHING,2014
+,2,BIG DATA FOR BIG CITIES Moovit has created the Waze of public transit. Is this the app that can beat urban congestion?,"Ohnsman,  Alan",FORBES MAGAZINE,2017
+,3,Big Data Management Platforms: Architecting Heterogeneous Solutions,"Chandran, R.",The Data Warehouse Institute,2013
+,4,Big Data: Mining for meaning How data mining is bringing order to chaos,unknown,EOLAS,2011
+,5,Big data in the big city,"Lido, Catherine",BRITISH PSYCHOLOGICAL SOC,2019
+,6,Big data and natural disasters: New approaches for spatial and temporal massive data analysis,"Martínez–Álvarez, F.; Morales–Esteban, A.","Elsevier Science B.V., Amsterdam.",2019
+,7,Big Data and Health Research—The Governance Challenges in a Mixed Data Economy,"Holm, S. r.; Ploug, T.",Springer Science + Business Media,2017
+,8,Big Benefit from Big Data: A Real-Time Data Product Creation and Distribution System,"Haderman, M.D.; Pasch, A.N.; Dye, T.S.; Chan, A.C.; Miller, D.S.; White, J.E.; Dickerson, P.G.",Kluwer Academic Publishers,2014
+,9,Big Data Not Yet Big Enough to Determine the Influence of Intracranial Pressure Monitoring on Outcome in Children With Severe Traumatic Brain Injury,"Horvat, C.M.; Kochanek, P.M.",American Medical Association,2017
+,10,Big data and false discovery: analyses of bibliometric indicators from large data sets,"Prathap, G.",Springer Science + Business Media,2014
+,11,Big Data and Collaboration Research: Creating Real Big Data,"Zhu, H.",IEEE,2018
+,12,Big science and big data in nephrology,"Saez-Rodriguez, Julio; Rinschen, Markus M.; Floege, Jürgen; Kramann, Rafael","Elsevier Science B.V., Amsterdam",2019
+,13,"BIG DATA, BIG QUESTIONS The smart-city movement raises serious concerns about who controls the information","Marshall, A.",BELLEROPHON PUBLICATIONS INC,2014
+,14,Big Data Analytics in a Connected World,"Stockinger,  Kurt; van Lingen,  Frank; Valente,  Marco",The Data Warehouse Institute,2015
+,15,Big Data Stream Anomaly Detection with Spectral Method for UWB Radar Data,"Yun,  Ying; Wang,  Wei",Springer,2014
+,16,Data integrity verification of the outsourced big data in the cloud environment: A survey,"Zhou, Lei; Fu, Anmin; Yu, Shui; Su, Mang; Kuang, Boyu","Elsevier Science B.V., Amsterdam",2018
+,17,Big data use cases: from the call centre to the IoT European Communications sought out some examples of the data sets that operators are using in their day-to-day operations,unknown,SJP Business Media,2015
+,18,Big Data Shocks: An Introduction to Big Data for Librarians and Information Professionals. (2018),"Erlandson, Rene J.",Taylor & Francis,2018
+,19,"Big City, Big Data","Kitner,  Kathi R.; de Wet,  Thea","ASSOCIATION FOR COMPUTING MACHINERY, INC.",2015
+,20,Big opportunities from big data,"Trim, H.",Editions,2014
+,21,Big Data Research Requires a Big Role for Primary Care,"Mainous,  Arch G.; Phillips,  William R.",SOCIETY OF TEACHERS OF FAMILY MEDICINE,2016
+,22,Big Data and medicine: a big deal?,"Mayer‐Schönberger, V.; Ingelsson, E.",John Wiley & Sons Ltd,2018
+,23,Big Analogue Data: The Biggest of Big Data,unknown,FINDLAY PUBLICATIONS LTD,2014
+,24,Big Data in the Big Easy: How Social Networks can Improve the Place for Young People in Cities,"Shirtcliff,  Ben",UNIVERSITY OF WISCONSIN PRESS,2015
+,25,Big Data Pays Off Big for Illinois Fabricator,unknown,PRECISION METALFORMING,2016
+,26,Data use: Data-driven decision making takes a big-picture view of the needs of teachers and students,"Bernhardt, V.L.",NSDC NATIONAL STAFF DEVELOPMENT COUNCIL,2009
+,27,Data Science Foundations: Geometry and Topology of Complex Hierarchic Systems and Big Data Analytics.,"Yu, Kaixian",Taylor & Francis,2019
+,28,BIG IS BEST Big isn't always best in the world of data - Jay Inamdar explains more,unknown,INSTITUE OF CREDIT MANAGEMENT,2017
+,29,Big Data: Next-Generation Machines for Big Science,"Hack, James J.; Papka, Michael E.",IEEE,2015
+,30,BIG-DATA APPROACHES TO PROTEIN STRUCTURE PREDICTION Metagenomics sequence data give protein structure prediction a boost,"Söding,  J.",AMERICAN ASSOCIATION FOR THE ADVANCEMENT OF SCIENCE,2017
+,31,Big–deep–smart data in imaging for guiding materials design,"Kalinin, S. V.; Sumpter, B. G.; Archibald, R. K.",Nature Publishing Group,2015
+,32,"Big Data, Big Energy","Wogan, D.",Nature Publishing Group,2013
+,33,Big Questions: Digital Preservation of Big Data in Government,"Larson, Emily",SOCIETY OF AMERICAN ARCHIVISTS,2020
+,34,"Big Science and Big Data in Biology: From the International Geophysical Year through the International Biological Program to the Long Term Ecological Research (LTER) Network, 1957-Present","Aronova, E.; Baker, K.S.; Oreskes, N.",UNIVERSITY OF CALIFORNIA PRESS,2010
+,35,Big data is a big deal for call centers,unknown,CXO MEDIA,2012
+,36,Big Data is a big deal but how much data do we need?,"Askitas, N.",Springer Science + Business Media,2016
+,37,"Big Data Driven Agriculture: Big Data Analytics in Plant Breeding, Genomics, and the Use of Remote Sensing Technologies to Advance Crop Productivity","Shakoor, Nadia; Northrup, Daniel; Murray, Seth; Mockler, Todd C.",John Wiley & Sons Ltd,2019
+,38,Big data needn't be a big headache: How to tackle mind-blowing amounts of information,unknown,Emerald Group Publishing Limited,2012
+,39,"Big Data, Big Research","Anoushiravani, A. A.; Patton, J.; Sayeed, Z.; El-Othmani, M. M.; Saleh, K. J.",Elsevier,2016
+,40,Big Data — Big Chance für Controller?,"Schäffer, U.",Springer Science + Business Media,2016
+,41,"Big Data, Big Problems: A Healthcare Perspective","Househ,  Mowafa S.; Aldosari,  Bakheet; Alanazi,  Abdullah; Kushniruk,  Andre W.; Borycki,  Elizabeth M.",IOS Press,2017
+,42,"Big Data, Served Fast: Oracle teams with Hewlett-Packard for a high-performance data warehouse appliance",unknown,"CMP PUBLICATIONS, INC.",2008
+,43,Big Data and Bad Data: On the Sensitivity of Security Policy to Imperfect Information,"Graves,  James T.; Acquisti,  Alessandro; Christin,  Nicolas",The University of Chicago Press,2016
+,44,Big Data and Cloud Computing: New Wine or just New Bottles?,"Agrawal, D.; Das, S.; El Abbadi, A.",New York; Association for Computing Machinery,2010
+,45,Big Brother's Little Helpers: How ChoicePoint and Other Commercial Data Brokers Collect and Package Your Data for Law Enforcement,"Hoofnagle, C. J.",NORTH CAROLINA JOURNAL OF INTERNATIONAL LAW,2004
+,46,Big Data Applications Using Workflows for Data Parallel Computing,"Wang, J.; Crawl, D.; Altintas, I.; Li, W.",IEEE,2014
+,47,Data field for mining big data,"Wang, Shuliang; Li, Ying; Wang, Dakui",Taylor & Francis,2016
+,48,"Big Data, Little Data, No Data: Scholarship in the Networked World","Greenberg, Jane",Taylor & Francis,2016
+,49,Big data An introduction to ``big data'' as a technique to gain competitive advantage from a company's biggest IT asset: data,unknown,ISA INSTRUMENT SOCIETY OF AMERICA,2013
+,50,Big Data Management in Earth Observation: The German satellite data archive at the German Aerospace Center,"Kiemle, S.; Molch, K.; Schropp, S.; Weiland, N.; Mikusch, E.",IEEE,2016
+,51,"Big data analytics need new solutions No sector of the economy generates more data than manufacturing, and thus more opportunities to derive benefits from data analytics","Risse,  Michael",ISA INSTRUMENT SOCIETY OF AMERICA,2017
+,52,Big data to smart data in Alzheimer's disease: The brain health modeling initiative to foster actionable knowledge,"Geerts, H.; Dacks, P. A.; Devanarayan, V.; Haas, M.; Khachaturian, Z. S.; Gordon, M. F.; Maudsley, S.; Romero, K.; Stephenson, D.",ELSEVIER SCIENCE B.V. AMSTERDAM,2016
+,53,"Big data, data science, and big contributions","Broome, M. E.","Elsevier Science B.V., Amsterdam",2016
+,54,Big data gets big help Law and policy literacies for text data mining,"Courtney, Kyle K.; Samberg, Rachael; Vollmer, Timothy",ALA AMERICAN LIBRARY ASSOCIATION,2020
+,55,DATA ANALYTICS AND THE SMART FACTORY Big data is becoming a strategic manufacturing tool,"Weber, Austin",HITCHCOCK PUBLISHING COMPANY,2019
+,56,Big Data and Cloud Computing Have Moved into Design Design engineers are using big data to gather product use information from the field and circulate it into design decisions. Much of that data is now processed in the cloud,"Spiegel,  Rob",REED BUSINESS INFORMATION,2016
+,57,"""Big Data"" Analysis: Putting the Data Cart Before the Modelling Horse?","Barr, G. D.; Stewart, T. J.; Kantor, B. S.",John Wiley & Sons Ltd,2018
+,58,Big Data and Predictive Analytics in Fire Risk Using Weather Data,"Agarwal, Puneet; Tang, Junlin; Narayanan, Adithya Narayanan Lakshmi; Zhuang, Jun",John Wiley & Sons Ltd,2020
+,59,Big data Preparing for the future of `smart water' and `big data',"Slawecki,  Tad; McMaster,  Cecil; Lodhi,  Mujib; Horvath,  Eric; Hornback,  Chris; Nakamura,  Brianne",WATER ENVIRONMENT FEDERATION,2016
+,60,Data Mining for Big Data Macroeconomic Forecasting: A Complementary Approach to Factor Models,"Brandl, B.; Keber, C.; Schuster, M. G.","Berlin; London:; Springer,",2005
+,61,"Big data, traditional data and the tradeoffs between prediction and causality in highway-safety analysis","Mannering, Fred; Bhat, Chandra R.; Shankar, Venky; Abdel-Aty, Mohamed",Elsevier,2020
+,62,Handling big dimensions in distributed data warehouses using the DWS technique,"Costa, M.; Madeira, H.","New York?:; Association for Computing Machinery,",2005
+,63,Data protection in a big data society. Ideas for a future regulation,"Mantelero, Alessandro; Vaciago, Giuseppe","Elsevier Science B. V., Amsterdam",2015
+,64,"Big Warehouse, Big Decisions: There's more to purchasing storage for the large and very large data warehouse than just buying disk","Madsen, M.",DATABASE PROGRAMMING AND DESIGN,1998
+,65,BIG DATA AND BIG CITIES: THE PROMISES AND LIMITATIONS OF IMPROVED MEASURES OF URBAN LIFE,"Glaeser,  Edward L.; Kominers,  Scott Duke; Luca,  Michael; Naik,  Nikhil",NATIONAL BUREAU OF ECONOMIC RESEARCH INC,2015
+,66,Big Data Panel at SIGDSS Pre-ICIS Conference 2013: A Swiss-Army Knife? The Profile of a Data Scientist,"Dinter, B.; Douglas, D.; Chiang, R.H.L.; Mari, F.; Ram, S.; Schoder, D.",Cham; Springer,2015
+,67,Big forensic data management in heterogeneous distributed systems: quick analysis of multimedia forensic data,"Quick, Darren; Choo, Kim‐Kwang Raymond","John Wiley & Sons, Ltd",2017
+,68,Big data management: implications of dynamic capabilities and data incubator,"Shams, S.M. Riad; Solima, Ludovico",Emerald Group Publishing Limited,2019
+,69,Big data presents big harms for people with substance use disorders,unknown,"JOHN WILEY & SONS, LTD",2017
+,70,"Big data, big opportunities",unknown,BRITISH VETERINARY ASSOCIATION,2016
+,71,Data-driven innovation: switching the perspective on Big Data,"Trabucchi, Daniel; Buganza, Tommaso",Emerald Group Publishing Limited,2019
+,72,DATA ANALYTICS AND THE SMART FACTORY Big data is becoming a strategic manufacturing tool,"Weber, Austin",HITCHCOCK PUBLISHING COMPANY,2019
+,73,"Data, Big Data, and Metadata in Anesthesiology","Levin, Matthew A.; Wanderer, Jonathan P.; Ehrenfeld, Jesse M.","Lippincott, Williams & Wilkins",2015
+,74,Data Flow: Inexpensive third-party data and mathematical models now allow insurers to underwrite small and midsize commercial accounts as thoroughly as big risks and personal lines,unknown,AM BEST CO,2005
+,75,Big Data Smart Socket (BDSS): a system that abstracts data transfer habits from end users,"Watts, N. A.; Feltus, F. A.",Oxford University Press,2017
+,76,"Big Data, Big Problems: Emerging Issues in the Ethics of Data Science and Journalism","Fairfield, J.; Shtein, H.",Taylor & Francis,2014
+,77,Data science in education: big data and learning analytics,"Klašnja‐Milićević, Aleksandra; Ivanović, Mirjana; Budimac, Zoran","John Wiley & Sons, Ltd",2017
+,78,Big data and data sharing: Opportunities for the urgent challenges in cardiovascular disease,"Carbone, Federico; Montecucco, Fabrizio",Wiley-Blackwell,2020
+,79,Big Data The Data Revolution Here's what you need to know to get the edge Big Data and machine learning can offer your business,"Buss,  Dale",CHIEF EXECUTIVE GROUP L.P.,2016
+,80,"Big Data, Big Problems","Shaha, S. H.; Sayeed, Z.; Anoushiravani, A. A.; El-Othmani, M. M.; Saleh, K. J.",Elsevier,2016
+,81,Big Cheese Needs Bigger Data Foremost Farms doubles production and adds data acquisition and historian functions to its SCADA/HMI system,unknown,PUTMAN PUBLICATIONS,2016
+,82,"Big data is a big deal in aerospace and defense, according to buzz at recent industry conferences",unknown,MCGRAW-HILL DATA SERVICES,2017
+,83,Big Data Big Data meets Minority Report,unknown,REED BUSINESS INFORMATION PTY LTD,2015
+,84,"Big Data, Little Data: Scholarship in the Networked World","Calvert, Philip",Emerald Group Publishing Limited,2017
+,85,Data on the move: Big improvement in data transmission between HQ and employees in the field,"Sammueller, R.",unknown,1996
+,86,"Data science, big data and granular mining","Pal, S. K.; Meher, S. K.; Skowron, A.","Elsevier Science B.V., Amsterdam.",2015
+,87,"Big Data, Little Data, No Data: Scholarship in the Networked World by Christine L. Borgman. Cambridge, MA: MIT Press, 2015. 400 pp. $32 (hardcover). (ISBN 9780262028561).","Tenopir, C.",John Wiley & Sons Ltd,2016
+,88,"Data Capture, Labelling, ID and Coding Data capture - not just for the big end of town",unknown,THOMSON PUBLICATIONS AUSTRALIA,2002
+,89,Big Data Big Data digs into the mining industry,unknown,REED BUSINESS INFORMATION PTY LTD,2016
+,90,Big Trials or Big Data,"King, S. B.","ELSEVIER SCIENCE B. V., AMSTERDAM",2016
+,91,Big data to smart data in Alzheimer's disease: Real-world examples of advanced modeling and simulation,"Haas, M.; Stephenson, D.; Romero, K.; Gordon, M. F.; Zach, N.; Geerts, H.",ELSEVIER SCIENCE B.V. AMSTERDAM,2016
+,92,BIG DATA: The harnessing of `big data' by companies is one way to improve operations and product development,unknown,BRW MEDIA,2011
+,93,Data Envelopment Analysis and Big Data: Revisit with a Faster Method,"Khezrimotlagh, Dariush; Zhu, Joe",Kluwer Academic Publishers,2020
+,94,"Big Data Analytics, Big Financial Institutions, and Big Money Fraud Litigation","Debenham,  David",CARSWELL,2016
+,95,"Big Data, Big Brother, Big Money","Lesk, M.",IEEE COMPUTER SOCIETY,2013
+,96,Big-data: transformation from heterogeneous data to semantically-enriched simplified data,"Malik, K. R.",Springer Science + Business Media,2016
+,97,Big Deal In BI HP's fledgling data warehousing system gets a big lift from Wal-Mart in a competitive market,unknown,"CMP PUBLICATIONS, INC.",2007
+,98,"Big Blue now Big Green: IBM plan to cut data centre power consumption by 80 per cent sets example, say experts",unknown,VNU BUSINESS PUBLICATIONS,2007
+,99,Big data in epilepsy: Clinical and research considerations. Report from the Epilepsy Big Data Task Force of the International League Against Epilepsy,"Lhatoo, Samden D.; Bernasconi, Neda; Blumcke, Ingmar; Braun, Kees; Buchhalter, Jeffrey; Denaxas, Spiros; Galanopoulou, Aristea; Josephson, Colin; Kobow, Katja; Lowenstein, Daniel; Ryvlin, Philippe; Schulze‐Bonhage, Andreas; Sahoo, Satya S.; Thom, Maria; T",John Wiley & Sons Ltd,2020
+,100,Big Opportunities and Big Concerns of Big Data in Education,"Wang, Y.",SPRINGER SCIENCE + BUSINESS MEDIA,2016
+,1,"Data, Big Data, and Metadata in Anesthesiology","Levin,  Matthew A.; Wanderer,  Jonathan P.; Ehrenfeld,  Jesse M.","Lippincott, Williams & Wilkins",2015
+,2,Big Data in medical research and EU data protection law: challenges to the consent or anonymise approach,"Mostert, M.; Bredenoord, A. L.; Biesaart, M. C.; van Delden, J. J.",Nature Publishing Group,2016
+,3,Data Processing Model to Perform Big Data Analytics in Hybrid Infrastructures,"Dos Anjos, Julio C. S.; Matteussi, Kassiano J.; De Souza, Paulo R. R.; Grabher, Gabriel J. A.; Borges, Guilherme A.; Barbosa, Jorge L. V.; Gonzalez, Gabriel V.; Leithardt, Valderi R. Q.; Geyer, Claudio F. R.",IEEE,2020
+,4,Big Data in medical research and EU data protection law: challenges to the consent or anonymise approach,"Mostert, M.; Bredenoord, A. L.; Biesaart, M. C.; van Delden, J. J.",Nature Publishing Group,2016
+,5,BIG DATA AND MULTIDIMENSIONAL ANALYSES WITH SPATIAL DATA,"Otrzasek, J.; Mueller, W.; Koszela, K.; Weres, J.; Przybyl, J.","Sofia, Bulgaria; STEF92 Technology Ltd.",2014
+,6,"Big Data, Big Challenges","Clancy, Thomas R.; Reed, Laura",Lippincott Williams & Wilkins,2016
+,7,"Big data, big opportunities","Laurance, W. F.; Achard, F.; Peedell, S.; Schmitt, S.",Ecology Society of America,2016
+,8,Big data or small data? A methodological review of sustainable tourism,"Xu, Feifei; Nash, Nicholas; Whitmarsh, Lorraine",Taylor & Francis,2020
+,9,Big data or small data? A methodological review of sustainable tourism,"Xu, Feifei; Nash, Nicholas; Whitmarsh, Lorraine",Taylor & Francis,2020
+,10,BIG BUCKS ARE BACKING BIG DATA'S LOBBYING EFFORTS ON CAPITOL HILL,"Kaye, Kate","Crain Communications, Inc.",2013
+,11,Big Data: The Next Big Thing in Innovation,"Gobble, MaryAnne M.",INDUSTRIAL RESEARCH INSTITUTE INC,2013
+,12,Big Data Meet Green Challenges: Greening Big Data,"Wu, J.; Guo, S.; Li, J.; Zeng, D.",THE INSTITUTE OF ELECTRICAL AND ELECTRONICS AND ELECTRONICS ENGINEERS,2016
+,13,Big Data Meet Green Challenges: Big Data Toward Green Applications,"Wu, J.; Guo, S.; Li, J.; Zeng, D.",THE INSTITUTE OF ELECTRICAL AND ELECTRONICS AND ELECTRONICS ENGINEERS,2016
+,14,Big Data and Occupants' Behavior in Built Environments: Introducing a Game-Based Data Collection Method,"Poplin, Alenka",AMERICAN SOCIETY OF CIVIL ENGINEERS,2020
+,15,Big Data in Plant Science: Resources and Data Mining Tools for Plant Genomics and Proteomics,"Popescu,  George V.; Noutsos,  Christos; Popescu,  Sorina C.",HUMANA PRESS,2016
+,16,Big data-based multimedia transcoding method and its application in multimedia data mining-based smart transportation and telemedicine,"Zhu, D.",Springer Science + Business Media,2016
+,17,"Big_Sleep™ DVD/Blu-ray distributed by Video Data Bank, 2015","Farbowitz, Jonathan",Association of Moving Image Archivists,2019
+,18,Big Data in Practice: A Study on Cloud Data Collection and Storage Services,"Wang,  Chin-Wei; Chang,  Shuchih Ernest",IOS Press,2016
+,19,"Market-Data Metamorphosis A difficult economy is fueling big changes in the market-data space as end users want more cost effective, streamlined solutions and vendors are charting a new course to revitalize business",unknown,GRALLA PUBLICATIONS,2003
+,20,"Data Capture, Labelling, ID and Coding Data capture - not just for the big end of town",unknown,REED BUSINESS INFORMATION,2002
+,21,"BIG DATA, BIG OPPORTUNITY As innovations in artificial intelligence become increasingly essential to the success of oil and gas companies, the need for companies to protect their inventions grows",unknown,HART PUBLICATIONS INC.,2020
+,22,Big data in IR: operator preferences for discrete data field templates,"Eifler, A.; Shah, R.; Hwang, G.; Hwang, W.; Arendt, V.; Hofmann, L.",ELSEVIER SCIENCE B.V. AMSTERDAM,2016
+,23,A data model-independent approach to big research data integration,"Bartalesi, Valentina; Meghini, Carlo; Thanos, Costantino",INDERSCIENCE,2019
+,24,"Navigating Big Data with High-Throughput, Energy-Efficient Data Partitioning","Wu, L.; Barker, R.J.; Kim, M.A.; Ross, K.A.",New York; Association for Computing Machinery,2013
+,25,Accelerating Business-Centric Data Preparation in a Big Data World,"Bardoliwalla, N.",The Data Warehouse Institute,2014
+,26,Linking big models to big data: efficient ecosystem model calibration through Bayesian model emulation,Istem Fer; Ryan Kelly; Paul R. Moorcroft; Andrew D. Richardson; Elizabeth M. Cowdery; Michael C. Dietze,Copernicus GmbH on behalf of the European Geosciences Union,2018
+,27,Augmenting Data Warehouses with Big Data,"Jukić, Nenad; Sharma, Abhishek; Nestorov, Svetlozar; Jukić, Boris",AUERBACH PUBLISHERS INC,2015
+,28,Dynamic Data Migration in Hybrid Main Memories for In-Memory Big Data Storage,"Mai, H.T.; Park, K.H.; Lee, H.S.; Kim, C.S.; Lee, M.; Hur, S.J.",ELECTRONICS AND TELECOMMUNICATIONS RESEARCH,2014
+,29,"Navigating Big Data with High-Throughput, Energy-Efficient Data Partitioning","Wu, L.; Barker, R.J.; Kim, M.A.; Ross, K.A.",IEEE Computer Society; 1999,2013
+,30,A Data-Driven Decision Making with Big Data Analysis on DNS Log,"Jung,  Euihyun",Springer,2017
+,31,"Open Data: Can It Prevent Research Fraud, Promote Reproducibility, and Enable Big Data Analytics In Clinical Research?","Myers, P. O.","Elsevier Science B.V., Amsterdam.",2015
+,32,How big data reveals the little things that matter. Online profiling tools can create connected data that lets you see your target market as human beings and not just numbers says YouGov's Freddie Savers,"Savers, F.",CENTAUR MEDIA PLC,2014
+,33,"Policing, crime and ‘big data’; towards a critique of the moral economy of stochastic governance","Sanders, C. B.; Sheptycki, J.",Springer Science + Business Media,2017
+,34,"Preventing Big Data Pains for Precision Medicine The prescription is a cybersecurity plan that covers all smart, connected devices to safeguard patient privacy and data integrity","Domas,  Stephanie; McMillan,  Nancy",AFCEA ARMED FORCES COMMUNICATIONS AND,2017
+,35,Small data in the era of big data,"Kitchin, R.; Lauriault, T. P.",Springer Science + Business Media,2015
+,36,The big data public and its problems: Big data and the structural transformation of the public sphere,Tauel Harper,Sage Publications,2017
+,37,"New data strategies: nonprobability sampling, mobile, big data","Link, Michael",Emerald Group Publishing Limited,2018
+,38,How Big Data Confers Market Power to Big Tech: Leveraging the Perspective of Data Science,"Santesteban, Cristian; Longpre, Shayne",Federal Legal Publications; 1999,2020
+,39,RETHINK Big: European Roadmap for Hardware and Networking Optimizations for Big Data,"Alioto,  Gina; Carpenter,  Paul; Cristal,  Adrián; Unsal,  Osman; Leich,  Marcus; Avare,  Christophe",IEEE Computer Society,2017
+,40,Maximum Data-Resolution Efficiency for Fog-Computing Supported Spatial Big Data Processing in Disaster Scenarios,unknown,"THE IEEE, INC.",2019
+,41,THINKING REALLY BIG ABOUT DATA,"Hagland, M.","HEALTH DATA ANALYSIS, INC.",2013
+,42,Addressing the Privacy Issues of Big Data,"Watson, H.J.",The Data Warehouse Institute,2014
+,43,From Big to Smart Data: Iterative ensemble filter for noise filtering in Big Data classification,"García‐Gil, Diego; Luque‐Sánchez, Francisco; Luengo, Julián; García, Salvador; Herrera, Francisco","John Wiley & Sons, Ltd",2019
+,44,Prescription Data in Australia: How Useful is this ‘Big' Data?,"Kim, H.; Calcino, L.; Calcino, G.","Elsevier Science B.V., Amsterdam",2016
+,45,Preconditioned Data Sparsification for Big Data With Applications to PCA and K-Means,"Pourkamali-Anaraki,  F.; Becker,  S.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2017
+,46,The Big Picture: Divide and Combine to Conquer Big Data,"Lazar, Nicole",Taylor and Francis,2018
+,47,"Open Data, Big Data and Crowdsourcing: Emergent Mobile Apps Business Models","Guesmi, S.",ITS Communications and Strategies,2014
+,48,Practical data collection and extraction for big data applications in radiotherapy,"McNutt, Todd R.; Bowers, Michael; Cheng, Zhi; Han, Peijin; Hui, Xuan; Moore, Joseph; Robertson, Scott; Mayo, Charles; Voong, Ranh; Quon, Harry",John Wiley & Sons Ltd,2018
+,49,Urban data management system: Towards Big Data analytics for Internet of Things based smart urban environment using customized Hadoop,"Babar, Muhammad; Arif, Fahim; Jan, Mian Ahmad; Tan, Zhiyuan; Khan, Fazlullah","Elsevier Science B.V., Amsterdam.",2019
+,50,From big data to big impact: realizing the potential of clinical registries,"Gill, Stephen; Page, Richard",John Wiley & Sons Ltd,2019
+,51,Volume-Based Data Representation of Big Data Analysis,"Xu, Q.; Zhao, Z.X.; Wang, W.",Durnten-Zurich; Trans Tech Publications Ltd.,2013
+,52,"Tell Data from Meta: Tracing the Origins of Big Data, Bibliometrics, and the OPAC",Markus Krajewski,THE UNIVERSITY OF CHICAGO PRESS,2017
+,53,Leveraging big data to develop supply chain management theory: the case of panel data,"Miller, Jason W.; Ganster, Daniel C.; Griffis, Stanley E.",Wiley-Blackwell,2018
+,54,"For Big Data, Big Questions Remain","Fallik, D.",PROJECT HOPE,2014
+,55,"Distribution, Data, Deployment: Software Architecture Convergence in Big Data Systems","Gorton, I.; Klein, J.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2015
+,56,"Editorial: Big Data and New Drug Discovery: Tackling ""Big Data"" for Virtual Screening of Large Compound Databases","C. Basak, Subhash; Vracko, Marjan; K. Bhattacharjee, Apurba",Bentham Science Publishers Ltd,2015
+,57,UNRAVEL: big data analytics research data platform to improve care of patients with cardiomyopathies using routine electronic health records and standardised biobanking,"Sammani, A.; Jansen, M.; Linschoten, M.; Bagheri, A.; de Jonge, N.; Kirkels, H.; van Laake, L. W.; Vink, A.; van Tintelen, J. P.; Dooijes, D.",Springer,2019
+,58,Treatment data and technical process challenges for practical big data efforts in radiation oncology,"Mayo, CS; Phillips, M; McNutt, TR; Palta, J; Dekker, A; Miller, RC; Xiao, Y; Moran, JM; Matuszak, MM; Gabriel, P",John Wiley & Sons Ltd,2018
+,59,Volume-Based Data Representation of Big Data Analysis,"Xu, Q.; Zhao, Z.X.; Wang, W.",TRANS TECH PUBLICATION LTD,2013
+,60,Semantic-aware data quality assessment for image big data,"Liu, Yu; Wang, Yangtao; Zhou, Ke; Yang, Yujuan; Liu, Yifei","Elsevier Science B.V., Amsterdam.",2020
+,61,ApCo launches big mapping project using USGS data files,unknown,MCGRAW-HILL DATA SERVICES,1994
+,62,A big data approach to the development of mixed-effects models for seizure count data,"Tharayil, J. J.; Chiang, S.; Moss, R.; Stern, J. M.; Theodore, W. H.; Goldenholz, D. M.",John Wiley & Sons Ltd,2017
+,63,"Humanizing Big Data: Marketing at the Meeting of Data, Social Science and Consumer InsightC.Strong, 2015London, Kogan Page224 pp., £19.99 ISBN 978‐0‐749‐47211‐5","Dietz, Sebastian",John Wiley & Sons Ltd,2018
+,64,From data points to people: feminist situated ethics in online big data research,"Corple, Danielle J.; Linabary, Jasmine R.",Taylor & Francis,2020
+,65,A Data Localization Algorithm for Distributing Column Storage System of Big Data,"Ding, J.M.; Jiang, Y.; Wang, Q.X.; Liu, Y.L.; Li, M.J.",TRANS TECH PUBLICATION LTD,2013
+,66,Process data analytics in the era of big data,"Qin, S. J.","John Wiley & Sons, Ltd",2014
+,67,"Making Data Valuable: Political, Economic, and Conceptual Bases of Big Data",Anna Lauren Hoffmann,Springer Netherlands,2018
+,68,Using data-driven safety decision-making to realize smart safety management in the era of big data: A theoretical perspective on basic questions and their answers,"Wang, Bing; Wu, Chao; Huang, Lang; Kang, Liangguo","Elsevier Science B.V., Amsterdam.",2019
+,69,AScale: Big/Small Data ETL and Real-Time Data Freshness,"Martins,  Pedro; Abbasi,  Maryam; Furtado,  Pedro",Springer,2016
+,70,Performance/outcomes data and physician process challenges for practical big data efforts in radiation oncology,"Matuszak, Martha M.; Fuller, Clifton D.; Yock, Torunn I.; Hess, Clayton B.; McNutt, Todd; Jolly, Shruti; Gabriel, Peter; Mayo, Charles S.; Thor, Maria; Caissie, Amanda",John Wiley & Sons Ltd,2018
+,71,Bib Data Shocks:An Introduction to Big Data for Librarians and Information Professionals,"Schumacher, Mark",Taylor & Francis,2019
+,72,From Big Data to Big Impact: analytics for teaching and learning in higher education,"Chaurasia, Sushil S.; Frieda Rosin, Anna",Emerald Group Publishing Limited,2017
+,73,Thinking Big Large publishers are beginning to realize value in the ``big data'' phenomenon,unknown,PRIMEDIA,2014
+,74,Editorial: -Big data- and data sharing,"Hand, D. J.",Wiley-Blackwell,2016
+,75,Dynamic Big-Data Broadcast in Fat-Tree Data Center Networks With Mobile IoT Devices,unknown,THE INSTITUTE OF ELECTRICAL AND ELECTRONICS AND ELECTRONICS ENGINEERS,2019
+,76,WRANGLING `BIG DATA' FOR B-TO-B Why smaller media companies need to join the data party,unknown,PRIMEDIA,2013
+,77,Understanding data flow graph for improving big data stream computing environments,"Sun, D.; Fu, G.; Liu, X.; Ren, D.",INDERSCIENCE PUBLISHERS,2014
+,78,"`Small Data' Enabled Prediction Of Obama's Win, Say Economists ``Big data'' from crowdsourcing resulted in more complex predictions","Hyman, P.",ACM ASSOCIATION FOR COMPUTING MACHINERY,2013
+,79,Can Big Data Lead Us to Big Savings?,"Green, D.E.; Rapp, E.J.",RADIOLOGICAL SOCIETY OF NORTH AMERICA,2013
+,80,Efficient Data Placement and Replication for QoS-Aware Approximate Query Evaluation of Big Data Analytics,unknown,"THE IEEE, INC.",2019
+,81,Is Big Data a big deal?,"Robb, D.",BUSINESS JOURNALS INC,2013
+,82,To mulch or to munch? Big modelling of big data,"Rodriguez, D; de Voil, P; Rufino, MC; Odendo, M; van Wijk, MT","Elsevier Science B.V., Amsterdam.",2017
+,83,Taming big data: Applying the experimental method to naturalistic data sets,Eyal Sagi,PSYCHONOMIC SOCIETY PUBLICATIONS,2019
+,84,Modern Hybrid Big Data Warehouse Architectures,"Kromer, M.",The Data Warehouse Institute,2014
+,85,How ‘big data’ can make big impact: Findings from a systematic review and a longitudinal case study,"Fosso Wamba, S.; Akter, S.; Edwards, A.; Chopin, G.; Gnanzou, D.","Elsevier Science B.V., Amsterdam.",2015
+,86,The Big Picture: Big Data Computing,"Lazar, N.",Taylor and Francis,2013
+,87,Active Data Replica Recovery for Quality-Assurance Big Data Analysis in IC-IoT,"Wang, Songyun",IEEE,2019
+,88,FROM BIG DATA TO SMART DATA: THE ROLE OF METABOLOMICS IN GENERATING ACTIONABLE KNOWLEDGE IN ALZHEIMER'S DISEASE FOR PERSONALIZED TREATMENT,"Geerts, Hugo",ELSEVIER SCIENCE B.V. AMSTERDAM,2017
+,89,"Tell Data from Meta: Tracing the Origins of Big Data, Bibliometrics, and the OPAC","Krajewski, Markus",THE UNIVERSITY OF CHICAGO PRESS,2017
+,90,Understanding data flow graph for improving big data stream computing environments,"Sun, D.; Fu, G.; Liu, X.; Ren, D.",INDERSCIENCE PUBLISHERS,2014
+,91,From Big Data to Artificial Intelligence: Harnessing Data Routinely Collected in the Process of Care,"Rush, B.; Stone, D.J.; Celi, L.A.",unknown,2018
+,92,Manufacturing Data: Big changes on the factory floor,"Dejesus, E. X.",MCGRAW-HILL DATA SERVICES,1995
+,93,Toward Big Data–Driven Treatment Planning: Volumetric Modulated Arc Therapy/Intensity Modulated Radiation Therapy Inverse Planning Autopiloted by Population-Based Prior Data,"Wang, H.; Xing, L.","Elsevier Science B.V., Amsterdam.",2016
+,94,"From Big Data to Big Data Mining: Challenges, Issues, and Opportunities","Che, D.; Safran, M.; Peng, Z.",SPRINGER-VERLAG,2013
+,95,Health sector gets `big data' boost,unknown,K.H. BIOTECH SERVICES,2018
+,96,Making big sense from big data in toxicology by read-across,Thomas Hartung,Altex,2016
+,97,The Big Picture Divide and Combine to Conquer Big Data,"Lazar, Nicole",Taylor and Francis,2018
+,98,Master Data Management Strategies to Start Small and Grow Big,"Shankar, R.",The Data Warehouse Institute,2008
+,99,From data to big data in production research: the past and future trends,"Kuo, Yong-Hong; Kusiak, Andrew",Taylor & Francis,2019
+,100,Personal Data Rights in the Era of Big Data,"Xiao, Cheng",Taylor & Francis,2019
+,1,Mobile Big Data: The Fuel for Data-Driven Wireless,"Cheng, X.; Fang, L.; Yang, L.; Cui, S.",IEEE,2017
+,2,Creating Big Data Pipelines Using Azure Data Lake and Azure Data Factory,"Malhotra,  Gaurav",CMP MEDIA LLC,2016
+,3,BI Case Study: Analytic Platform Provides Fast Performance on Big Data,"Briggs, L.L.",The Data Warehouse Institute,2013
+,4,A big data approach for logistics trajectory discovery from RFID-enabled production data,"Zhong, R. Y.; Huang, G. Q.; Lan, S.; Dai, Q. Y.; Chen, X.; Zhang, T.","Elsevier Science B.V., Amsterdam.",2015
+,5,Thinking Big About Big Data,Amy Wax; Raquel Asencio; Dorothy R. Carter,Blackwell Pub.,2015
+,6,Is Big Data Growing up to be ``Big Brother?,unknown,IGI PUBLISHING,2013
+,7,NZIM: Big data: Management's new big gun,"Birchfield, R.",Mediaweb Ltd,2013
+,8,"Editorial: Big Data, Data Science, and Analytics: The Opportunity and Challenge for IS Research","Agarwal, R.; Dhar, V.",INFORMS,2014
+,9,Administrative data: what surgeons should know about big data,"Hong, M. K.; Skandarajah, A. R.; Hayes, I. P.",John Wiley & Sons Ltd,2017
+,10,Connecting big data to big insights,"Shrestha,  Rasu",APPLIED RADIOLOGY,2016
+,11,Turn Big Data into smart data,"Brennan, D.",NTC PUBLICATIONS,2013
+,12,A Big Data Test-bed for Analyzing Data Generated by an Air Pollution Sensor Network,"Ríos,  Lídice García; Diéguez,  José Alberto Incera",IGI Publishing,2016
+,13,Lean Data Services: Detection of Operating States in Energy Profiles of Intralogistics Systems by Using Big Data Analytics,"Oette,  C.; Küfner,  T.; Reger,  A.; Boehner,  J.",Trans Tech Publications Ltd.,2016
+,14,Thick data: adding context to big data to enhance auditability,"Alles, M.; Vasarhelyi, M.A.",Inderscience,2014
+,15,"The Big Picture Data, Data, Everywhere","Lazar, N.",Taylor and Francis,2013
+,16,Is Big Data a Big Deal for Applied Microeconomics?,"Shapiro,  Jesse M.",Cambridge University Press,2017
+,17,"Applying big data to improve care The research collaborative OptumLabs is analyzing data to help its members gain a competitive advantage in strategies, services and products","Evans,  Melanie",CRAIN COMMUNICATIONS INC.,2015
+,18,Coping with ``Big Data'' Growing Pains,"Strenger, L.",The Data Warehouse Institute,2008
+,19,From big data to rich data: The key features of athlete wheelchair mobility performance,"van der Slikke, R. M.; Berger, M. A.; Bregman, D. J.; Veeger, H. E.","Elsevier Science B.V., Amsterdam.",2016
+,20,Evolving Data Warehouse and BI Architectures: The Big Data Challenge,"Clegg,  Dai",The Data Warehouse Institute,2015
+,21,Using data and big data in retailing,"Fisher, Marshall; Raman, Ananth",John Wiley & Sons Ltd,2018
+,22,How Big Data Applications Are Revolutionizing Decision Making,"Akbay,  Sami",The Data Warehouse Institute,2015
+,23,A big data based data storage systems for rock burst experiment,"Zhang, Y.; Bai, Y.-P.; Zhu, D.-F.; Lv, Z.-Y.",INDERSCIENCE PUBLISHERS,2013
+,24,Aviation community is just beginning to understand what can be done with aircraft `big data',unknown,MCGRAW-HILL DATA SERVICES,2015
+,25,The Big To Do About “Big Data”,"Schilling, P. L.; Bozic, K. J.",LIPPINCOTT WILLIAMS & WILKINS,2014
+,26,Using Big Data Technologies for Satellite Data Analytics (AIAA 2017-5161),"Mateik,  Dennis; Mital,  Rohit; Buonaiuto,  Nicholas L.; Louie,  Mark; Kief,  Craig; Aarestad,  Jim",AIAA,2017
+,27,The Big Duplicity of Big Data,Thomas J. Whelan; Amy M. DuVernet,Blackwell Pub.,2015
+,28,Regulating big data. The guidelines of the Council of Europe in the context of the European data protection framework,"Mantelero, Alessandro","Elsevier Science B.V., Amsterdam",2017
+,29,Fire Up Your Social Media Strategy with Big Data Analytics,"Hiltbrand,  Troy",The Data Warehouse Institute,2015
+,30,How big data enriches maritime research – a critical review of Automatic Identification System (AIS) data applications,"Yang, Dong; Wu, Lingxiao; Wang, Shuaian; Jia, Haiying; Li, Kevin X.",Taylor & Francis,2019
+,31,From big smartphone data to worldwide research: The Mobile Data Challenge,"Laurila, J. K.; Gatica-Perez, D.; Aad, I.; Blom, J.; Bornet, O.; Do, T. M.; Dousse, O.; Eberle, J.; Miettinen, M.","ELSEVIER SCIENCE B.V., AMSTERDAM",2013
+,32,How Big Is Big? Amount of Data in Intensive Care Units DataMart Platform,"Li,  M.; Tiong,  Ing; Dyke,  John; plamadeala,  sergiu; Fedosov,  Vitali; Pickering,  Brian W.; Herasevich,  Vitaly",American Medical Informatics Association,2016
+,33,"Robotics, Big Data, Ethics and Data Protection: A Matter of Approach","Fabiano, Nicola",Springer,2019
+,34,Best Practices for Turning Big Data into Big Insights,"Lopez, J.A.",The Data Warehouse Institute,2012
+,35,"Clean data, clean profit Big cost savings and improved return on investment are just two of the benefits of cleaning up your data and making sure it stays that way",unknown,UNKNOWN,2004
+,36,"A data-driven revolution The Internet of Things, big data, data analytics, and cloud computing can be used to create platform-independent advanced process control solutions to help industry optimize operations","Domínguez,  Luis; Kumar,  S. Mohan; Gallestey,  Eduardo; Saynevirta,  Simo",ISA INSTRUMENT SOCIETY OF AMERICA,2017
+,37,"Humanizing Big Data: Marketing at the Meeting of Data, Social Science and Consumer Insight C. Strong, 2015 London, Kogan Page 224 pp., 19.99 ISBN 978-0-749-47211-5","Dietz, S.",John Wiley & Sons Ltd,2018
+,38,Memory-enriched big bang–big crunch optimization algorithm for data clustering,"Bijari, K.; Zare, H.; Veisi, H.; Bobarshad, H.",Springer Science + Business Media,2018
+,39,"Small Data, Mid Data, and Big Data Versus Algebra, Analysis, and Topology [Perspectives]","Xia, X.",INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS,2017
+,40,A Big Data Sharing Methodology with Data Description and Data Browsing,Hwa Jong Kim; Soonja Yeom; Kyung Jin Cha,International Information Institute,2018
+,41,"The Big Picture: On Mice, Badges for your CV, and the Big Data Backlash …","Lazar, Nicole",Taylor and Francis,2014
+,42,Visualizing Big Energy Data: Solutions for This Crucial Component of Data Analysis,"Hyndman, R.; Liu, X.; Pinson, P.",IEEE,2018
+,43,Rethinking `big data' as visual knowledge: the sublime and the diagrammatic in data visualisation,"McCosker, A.; Wilken, R.",Taylor & Francis,2014
+,44,"Your data in their hands: big data, mass surveillance and privacy","Ring, Tim","Elsevier Science B.V., Amsterdam.",2016
+,45,Optimized Big Data Management across Multi-Cloud Data Centers: Software-Defined-Network-Based Analysis,"Chaudhary, R.; Aujla, G. S.; Kumar, N.; Rodrigues, J. J.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2018
+,46,Context-aware data quality assessment for big data,"Ardagna, Danilo; Cappiello, Cinzia; Samá, Walter; Vitali, Monica","Elsevier Science B.V., Amsterdam.",2018
+,47,A Data Quality in Use Model for Big Data,"Caballero, I.; Serrano, M.; Piattini, M.",SPRINGER-VERLAG,2014
+,48,Becoming data-savvy in a big-data world,"Xu, Meng; Rhee, Seung Yon","Elsevier Science B.V., Amsterdam.",2014
+,49,Diabetic data analysis in healthcare using Hadoop architecture over big data,"Sampath, P.; Tamilselvi, S.; Kumar, N.M. Saravana; Lavanya, S.; Eswari, T.",INDERSCIENCE,2017
+,50,Findings from Big Data Summit Conferences,Aster Data,A P PUBLICATIONS,2010
+,51,"Statistik, Data Science und Big Data","Kauermann, G. r.; Küchenhoff, H.",Springer Science + Business Media,2016
+,52,From Big Data to Knowledge: An Ontological Approach to Big Data Analytics,"Kuiler, E. W.",Blackwell Publishing Ltd,2014
+,53,Using Big Data to See the Big Picture in Sepsis*,"Savel, Richard H.; Shiloh, Ariel L.; Simon, Ronald J.; Kupfer, Yizhak",Lippincott Williams and Wilkins,2018
+,54,"Neuroscience: Big brain, big data","Landhuis, E.",Nature Publishing Group,2017
+,55,From Data to Decisions: A Value Chain for Big Data,"Miller, H. Gilbert; Mork, Peter",IEEE,2013
+,56,The Big Deal About Big Data,"Arnold, E.",LEARNED INFORMATION INC,2012
+,57,"Intel emerging as key weapon in Afghanistan Big factors are persistence, integration from many sources and ability to control data collection",unknown,MCGRAW-HILL DATA SERVICES,2002
+,58,Why ``Big Data'' Is a Big Deal New methods for understanding the torrent of data promise to save lives and propel scholarship,"Shaw, J.",HARVARD MAGAZINE INC.,2014
+,59,WHAT DATA SAYS ABOUT US What are we learning from the vast ocean of data? Truths about our measured world and our measured selves. Excerpted from The Human Face of Big Data,"Smolan, R.; Erwitt, J.",TIME INC,2012
+,60,Large-Scale Data Mining and Distributed Processing in Big Data Internet,"Xing, C.Z.",TRANS TECH PUBLICATION LTD,2014
+,61,"Topological data analysis: A promising big data exploration tool in biology, analytical chemistry and physical chemistry","Offroy, M.; Duponchel, L.","Elsevier Science B.V., Amsterdam.",2016
+,62,Valuing data in aircraft maintenance through big data analytics: A probabilistic approach for capacity planning using Bayesian networks,"Dinis, Duarte; Barbosa-Póvoa, Ana; Teixeira, Ângelo Palos","Elsevier Science B.V., Amsterdam.",2019
+,63,From Big Data to Big Service,"Xu, X.; Sheng, Q. Z.; Zhang, L. J.; Fan, Y.; Dustdar, S.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2015
+,64,Digital Data Grows into Big Data,"Kemelor, P.",IEEE,2015
+,65,Unstructured Data Service Model Utilizing Context-Aware Big Data Analysis,"Kim,  Yonghoon; Chung,  Mokdong",Springer,2016
+,66,From Data Quality to Big Data Quality,"Batini,  Carlo; Rula,  Anisa; Scannapieco,  Monica; Viscusi,  Gianluigi","Hershey, PA; Idea Group Publishing; 1999",2015
+,67,"The Data Revolution. Big Data, Open Data, Data Infrastructures and Their Consequences","Martini, Barbara",Taylor & Francis,2016
+,68,The Big Picture: Crowdsourcing Your Way to Big Data,"Lazar, Nicole",Taylor and Francis,2019
+,69,Novel Data Sharing Agreement to Accelerate Big Data Translational Research Projects in the One Health Sphere,"Staley, Joshua; Mazloom, Reza; Lowe, Paul; Newsum, CT; Jaberi-Douraki, Majid; Riviere, Jim; Wyckoff, Gerald J.",Elsevier Science B.V. Amsterdam,2019
+,70,Is Big Data the Next Big Thing in Performance Measurement Systems?,"Mello, R.; Leite, L.; Martins, R.",Norcross; Institute of Industrial Engineers,2014
+,71,Benchmarking big data architectures for social networks data processing using public cloud platforms,"Persico, Valerio; Pescapé, Antonio; Picariello, Antonio; Sperlí, Giancarlo","Elsevier Science B.V., Amsterdam.",2018
+,72,Small Data: Effective Data Based on Big Communication Research in Social Networks,"Wu, J.",Springer Science + Business Media,2018
+,73,Scalable data summarization on big data,"Li, F.; Nath, S.",Springer Science + Business Media,2014
+,74,Exploring Big Data with Helix: Finding Needles in a Big Haystack,"Ellis,  Jason; Fokoue,  Achille; Hassanzadeh,  Oktie; Kementsietsidis,  Anastasios; Srinivas,  Kavitha; Ward,  Michael J.",Association for Computing Machinery; 1999,2014
+,75,Bioinformatics: Big data versus the big C,"Savage, N.",Nature Publishing Group,2014
+,76,"The big C, big data and statistics","Tarran, B.","John Wiley & Sons, Ltd",2016
+,77,Harnessing Big Data: A Methodological Approach to Linking Electronic Health Records with Patient-Reported Survey Data,"Liebert, R; Lee, LK; Jaffe, DH; Doane, MJ; Haskell, T","Elsevier Science B.V., Amsterdam",2018
+,78,A Big Choice for Big Tech Share Data or Suffer the Consequences,"Mayer-Schönberger, Viktor; Ramge, Thomas",Council on Foreign Relations,2018
+,79,"The data confirm it: Traffic holds the key Big network airlines would gain more revenue-if not profits-from a rebound in RPMs, not yields",unknown,MCGRAW-HILL DATA SERVICES,2002
+,80,"Small Data, Big Justice: The Intersection of Data Science, Social Good, and Social Services","Goldkind, Lauri; Thinyane, Mamello; Choi, Moon",Taylor & Francis,2018
+,81,Probabilistic data structures for big data analytics: A comprehensive review,"Singh, Amritpal; Garg, Sahil; Kaur, Ravneet; Batra, Shalini; Kumar, Neeraj; Zomaya, Albert Y.","Elsevier Science B.V., Amsterdam.",2020
+,82,Leveraging BIG Data from BIG Databases to Answer BIG Questions,"Whittier, Joanna; Sievert, Nick; Loftus, Andrew; Defilippi, Julie M.; Krogman, Rebecca M.; Ojala, Jeffrey; Litts, Thom; Kopaska, Jeff; Eiden, Nicole",Taylor & Francis,2016
+,83,"Considering Data Quality for Data Science, Predictive Analytics, and Big Data Applications in Supply Chain Management","Hazen, B.; Boone, C.; Ezell, J.; Jones-Farmer, L.A.",Logan; Western Decision Sciences Institute,2014
+,84,Bridging data-capacity gap in big data storage,"Bhat, Wasim Ahmad","Elsevier Science B.V., Amsterdam.",2018
+,85,The Big Picture: Big Data and Privacy,"Lazar, Nicole",Taylor and Francis,2019
+,86,The Modern Data Warehouse-How Big Data Impacts Analytics Architecture,"Lopez, K.; D Antoni, J.",The Data Warehouse Institute,2014
+,87,Spatiotemporal data model for network time geographic analysis in the era of big data,"Chen, Bi Yu; Yuan, Hui; Li, Qingquan; Shaw, Shih-Lung; Lam, William H.K.; Chen, Xiaoling",Taylor & Francis,2016
+,88,Distributed data networks: a blueprint for Big Data sharing and healthcare analytics,"Popovic, J. R.",John Wiley & Sons Ltd,2017
+,89,SeQual: Big Data Tool to Perform Quality Control and Data Preprocessing of Large NGS Datasets,"Exposito, Roberto R.; Galego-Torreiro, Roi; Gonzalez-Dominguez, Jorge",IEEE,2020
+,90,Reversible Data Hiding and Smart Multimedia Computing Using Big Data in Remote Sensing Systems,"Malik, Rahul; Khamparia, Aditya; Garg, Sahil; Gupta, Deepak; Choi, Bong Jun; Hossain, M. Shamim",IEEE,2020
+,91,Rethinking ‘big data’ as visual knowledge: the sublime and the diagrammatic in data visualisation,"McCosker, Anthony; Wilken, Rowan",Taylor & Francis,2014
+,92,The 'big data' myth and the pitfalls of 'thick data' opportunism: on the need for a different ontology of markets and consumption,"Thompson, Craig J.",Taylor & Francis,2019
+,93,With ``Big Data'' Comes Big Responsibility: Outreach to North Carolina Medicaid Patients With 10 or More Computed Tomography Scans in 12 Months,"Biola, H.; Best, R.M.; Lahlou, R.M.; Burke, L.M.B.; Dewar, C.; Jackson, C.T.; Broder, J.; Grey, L.; Semelka, R.C.; Dobson, A.",NORTH CAROLINA MEDICAL SOCIETY,2014
+,94,P4345Supporting big data research in cardiovascular medicine using routinely-collected data,"Kaura, A; Davies, J; Panoulas, V; Glampson, B; Mulla, A; Woods, K; Omigie, J; Shah, A D; Melikian, N; Francis, D P; Kharbanda, R; Perera, D; Shah, A M; Patel, R S; Mayet, J",Oxford University Press,2019
+,95,"Your Big Data To-Do List: Ready or not, big data is coming. Read about the five things you should do today to prepare for the data deluge of tomorrow",unknown,CW COMMUNICATIONS INC.,2012
+,96,Efficient data management tools for the heterogeneous big data warehouse,"Alekseev, A. A.; Osipova, V. V.; Ivanov, M. A.; Klimentov, A.; Grigorieva, N. V.; Nalamwar, H. S.",Springer Science + Business Media,2016
+,97,Securing Big Data Provenance for Auditors: The Big Data Provenance Black Box as Reliable Evidence,"Appelbaum,  Deniz",Strategic and Emerging Technologies Section of the American Accounting Association,2016
+,98,Demystifying big data: Anatomy of big data developmental process,"Shin, Dong-Hee","Elsevier Science B.V., Amsterdam.",2016
+,99,Assessing Whether “Big Data” Solutions Provide Value For Diagnostics Manufacturers,"Hertz, D.; Gavaghan, M.; Garfield, S.","Elsevier Science B.V., Amsterdam",2014
+,100,"Why Big Data Is a Big Deal A new class of data mining technologies promises to forever change the way we sift through our vast stores of data, making the process faster and cheaper",unknown,CW COMMUNICATIONS INC.,2011
+,1,Using big data for big impact: Leveraging analytics provides the foundation for rethinking how to impact patient behavior,unknown,NELSON PUBLISHING,2011
+,2,Five Guiding Principles for Realizing the Promise of Big Data,"Mantha, B.",The Data Warehouse Institute,2014
+,3,"Imagining big data: Illustrations of “big data” in US news articles, 2010-2016",Christian Pentzold; Cornelia Brantner; Lena Fölsche,SAGE PUBLICATIONS LTD,2019
+,4,"The Big Picture: On Mice, Badges for Your CV, and the Big Data Backlash","Lazar, N.",Taylor and Francis,2014
+,5,A Data-Driven Axes Creation Model for Correlation Measurement on Big Data Analytics,"Nakanishi,  Takafumi",IOS Press,2014
+,6,"The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences",unknown,GUILDHALL PRINT,2015
+,7,"Good data comes in small packages. Connecting big data is the best way for marketers to extract maximum value, says Media iQ's Stewart Easterbrook. If marketers cannot small, insightful packages they are likely to face big data paralysis","Easterbrook,  Stewart",CENTAUR MEDIA PLC,2015
+,8,Confronting Big Data: Applying the Confrontation Clause to Government Data Collection,"Squitieri,  Chad",VIRGINIA LAW REVIEW ASSOCIATION,2015
+,9,"Turning Big Data Into Tiny Data: Constant-Size Coresets for k-Means, PCA, and Projective Clustering","Feldman, Dan; Schmidt, Melanie; Sohler, Christian",SIAM SOCIETY FOR INDUSTRIAL AND APPLIED,2020
+,10,A Data Quality in Use model for Big Data,"Merino, J.; Caballero, I.; Rivas, B.; Serrano, M.; Piattini, M.","Elsevier Science B.V., Amsterdam.",2016
+,11,"Small Sats, Big Data",unknown,MCGRAW-HILL DATA SERVICES,2018
+,12,Using Big Data to Combat Fraud: More organizations are thinking big - employing new approaches to convert volumes of information available into useful insight and real action,"Griffin, R.",FINANCIAL EXECUTIVES INSTITUTE,2012
+,13,Chemical Data Visualization and Analysis with Incremental Generative Topographic Mapping: Big Data Challenge,"Héléna A. Gaspar, Igor I. Baskin, Gilles Marcou, Dragos Horvath; Alexandre Varnek",AMERICAN CHEMICAL SOCIETY,2015
+,14,The Data Behind Big Data,"Morrison, C.",A.ST.D,2014
+,15,"General Electric CEO discusses big data, disruptive technologies, climate change, electric propulsion",unknown,MCGRAW-HILL DATA SERVICES,2017
+,16,From Big Data to Big Knowledge,"Murphy, K.","New York, New York; Association for Computing Machinery",2013
+,17,Rethinking big data: A review on the data quality and usage issues,"Liu, J.; Li, J.; Li, W.; Wu, J.","Elsevier Science B.V., Amsterdam.",2016
+,18,Scholarly Big Data: Information Extraction and Data Mining,"Giles, C.L.","New York, New York; Association for Computing Machinery",2013
+,19,Using Data Variety for Efficient Progressive Big Data Processing in Warehouse-Scale Computers,"Ahmadvand, H.; Goudarzi, M.",IEEE Computer Society,2017
+,20,A Big Data Provenance Model for Data Security Supervision Based on PROV-DM Model,unknown,IEEE,2020
+,21,Bigger data for big data: From Twitter to brain-computer interfaces,"Roesch, E.B.; Stahl, F.; Gaber, M.M.",CAMBRIDGE UNIVERSITY PRESS,2014
+,22,A Big Data-Enabled Consolidated Framework for Energy Efficient Software Defined Data Centers in IoT Setups,unknown,IEEE,2020
+,23,The Big Picture for Big Data: Visualization,"Shneiderman, B.",AMERICAN ASSOCIATION FOR THE ADVANCEMENT OF SCIENCE,2014
+,24,Exploring Big Data: The Next Big Thing in Innovation,unknown,INDUSTRIAL RESEARCH INSTITUTE INC,2013
+,25,Traditional Data Warehousing Meets Big Data: What Does It Mean for the Enterprise?,"Johnson, R.; Zahavi, R.",CUTTER INFORMATION CORP.,2012
+,26,HOW BIG DATA ANALYTICS CAN SAVE LIVES by NTT DATA UK,unknown,ASSOCIATION OF BUILDING ENGINEERS,2014
+,27,No big data without small data: learning health care systems begin and end with the individual patient,"Sacristn, J. A.; Dilla, T.",Wiley-Blackwell,2015
+,28,Using ``Big Data'' Versus Alternative Measures of Aggregate Data to Predict the U.S. 2016 Presidential Election,"Ma-Kellams, Christine; Bishop, Brianna; Zhang, Mei Fong; Villagrana, Brian",PERCEPTUAL AND MOTOR SKILLS,2018
+,29,A Big Data Recommendation Engine Framework Based on Local Pattern Analytics Strategy for Mining Multi-Sourced Big Data,"Venkatesan, T.; Saravanan, K.; Ramkumar, T.",INFORMATION AND KNOWLEDGE MANAGEMENT SOCIETY,2019
+,30,Rethinking 'big data' as visual knowledge: the sublime and the diagrammatic in data visualisation,"McCosker, Anthony; Wilken, Rowan",Taylor & Francis,2014
+,31,A big data framework to validate thermodynamic data for chemical species,"Buerger, Philipp; Akroyd, Jethro; Martin, Jacob W.; Kraft, Markus","Elsevier Science B.V., Amsterdam.",2017
+,32,Handling Big Data in Astronomy and Astrophysics: Rich Structured Queries on Replicated Cloud Data with XtreemFS,"Enke, H.; Partl, A.; Reinefeld, A.; Schintke, F.",SPRINGER,2012
+,33,Price/Performance Considerations in Building Data Warehouses for Big Data,"Kutemperor,  Norman T.",The Data Warehouse Institute,2015
+,34,Can big data solve a big problem? Reporting the obesity data landscape in line with the Foresight obesity system map,"Morris, Michelle; Wilkins, Emma; Timmins, Kate; Bryant, Maria; Birkin, Mark; Griffiths, Claire",Nature Publishing Group,2018
+,35,The Big Picture: Big Data and Privacy,"Lazar, N.",Taylor and Francis,2015
+,36,"Thinking Big Transitioning your students from working with small, student-collected data sets toward ``big data''","Kastens,  Kim; Krumhansl,  Ruth; Baker,  Irene",NATIONAL SCIENCE TEACHERS ASSOCIATION,2015
+,37,A DATA LAB RAT IN THE BIG CITY: WHY DATA TRACKERS COULDN'TTRAP THIS CITY DWELLER,"Kaye, Kate","Crain Communications, Inc.",2014
+,38,Prescription Data in Australia: How Useful is this 'Big' Data?,"Kim, H; Calcino, L; Calcino, G","Elsevier Science B.V., Amsterdam",2016
+,39,A Big Data approach for multi-experiment data management,"Pardi, Silvio; Russo, Guido",INDERSCIENCE PUBLISHERS,2019
+,40,Making big data open: data sharing in neuroimaging,"Poldrack, R. A.; Gorgolewski, K. J.",Nature Publishing Group,2014
+,41,SIFTING BIG DATA New data systems smooth the way for E&amp;P analysts,unknown,HART PUBLICATIONS INC.,2013
+,42,How Big Data Feeds Big Crime,"Wall,  David S.",CURRENT HISTORY,2018
+,43,Forget 'Big Data ' Beware 'Little Data',"Dumenco, Simon","Crain Communications, Inc.",2014
+,44,From Big Data to Big Artificial Intelligence?,"Kersting, K.; Meyer, U.",Springer Science + Business Media,2018
+,45,Unsupervised data analytics in mining big building operational data for energy efficiency enhancement: A review,"Fan, Cheng; Xiao, Fu; Li, Zhengdao; Wang, Jiayuan","Elsevier Science B.V., Amsterdam.",2018
+,46,Three Best Practices for IT and Business Users in Big Data Projects,"Halper, F.",The Data Warehouse Institute,2013
+,47,"Internet Data Analysis Methodology for Cyberterrorism Vocabulary Detection, Combining Techniques of Big Data Analytics, NLP and Semantic Web","Castillo-Zúñiga, Iván; Luna-Rosas, Francisco Javier; Rodríguez-Martínez, Laura C.; Muñoz-Arteaga, Jaime; López-Veyna, Jaime Iván; Rodríguez-Díaz, Mario A.",IDEA GROUP PUBLISHING,2020
+,48,Fix This/Big Data Four experts discuss the promise-and possible pitfalls-of data mining,unknown,MCGRAW-HILL,2014
+,49,Digital Data Streams: Creating Value from the Real-Time Flow of Big Data,"Pigni,  Federico; Piccoli,  Gabriele; Watson,  Richard",UNIVERSITY OF CALIFORNIA,2016
+,50,From 'big data' to 'smart data': algorithm for cross-evaluation as a novel method for large-scale survey analysis,"Kantoci, Darko; Džanić, Emir; Bogers, Marcel",Inderscience,2018
+,51,Mainframes: The (Other) Elephant in the Big Data Room,"Lopez, J.A.",The Data Warehouse Institute,2013
+,52,A Data Sharing Protocol to Minimize Security and Privacy Risks of Cloud Storage in Big Data Era,unknown,IEEE,2019
+,53,From Big Data to Smart Data for Pharmacovigilance: The Role of Healthcare Databases and Other Emerging Sources,"Trifirò, G.; Sultana, J.; Bate, A.",Springer Science + Business Media,2018
+,54,The Accidental Data Scientist: Big Data Applications and Opportunities for Librarians and Information Professionals,unknown,GUILDHALL PRINT,2016
+,55,Mining patient data will close knowledge gap. Ministers must acknowledge risks and ensure everything is done to protect privacy in the NHS's big data project,"Darzi, A.",EMAP HEALTH CARE,2014
+,56,What's the Big Deal About BIG DATA?,"Sherman, Chris",Information Today,2014
+,57,PCN296 - BIG DATA ANALYSIS OF CANCER TREATMENT IN GERMANY - MAPPING OF TREATMENT LANDSCAPE BASED ON A GERMAN STATUTORY HEALTH INSURANCE (SHI) CLAIMS DATA ANALYSIS,"May, M.; Schellong, S.; Bruchhausen, Y.; Kretzschmar, A.; Riess, H.","Elsevier Science B.V., Amsterdam",2018
+,58,ARCHIVES Hard data Scientific databases need to stay relevant in the age of big data,unknown,Nature Publishing Group,2014
+,59,"Space for big data There are many satellites in orbit, but what you do with the data that bounces down from space? The Satellite Applications Catapult wants companies to exploit this huge potential market",unknown,FINDLAY PUBLICATIONS LTD,2014
+,60,Guest Editorial: Behavioral-Data Mining in Information Systems and the Big Data Era,"Boratto, Ludovico; Carta, Salvatore; Kaltenbrunner, Andreas; Manca, Matteo",Springer Nature,2018
+,61,COVER STORY: Big promise and big challenges for big health care data,"Coffron,  Matthew; Opelka,  Frank",THE AMERICAN COLLEGE OF SURGEONS,2015
+,62,"Everybody lies: Big data, new data and what the internet can tell us about who we really are, by SethStephens‐Davidowitz. New York: HarperCollins, 2017, 338 pp.","Sussman, Lisa","John Wiley & Sons, Ltd",2019
+,63,EDITORIAL - Big Data Equals Big Challenges for Prostate Cancer,"Gomella,  Leonard G.",CANADIAN UROLOGICAL ASSOCIATION,2016
+,64,RESEARCH Electronic Data Capture and Big Data — Changing the Scope of the Clinical Trial and Putting Data First,"Branch,  Emilie",RUSSELL PUBLISHING,2017
+,65,A spark‐based big data analysis framework for real‐time sentiment prediction on streaming data,"Kılınç, Deniz","John Wiley & Sons, Ltd",2019
+,66,Acting on Big Data: A Data Scientist Role for Info Pros,"Affelt, A.",Information Today,2014
+,67,Using small data to interpret big data: 311 reports as individual contributions to informal social control in urban neighborhoods,"O'Brien, D. T.","Elsevier Science B.V., Amsterdam",2016
+,68,Process of Big Data Analysis Adoption: Defining Big Data as a New IS Innovation and Examining Factors Affecting the Process,"Kang,  Dongwoo; Kim,  Soung Hie",IEEE,2015
+,69,"New Directions: Data Management, Big Data and Librarians","Sawnhney, S.C.",ALISS,2014
+,70,Using Small Data to Make Big Decisions Managing a smarter small firm with data,"Walters,  Ed",AMERICAN BAR ASSOCIATION,2017
+,71,What Can Big Data Tell Us About Health?: Finding Gold Through Data Mining,"Mertz, L.",INSTITUTE OF ELECTRICAL AND ELECTRONICS ENGINEERS,2016
+,72,Transforming Open Data to Linked Open Data Using Ontologies for Information Organization in Big Data Environments of the Brazilian Government: the Brazilian Database Government Open Linked Data -- DBgoldbr.,"Victorino, Marcio; de Holanda, Maristela Terto; Ishikawa, Edison; Oliveira, Edgard Costa; Chhetri, Sammohan",INDEKS Verlag,2018
+,73,Four Health Data Networks Illustrate The Potential For A Shared National Multipurpose Big-Data Network,"Curtis, L.H.; Brown, J.; Platt, R.",PROJECT HOPE,2014
+,74,INTRODUCTION The big deal about big data,"Richards,  Caroline",RUSSELL PUBLISHING LTD,2015
+,75,Paper 17: Data data everywhere: We are now in the Big Data era,"Liddell, M.",International Federation of Hydrographic Societies,2014
+,76,Processes Meet Big Data: Connecting Data Science with Process Science,"van der Aalst, W.; Damiani, E.",Institute of Electrical & Electronics Engineers,2015
+,77,Sparse p-adic data coding for computationally efficient and effective big data analytics,"Murtagh, F.",SPRINGER,2016
+,78,Monitoring laboratory data across manufacturers and laboratories-A prerequisite to make ''Big Data'' work,"Goossens, K.; Van Uytfanghe, K.; Twomey, P. J.; Thienpont, L. M.; Participating, L.","Elsevier Science B.V., Amsterdam.",2015
+,79,Schema Theory-Based Data Engineering in Gene Expression Programming for Big Data Analytics,"Huang, Z.; Li, M.; Chousidis, C.; Mousavi, A.; Jiang, C.",IEEE,2018
+,80,Metadata for Big Data: A preliminary investigation of metadata quality issues in research data repositories,"Rousidis, D.; Garoufallou, E.; Balatsoukas, P.; Sicilia, M.-A.",IOS Press; 1999,2014
+,81,A Bespoke Big Data/Visual Analytics Solution for Treatment Pathway Analysis and Visualization Using Healthcare Data,"Eslava,  Sergio; Cai,  Zhaohui J.; Golde,  Saar; Yang,  Fei",American Medical Informatics Association,2016
+,82,What's the Big Deal About Big Data?,"Sherman, C.",Information Today,2014
+,83,SOFTWARE TACKLES BIG DATA Lab management software tries to simplify data-rich experiment design,unknown,ACS AMERICAN CHEMICAL SOCIETY,2013
+,84,What makes `big data' different from `regular data' within radiology? The easiest answer: when it no longer fits into Excel! [9418-4],unknown,The Society,2015
+,85,MPTCP Meets Big Data: Customizing Transmission Strategy for Various Data Flows,"Xing, Yitao; Han, Jiangping; Xue, Kaiping; Liu, Jianqing; Pan, Miao; Hong, Peilin",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2020
+,86,Is a Data-Capacity Gap Inevitable in Big Data Storage?,"Bhat, Wasim Ahmad",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2018
+,87,"Drowning in data Research is generating vast quantities of data, but the big question is what to do with it to get results",unknown,MORGAN GRAMPIAN,2015
+,88,What's the big fuss about `big data'?,"Pope, C.; Halford, S.; Tinati, R.; Weal, M.",Royal Society of Medicine Press,2014
+,89,When small data beats big data,"Faraway, Julian J.; Augustin, Nicole H.","Elsevier Science B.V., Amsterdam.",2018
+,90,Introduction to Big Data Analytics and the Special Issue on Big Data Methods and Applications,"Zheng, Zhiqiang (Eric)",Taylor & Francis,2015
+,91,"Little Teams, Big Data: Big Data Provides New Opportunities for Teams Theory",Dorothy R. Carter; Raquel Asencio; Amy Wax; Leslie A. DeChurch; Noshir S. Contractor,Blackwell Pub.,2015
+,92,Implications of Big Data for Data Scientists and Engineers,"Werwath,  Mark","THE IEEE, INC.",2017
+,93,When is big data big enough? Implications of using GPS-based surveys for travel demand analysis,"Vij, A.; Shankari, K.","Elsevier Science B.V., Amsterdam.",2015
+,94,Die Vorstandsperspektive: Big Data = Big Wealth?,"Leng, C.",Springer Science + Business Media,2014
+,95,Augmenting a Data Warehousing Curriculum with Emerging Big Data Technologies,"Kotzé,  Eduan",Springer,2017
+,96,From the Editors—Big Data and Data Science Methods for Management Research,"George,  Gerard; Osinga,  Ernst C.; Lavie,  Dovev; Scott,  Brent A.",ACADEMY OF MANAGEMENT,2016
+,97,A versatile data-intensive computing platform for information retrieval from big geospatial data,"Soille, P.; Burger, A.; De Marchi, D.; Kempeneers, P.; Rodriguez, D.; Syrris, V.; Vasilev, V.","Elsevier Science B.V., Amsterdam.",2018
+,98,"Busting the big data myths. A backlash against `big data' has led to questions about whether it is overrated, but Bright North's Rob Hick believes it does offer opportunities and provides pointers on how to make the most of them","Hick, R.",CENTAUR MEDIA PLC,2014
+,99,"Dazzled by data: Big Data, the census and urban geography","Shearmur, Richard",Taylor and Francis,2015
+,100,Review and big data perspectives on robust data mining approaches for industrial process modeling with outliers and missing data,"Zhu, Jinlin; Ge, Zhiqiang; Song, Zhihuan; Gao, Furong","Elsevier Science B.V., Amsterdam.",2018
+,1,Clinical Trial Data as Public Goods: Fair Trade and the Virtual Knowledge Bank as a Solution to the Free Rider Problem - A Framework for the Promotion of Innovation by Facilitation of Clinical Trial Data Sharing among Biopharmaceutical Companies in the Era of Omics and Big Data,"Evangelatos, Nikolaos; Reumann, Matthias; Lehrach, Hans; Brand, Angela",S.Karger A.G.,2016
+,2,"Seeing the Big Picture Lensless cameras and other advances in digital imaging, computational optics, signal processing, and big data are transforming how we think about photography","Greengard, S.",ACM ASSOCIATION FOR COMPUTING MACHINERY,2013
+,3,These Are Big Days For Big Data,unknown,RODMAN PUBLISHING CORP,2014
+,4,"Secure Dynamic Big Graph Data: Scalable, Low-Cost Remote Data Integrity Checking","Lu, Yu",IEEE,2019
+,5,"Pitfalls in big data analysis: next-generation technologies, last-generation data","Lau, Susanna K.P.; Woo, Patrick C.Y.","Elsevier Science B.V., Amsterdam.",2019
+,6,Toward a big data approach for indexing encrypted data in Cloud Computing,"Kaci, Abdellah; Bouabana‐Tebibel, Thouraya; Rachedi, Abderrezak; Yahiaoui, Chafia",John Wiley & Sons Ltd,2019
+,7,Making the data connection Big gaps remain in sharing data between retail clinics and health systems,unknown,CRAIN COMMUNICATIONS INC.,2014
+,8,Mapping the data shadows of Hurricane Sandy: Uncovering the sociospatial dimensions of 'big data',"Shelton, T.; Poorthuis, A.; Graham, M.; Zook, M.","Elsevier Science B.V., Amsterdam.",2014
+,9,"A Master Data Management Solution to Unlock the Value of Big Infrastructure Data for Smart, Sustainable and Resilient City Planning","Ng, S. Thomas; Xu, Frank J.; Yang, Yifan; Lu, Mengxue","Elsevier Science B.V., Amsterdam",2017
+,10,What's the Big Deal About Big Data Loss (Actually Theft)?,"Cohen, Fred",Taylor & Francis,2017
+,11,Preparing a data scientist: a pedagogic experience in designing a big data analytics course,"Asamoah, Daniel Adomako; Sharda, Ramesh; Hassan Zadeh, Amir; Kalgotra, Pankush",Wiley-Blackwell,2017
+,12,Introduction to Big Data: Scalable Representation and Analytics for Data Science Minitrack,"Kaisler, S.; Armour, F.; Espinosa, A.",IEEE,2013
+,13,Evaluation of Data Management Systems for Geospatial Big Data,"Amirian, P.; Basiri, A.; Winstanley, A.",SPRINGER-VERLAG,2014
+,14,"Macrosystems ecology: big data, big ecology","Soranno, P.A.; Schimel, D.S.",Ecology Society of America,2014
+,15,Publicly Available Data and Pediatric Mental Health: Leveraging Big Data to Answer Big Questions for Children,"Blair, L. M.","Elsevier Science B.V., Amsterdam",2016
+,16,What's the Big Deal About Big Data?,"Dutton, G.",LAKEWOOD PUBLICATIONS INC,2014
+,17,Carpool for Big Data: Enabling Efficient Crowd Cooperation in Data Market for Pervasive AI,"Shi, Qian; Chen, Xu",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2020
+,18,Engaging with big data: Occupational therapy needs to recognise the potential of using linked data to support evidence‐based practice,"Cordier, R.; Ferrante, A.",John Wiley & Sons Ltd,2019
+,19,"Symposium review: Big data, big predictions: Utilizing milk Fourier-transform infrared and genomics to improve hyperketonemia management","Pralle, R.S.; White, H.M.","Elsevier Science B.V., Amsterdam",2020
+,20,32.1 CREATING BIG VALUE WITH BIG DATA: PRELIMINARY RESULTS,"Hagoort, Karin; Deschamps, Peter; Scheepers, Floortje E.",Elsevier,2016
+,21,"Systems Thinking, Big Data, and Data Protection Law Using Ackoff's Interactive Planning to Respond to Emergent Policy Challenges","Pearce,  Henry","Aspen Publishers, Inc.",2016
+,22,The hybrid big bang-big crunch method for solving crystal structure from powder diffraction data,"Altomare, A.; Corriero, N.; Cuocci, C.; Moliterni, A.; Rizzi, R.",Blackwell Publishing Ltd,2013
+,23,Spatial urban data system: A cloud-enabled big data infrastructure for social and economic urban analytics,"Anejionu, Obinna C.D.; Thakuriah, Piyushimita (Vonu); McHugh, Andrew; Sun, Yeran; McArthur, David; Mason, Phil; Walpole, Rod","Elsevier Science B.V., Amsterdam.",2019
+,24,SmallClient for big data: an indexing framework towards fast data retrieval,"Siddiqa, A.",Springer Science + Business Media,2017
+,25,"Interoperability in Big, Open, and Linked Data--Organizational Maturity, Capabilities, and Data Portfolios","Janssen, M.; Estevez, E.; Janowski, T.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2014
+,26,Is It Still ``Big Data'' If It Fits In My Pocket?,"Campbell, D.",New York; Curran Associates,2011
+,27,Research on data retrieval and analysis system based on Baidu reptile technology in big data era.,"Jin, Jiangang; Elhoseny, Mohamed; Yuan, X.","JOHN WILEY & SONS, INC",2020
+,28,Time-Frequency Social Data Analytics for Understanding Social Big Data,"Nguyen, D.T.; Hwang, D.; Jung, J.J.",Springer Science,2015
+,29,32.1 CREATING BIG VALUE WITH BIG DATA: PRELIMINARY RESULTS,"Hagoort, K.; Deschamps, P.; Scheepers, F. E.",Elsevier,2016
+,30,Review on Data Partitioning Strategies in Big Data Environment,A. A. Haneen ; A. Noraziah ; Ritu Gupta ; Mohammed Adam Ibrahim Fakherldin,American Scientific Publishers,2017
+,31,A distributed big data storage and data mining framework for solar-generated electricity quantity forecasting [8333-45],"Wang, J.; Chen, Y.; Hua, R.; Wang, P.; Fu, J.",International Society for Optical Engineering; 1999,2012
+,32,The EU data protection reform and the challenges of big data: remaining uncertainties and ways forward,"Gonçalves, Maria Eduarda",Taylor & Francis,2017
+,33,Dynamic remote data auditing for securing big data storage in cloud computing,"Sookhak, Mehdi; Gani, Abdullah; Khan, Muhammad Khurram; Buyya, Rajkumar","Elsevier Science B.V., Amsterdam.",2017
+,34,"Everybody lies: Big data, new data, and what the Internet can tell us about who we really are","Hall, E. L.",John Wiley & Sons Ltd,2018
+,35,An Incorrect Data Detection Method for Big Data Cleaning of Machinery Condition Monitoring,"Xu, Xuefang",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2019
+,36,Design of Data Processing Model based Big Data Technology for Connected Cars Services,Lionel Nkenyereye; Jong-Wook Jang,International Information Institute,2017
+,37,Optimizing Read-Once Data Flow in Big-Data Applications,"Morad, T. Y.; Shomron, G.; Erez, M.; Kolodny, A.; Weiser, U. C.",IEEE Computer Society,2017
+,38,Hadoop's Next Big Data Act: The NoSQL database HBase is adept with large volumes of data,unknown,"CMP PUBLICATIONS, INC.",2012
+,39,Reining in Big Data Semantic databases may be the tools banks need to harness big data's potential,unknown,MILLER FREEMAN INC,2012
+,40,Why the Big Buzz about Big Data?,"Lee, P.",SOCIETY FOR COMPUTERS AND LAW,2012
+,41,What’s the Big Deal About Big Data Loss (Actually Theft)?,"Cohen, Fred",Taylor & Francis,2017
+,42,The Accidental Data Scientist: Big Data Applications and Opportunities for Librarians and Information Professionals by Amy Affelt,"Goins, Meredith P.",Taylor & Francis,2015
+,43,Overcoming the data drought: exploring general practice in Australia by network analysis of big data,"Tran, Bich",AUSTRALASIAN MEDICAL PUBLISHING COMPANY LTD,2018
+,44,Design of data scoring model for big data,"Dash, Ranjan Kumar",Inderscience,2020
+,45,The healthcare data gold rush Service providers look set to benefit in the world of Big Data,unknown,Informa Healthcare,2012
+,46,HDAC High-Dimensional Data Aggregation Control Algorithm for Big Data in Wireless Sensor Networks,Zeyu Sun; Xiaohui Ji,Idea Group Pub,2017
+,47,Environmental Open Data in Urban Platforms: An Approach to the Big Data Life Cycle,"Gessa, Ana; Sancha, Pilar",Taylor & Francis,2020
+,48,Menopause and big data: Word Adjacency Graph modeling of menopause-related ChaCha data,"Carpenter, Janet S.; Groves, Doyle; Chen, Chen X.; Otte, Julie L.; Miller, Wendy R.",Lippincott Williams and Wilkins,2017
+,49,Biology: The big challenges of big data,"Marx, V.",Nature Publishing Group,2013
+,50,Enabling Smart Data: Noise filtering in Big Data classification,"García-Gil, Diego; Luengo, Julián; García, Salvador; Herrera, Francisco","Elsevier Science B.V., Amsterdam.",2019
+,51,Answering the Big Questions Defining big data - and the ways to harness the information for success,unknown,NATIONAL RETAIL FEDERATION,2014
+,52,A Semantic Big Data Platform for Integrating Heterogeneous Wearable Data in Healthcare,"Mezghani, E.; Exposito, E.; Drira, K.; Da Silveira, M.; Pruski, C. d.",Springer Science + Business Media,2015
+,53,MAD Skills: New Analysis Practices for Big Data,"Cohen, J.; Dolan, B.; Dunlap, M.; Hellerstein, J.M.; Welton, C.",New York; Association for Computing Machinery,2009
+,54,Guest Editorial Big Security Challenges in Big Data Era,"Li, H.; Lu, R.; Misic, J.",IEEE,2017
+,55,Time Series Data Mining: A Case Study With Big Data Analytics Approach,"Wang, Fang",IEEE,2020
+,56,Highly efficient data migration and backup for big data applications in elastic optical inter-data-center networks,"Lu, P.; Zhang, L.; Liu, X.; Yao, J.; Zhu, Z.",IEEE INSTITUTE OF ELECTRICAL AND ELECTRONICS,2015
+,57,"Hugo Rifkind Big money, big data",unknown,THE SPECTATOR LTD,2017
+,58,NoSQL-based Spatial Data Processing Systems in Big Data Environments,In-Su Shin; Jeong-Joon Kim; Yong-Soo Lee; Jin-Yong Moon,International Information Institute,2016
+,59,Disaggregating asthma: Big investigation versus big data,"Belgrave, Danielle; Henderson, John; Simpson, Angela; Buchan, Iain; Bishop, Christopher; Custovic, Adnan","Elsevier Science B.V., Amsterdam",2017
+,60,Biobanking with Big Data: A Need for Developing “Big Data Metrics”,unknown,Mary Ann Leibert Inc.,2016
+,61,Online Spotlight Big Data Ain't So Big,"Bates,  Mary Ellen",Information Today,2017
+,62,Impact of big data analytics on individuals and the South Korean big data analytics market,"Hameed, Tahir",Taylor & Francis,2016
+,63,Taking a ‘Big Data’ approach to data quality in a citizen science project,"Kelling, S.; Fink, D.; Sorte, F. A.; Johnston, A.; Bruns, N. E.; Hochachka, W. M.",ROYAL SWEDISH ACADEMY OF SCIENCES,2015
+,64,Kinematics of Big Biomedical Data to characterize temporal variability and seasonality of data repositories: Functional Data Analysis of data temporal evolution over non-parametric statistical manifolds,"Sáez, Carlos; García-Gómez, Juan M","Elsevier Science B.V., Amsterdam.",2018
+,65,"A variable diet: Variable data printing is touted as tomorrow's next Big Thing, but for a company like IDG, variable data printing is an everyday reality","Ellis, J.",MACLEAN HUNTER PUBLICATION,1998
+,66,Nursing Management Minimum Data Set: Cost-Effective Tool To Demonstrate the Value of Nurse Staffing in the Big Data Science Era,"Pruinelli,  Lisiane; Delaney,  Connie W.; Garcia,  Amy; Caspers,  Barbara; Westra,  Bonnie L.",A J JANNETTI INC,2016
+,67,MANAGING TECHNOLOGY With Big Data Comes Big Responsibility Allowing people to control their own data may actually benefit companies in the long run. The MIT Media Lab's Alex ``Sandy'' Pentland,"Berinato, S.",HARVARD BUSINESS REVIEW,2014
+,68,The Application of Big Data Technology in the Field of Combat Simulation Data Management,"Guo,  Li; Xu,  Wenyuan; Li,  Hao; Zhang,  Shengxiao; Zhao,  Dongmei",Springer,2016
+,69,"Seth Stephens-Davidowitz, Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are","Massaro, Dominic W.",UNIVERSITY OF ILLINOIS PRESS,2018
+,70,Modeling and Optimization for Big Data Analytics: (Statistical) learning tools for our era of data deluge,"Slavakis, K.; Giannakis, G.; Mateos, G.",INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS,2014
+,71,"Northern Telecom has big plans for data networking with its new division, Enterprise Data Networks",00,"Popular Computing, etc",1998
+,72,Predicting Flu-Rate Using Big Data Analytics Based on Social Data and Weather Conditions,Shikha Verma ; Younghee Park ; Mihui Kim,American Scientific Publishers,2017
+,73,Analysis of Medical Data Using the Big Data and R,"Choi,  Giyong; Lee,  Kangwoo; Seo,  Deokseok; Kim,  Soonseok; Kim,  Dongho; Lee,  Yonghee",Springer,2015
+,74,Analyze This: The Big Demand for Big Data Professionals,"Barnes, N.D.",ARMA INTERNATIONAL,2014
+,75,A cloud-based energy data mining information agent system based on big data analysis technology,"Lin, Hsueh-Yuan; Yang, Sheng-Yuan","Elsevier Science B.V., Amsterdam.",2019
+,76,Universal Health Coverage&#x02014;Big Thinking versus Big Data,"Garrison, L. P.",Blackwell Publishing Ltd,2013
+,77,Regulatory watch: From big data to smart data: FDA's INFORMED initiative,"Khozin, S.; Kim, G.; Pazdur, R.",Nature Publishing Group,2017
+,78,"Convex Optimization for Big Data: Scalable, randomized, and parallel algorithms for big data analytics","Cevher, V.; Becker, S.; Schmidt, M.",INSTITUTE OF ELECTRICAL AND ELECTRONIC ENGINEERS,2014
+,79,Improving the Performance of Data Mining by Using Big Data in Cloud Environment,"Dahmani,  D.; Rahal,  S. A.; Belalem,  G.",INFORMATION AND KNOWLEDGE MANAGEMENT SOCIETY,2016
+,80,The State-Society Relationship: Big Data's Big Future - But for Whom [Editorial],"Michael, K.; Chen, X.","THE IEEE, INC.",2014
+,81,Extracting Value and Data Analytic from Social Networks: Big Data Approach,Firman Arifin ; Mochamad Hariadi ; Muhammad Anshari,American Scientific Publishers,2017
+,82,A critique of imbalanced data learning approaches for big data analytics,"Nazir, Amril",Inderscience,2019
+,83,Opening up to Big Data: Computer-Assisted Analysis of Textual Data in Social Sciences,"Wiedemann, G.",UNIVERSITY OF COLOGNE,2013
+,84,Towards building a data-intensive index for big data computing – A case study of Remote Sensing data processing,"Ma, Y.; Wang, L.; Liu, P.; Ranjan, R.","Elsevier Science B.V., Amsterdam.",2015
+,85,The Uncharted Territory of Big Learning Data Applying big data in the training and development field is a method that will soon make its mark on the industry,"Masie, E.",A.ST.D,2013
+,86,Cloud parallel spatial‐temporal data model with intelligent parameter adaptation for spatial‐temporal big data,"Zhu, Dingju","John Wiley & Sons, Ltd",2018
+,87,"Political Science and Big Data: Structured Data, Unstructured Data, and How to Use Them","Grossman, Jonathan; Pedahzur, Ami",THE ACADEMY OF POLITICAL SCIENCE,2020
+,88,THE ROLE OF BIG DATA AND REAL WORLD DATA,"Sledge, George W.","Elsevier Science B.V., Amsterdam",2019
+,89,Technology Getting Smart With Big Data How smaller companies are becoming increasingly sophisticated about analyzing multiple forms of data,"Holstein, W.J.",CHIEF EXECUTIVE GROUP L.P.,2013
+,90,Expanding Minds to Big Data and Data Sciences,"Dopplick,  Renee",ASSOCIATION FOR COMPUTING MACHINERY,2015
+,91,Research of network data mining based on reliability source under big data environment,"Li, J.; He, Y.; Ma, Y.",Springer Science + Business Media,2017
+,92,Machine learning and big data analytics in bipolar disorder: A position paper from the International Society for Bipolar Disorders Big Data Task Force,"Passos, Ives C.; Ballester, Pedro L.; Barros, Rodrigo C.; Librenza‐Garcia, Diego; Mwangi, Benson; Birmaher, Boris; Brietzke, Elisa; Hajek, Tomas; Lopez Jaramillo, Carlos; Mansur, Rodrigo B.; Alda, Martin; Haarman, Bartholomeus C. M.; Isometsa, Erkki; Lam,",John Wiley & Sons Ltd,2019
+,93,"Click Here for a Data Scientist: Big Data, Predictive Analytics, and Theory Development in the Era of a Maker Movement Supply Chain","Waller, M. A.; Fawcett, S. E.",COUNCIL OF LOGISTICTS MANAGEMENT,2013
+,94,Conference Report: Health Data Protection Law in the Era of Big Data: Risks and Opportunities for Modernization,"Cartagena, Rosario G.; Paprica, P. Alison; Sutherland, Eric","Elsevier Science B.V., Amsterdam.",2019
+,95,"An experiment in big data: storage, querying and visualisation of data taken from the Liverpool Telescope's wide field cameras [9152-95]","Barnsley, R.M.; Steele, I.A.; Smith, R.J.; Mawson, N.R.",International Society for Optical Engineering; 1999,2014
+,96,Layered software patterns for data analysis in big data environment,"Hakeem, H.",Springer Science + Business Media,2017
+,97,"GPU-DAEMON: GPU algorithm design, data management & optimization template for array based big omics data","Awan, Muaaz Gul; Eslami, Taban; Saeed, Fahad","Elsevier Science B.V., Amsterdam.",2018
+,98,U.S. Government BETS Big on Data: A multi-agency big data initiative offers an array of national advantages,"Seffers, G.I.",AFCEA ARMED FORCES COMMUNICATIONS AND,2013
+,99,Tuning small analytics on Big Data: Data partitioning and secondary indexes in the Hadoop ecosystem,"Romero, Oscar; Herrero, Victor; Abelló, Alberto; Ferrarons, Jaume","Elsevier Science B.V., Amsterdam.",2015
+,100,Opportunities and challenges of big data for the social sciences: The case of genomic data,"Liu, H.; Guo, G.","Elsevier Science B.V., Amsterdam",2016
+,1,"Authors' Response to Gong's, “Comment on Data Science and its Relationship to Big Data and Data-Driven Decision Making”",unknown,Mary Ann Leibert,2014
+,2,Why Big Data = Big Deal,unknown,Mary Ann Leibert,2014
+,3,A Big Data Guide to Understanding Climate Change: The Case for Theory-Guided Data Science,unknown,Mary Ann Leibert,2014
+,4,"Correction to: Predictive Modeling with Big Data: Is Bigger Really Better? by Junqué de Fortuny E, Martens D, and Provost F. Big Data 2013;1(4):215–226.",unknown,Mary Ann Leibert,2019
+,5,Big-BOE: Fusing Spanish Official Gazette with Big Data Technology,"Basanta-Val, P.; Sánchez-Fernández, L.",Mary Ann Leibert,2018
+,6,Data Science and its Relationship to Big Data and Data-Driven Decision Making,unknown,Mary Ann Leibert,2013
+,7,Thermal-Aware and DVFS-Enabled Big Data Task Scheduling for Data Centers,"Liu, H.; Liu, B.; Yang, L. T.; Lin, M.; Deng, Y.; Bilal, K.; Khan, S. U.",unknown,2018
+,8,A reference architecture for big data solutions - introducing a model to perform predictive analytics using big data technology,"Geerdink, Bas",Inderscience,2015
+,9,Resting-State fMRI Functional Connectivity: Big Data Preprocessing Pipelines and Topological Data Analysis,"Phinyomark, A.; Ibanez-Marcelo, E.; Petri, G.",unknown,2017
+,10,Sports Analytics in the Era of Big Data: Moving Toward the Next Frontier,"Assunção, Renato; Pelechrinis, Konstantinos",Mary Ann Leibert,2018
+,11,"Big data analysis of swimming pools' impact on household electric intensity in San Antonio, Texas","Elnakat, Afamia; Gomez, Juan D.; Roberts, Jason; Wright, Martha",Inderscience,2015
+,12,Big data (lost) in the cloud,"Di Martino, Beniamino; Aversa, Rocco; Cretella, Giuseppina; Esposito, Antonio; Kołodziej, Joanna",Inderscience,2014
+,13,Big Earth Data: a comprehensive analysis of visualization analytics issues,"Merritt, Patrick; Bi, Haixia; Davis, Bradley; Windmill, Christopher; Xue, Yong",John Wiley & Sons Ltd,2018
+,14,TV Audience Measurement with Big Data,unknown,Mary Ann Leibert,2014
+,15,"Big Data, Efficient Markets, and the End of Daily Fantasy Sports As We Know It?","Urbaczewski, Andrew; Elmore, Ryan",Mary Ann Leibert,2018
+,16,Call for Papers: Special Issue on Computational Propaganda and Political Big Data,unknown,Mary Ann Leibert,2017
+,17,Diversity in Big Data: A Review,unknown,Mary Ann Leibert,2017
+,18,Big Data and the Rise of Machines in Financial Markets,unknown,Mary Ann Leibert,2014
+,19,Can Big Data Machines Analyze Stock Market Sentiment?,unknown,Mary Ann Leibert,2014
+,20,Recent advance in earth observation big data for hydrology,"Chen, Lajiao; Wang, Lizhe",John Wiley & Sons Ltd,2018
+,21,Big Data in Healthcare: Opportunities and Challenges,unknown,Mary Ann Leibert,2015
+,22,Does Medical School Training Relate to Practice? Evidence from Big Data,unknown,Mary Ann Leibert,2015
+,23,The U.S. Army Person-Event Data Environment: A MilitaryÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Civilian Big Data Enterprise,unknown,Mary Ann Leibert,2015
+,24,Big Data for Social Good,unknown,Mary Ann Leibert,2015
+,25,The Structural Consequences of Big Data-Driven Education,unknown,Mary Ann Leibert,2017
+,26,Big Data Based Security Analytics for Protecting Virtualized Infrastructures in Cloud Computing,"Win, T. Y.; Tianfield, H.; Mair, Q.",unknown,2018
+,27,Big Earth data analytics: a survey,"Yang, Chaowei; Yu, Manzhu; Li, Yun; Hu, Fei; Jiang, Yongyao; Liu, Qian; Sha, Dexuan; Xu, Mengchao; Gu, Juan",John Wiley & Sons Ltd,2019
+,28,Research Dilemmas with Behavioral Big Data,unknown,Mary Ann Leibert,2017
+,29,"Bring it on, Big Data: Beyond the Hype",unknown,Mary Ann Leibert,2014
+,30,"Global water cycle and remote sensing big data: overview, challenge, and opportunities","Cui, Yaokui; Chen, Xi; Gao, Jinyu; Yan, Binyan; Tang, Guoqiang; Hong, Yang",John Wiley & Sons Ltd,2018
+,31,Big Data and Predictive Analytics in Health Care,unknown,Mary Ann Leibert,2014
+,32,Big Earth data: A new frontier in Earth and information sciences,"Guo, Huadong",John Wiley & Sons Ltd,2017
+,33,Combining Human Computing and Machine Learning to Make Sense of Big (Aerial) Data for Disaster Response,unknown,Mary Ann Leibert,2016
+,34,Scientific Training in the Era of Big Data: A New Pedagogy for Graduate Education,unknown,Mary Ann Leibert,2017
+,35,Big earth data analytics on Sentinel-1 and Landsat imagery in support to global human settlements mapping,"Corbane, Christina; Pesaresi, Martino; Politis, Panagiotis; Syrris, Vasileios; Florczyk, Aneta J.; Soille, Pierre; Maffenini, Luca; Burger, Armin; Vasilev, Veselin; Rodriguez, Dario; Sabo, Filip; Dijkstra, Lewis; Kemper, Thomas",John Wiley & Sons Ltd,2017
+,36,The Role of Teamwork in the Analysis of Big Data: A Study of Visual Analytics and Box Office Prediction,unknown,Mary Ann Leibert,2017
+,37,Big data drives the development of Earth science,"Guo, Huadong",John Wiley & Sons Ltd,2017
+,38,A view-based model of data-cube to support big earth data systems interoperability,"Nativi, Stefano; Mazzetti, Paolo; Craglia, Max",John Wiley & Sons Ltd,2017
+,39,The challenges of a Big Data Earth,"Boulton, Geoffrey",John Wiley & Sons Ltd,2018
+,40,Big spatial vector data management: a review,"Yao, Xiaochuang; Li, Guoqing",John Wiley & Sons Ltd,2018
+,41,Exploiting big earth data from space – first experiences with the timescan processing chain,"Esch, T.; Üreyen, S.; Zeidler, J.; Metz–Marconcini, A.; Hirner, A.; Asamer, H.; Tum, M.; Böttcher, M.; Kuchar, S.; Svaton, V.; Marconcini, M.",John Wiley & Sons Ltd,2018
+,42,Call for Papers: Special Issue on Big Data in Robotics,unknown,Mary Ann Leibert,2016
+,43,Multiple Targets Tracking with Big Data-Based Measurement for Extended Binary Phase Shift Keying Transceiver,"Yu, Yao; Zhao, Junhui; Lenan, Wu",Mary Ann Leibert,2019
+,44,A new big data approach based on geoecological information-modeling system,"Varotsos, Costas A.; Krapivin, Vladimir F.",John Wiley & Sons Ltd,2017
+,45,GSio: A programmatic interface for delivering Big Earth data-as-a-service,"Larraondo, Pablo R.; Pringle, Sean; Guo, Jian; Antony, Joseph; Evans, Ben",John Wiley & Sons Ltd,2017
+,46,"Comparative study of big data of global adakites and mineralization-related granite in the Geza arc metallogenic belt, northwest Yunnan, Southwest China","Xuelong, Liu; Wenchang, Li; Qi, Zhang; Na, Zhang; Changzhen, Zhang; Ying, Luo; Shuaishuai, Wang; Fucheng, Yang; Jianhang, Chen; Zhenhuan, Li",John Wiley & Sons Ltd,2018
+,47,Big Data 2.0: Cataclysm or Catalyst?,unknown,Mary Ann Leibert,2014
+,48,A Message from the Editor-in-Chief of Big Data,unknown,Mary Ann Leibert,2017
+,49,Curating Big Data Made Simple: Perspectives from Scientific Communities,unknown,Mary Ann Leibert,2014
+,50,Computational Propaganda and Political Big Data: Moving Toward a More Critical Research Agenda,unknown,Mary Ann Leibert,2017
+,51,Efficient utilization of multi-core processors and many-core co-processors on supercomputer beacon for scalable geocomputation and geo-simulation over big earth data,"Lai, Chenggang; Shi, Xuan; Huang, Miaoqing",John Wiley & Sons Ltd,2018
+,52,The Uses of Big Data in Cities,unknown,Mary Ann Leibert,2014
+,53,Big data: new methods and ideas in geological scientific research,"Qi, Zhang; Xuelong, Liu",John Wiley & Sons Ltd,2019
+,54,New discrimination diagrams for basalts based on big data research,"Zhang, Qi; Sun, Weidong; Zhao, Yong; Yuan, Fanglin; Jiao, Shoutao; Chen, Wanfeng",John Wiley & Sons Ltd,2019
+,55,Semantics all the way down: the Semantic Web and open science in big earth data,"Narock, Tom; Shepherd, Adam",John Wiley & Sons Ltd,2017
+,56,National Surveys of Population Health: Big Data Analytics for Mobile Health Monitors,unknown,Mary Ann Leibert,2015
+,57,"Big Data, Little Data, and Care Coordination for Medicare Beneficiaries with Medigap Coverage",unknown,Mary Ann Leibert,2015
+,58,Call for Papers: Special Issue on Computational Propaganda and Political Big Data,unknown,Mary Ann Leibert,2017
+,59,Big Scholarly Data: A Survey,"Xia, F.; Wang, W.; Bekele, T. M.; Liu, H.",unknown,2017
+,60,Call for Special Issue Papers: Big Data in Business,"Nobanee, Haitham",Mary Ann Leibert,2019
+,61,Data behaviours model for Big Data visual analytics,"Zhang, Jinson; Huang, Mao Lin",Inderscience,2016
+,62,"Geospatial semantics, ontology and knowledge graphs for Big Earth data","Zhu, Yunqiang",John Wiley & Sons Ltd,2019
+,63,Big uncertain data of multiple sensors efficient processing with high order multi-hypothesis: an evidence theoretic approach,"Jafari, Hossein; Li, Xiangfang; Qian, Lijun; Aved, Alexander J.; Kroecker, Timothy S.",Inderscience,2018
+,64,Big Data on Robotics,unknown,Mary Ann Leibert,2016
+,65,Optimizing Sentinel-2 image selection in a Big Data context,"Kempeneers, P.; Soille, P.",John Wiley & Sons Ltd,2017
+,66,Unsupervised Tensor Mining for Big Data Practitioners,unknown,Mary Ann Leibert,2016
+,67,Big data (lost) in the cloud,"Di Martino, Beniamino; Aversa, Rocco; Cretella, Giuseppina; Esposito, Antonio; Kołodziej, Joanna",Inderscience,2014
+,68,Big Data As an Enabler of Primary Education,unknown,Mary Ann Leibert,2016
+,69,A generalized supervised classification scheme to produce provincial wetland inventory maps: an application of Google Earth Engine for big geo data processing,"Amani, Meisam; Brisco, Brian; Afshar, Majid; Mirmazloumi, S. Mohammad; Mahdavi, Sahel; Mirzadeh, Sayyed Mohammad Javad; Huang, Weimin; Granger, Jean",John Wiley & Sons Ltd,2019
+,70,Common Big Data Challenges and How to Overcome Them,unknown,Mary Ann Leibert,2014
+,71,Big data ensemble clinical prediction for healthcare data by using deep learning model,"Rallapalli, Sreekanth; Gondkar, R.R.",Inderscience,2018
+,72,Correction to: Big Data 2016;4:60–66,unknown,Mary Ann Leibert,2016
+,73,Scalable Data Quality for Big Data: The Pythia Framework for Handling Missing Values,unknown,Mary Ann Leibert,2015
+,74,SOOM: Sort-Based Optimizer for Big Data Multi-Query,"Sahal, Radhya; Khafagy, Mohammed H.; Omara, Fatma A.",Mary Ann Leibert,2020
+,75,"Deep Learning on Big, Sparse, Behavioral Data","De Cnudde, Sofie; Ramon, Yanou; Martens, David; Provost, Foster",Mary Ann Leibert,2019
+,76,Call for Special Issue Papers: Big Data in Business,"Nobanee, Haitham",Mary Ann Leibert,2020
+,77,An Exercise in Exploring Big Data for Producing Reliable Statistical Information,unknown,Mary Ann Leibert,2016
+,78,Big Data Literature Search,unknown,Mary Ann Leibert,2014
+,79,Using Big Data to Understand the Human Condition: The Kavli Human Project,unknown,Mary Ann Leibert,2015
+,80,Call for Papers: Special Issue on Big Data in Robotics,unknown,Mary Ann Leibert,2016
+,81,Strength in Numbers: Using Big Data to Simplify Sentiment Classification,unknown,Mary Ann Leibert,2017
+,82,Labor Economists Get Their Microscope: Big Data and Labor Market Analysis,unknown,Mary Ann Leibert,2015
+,83,Furthest-Pair-Based Binary Search Tree for Speeding Big Data Classification Using K-Nearest Neighbors,"Hassanat, A. B. A.",Mary Ann Leibert,2018
+,84,"Interview with Dr. Silvio Carta, Author of the Book Big Data, Code and the Discrete City (Routledge 2019)","Carta, Silvio",Mary Ann Leibert,2019
+,85,Clustering Big Spatiotemporal-Interval Data,"Shao, W.; Salim, F. D.; Song, A.; Bouguettaya, A.",unknown,2016
+,86,Agile Big Data Analytics for Web-Based Systems: An Architecture-Centric Approach,"Chen, H.; Kazman, R.; Haziyev, S.",unknown,2016
+,87,A big data analytics framework for border crossing transportation,"Wang, Haibo; Huo, Da; Xu, Yaquan",Inderscience,2017
+,88,Analyzing Big Smart Metering Data Towards Differentiated User Services: A Sublinear Approach,"Pan, E.; Wang, D.; Han, Z.",unknown,2016
+,89,A big data-based RF localisation method for unmanned search and rescue,"Wang, Ju; Liu, Hongzhe; Bao, Hong; Montoya, Cesar Flores; Hinton, James",Inderscience,2018
+,90,Intelligent big data analysis: a review,"Tsai, Chun-Wei; Yang, Ya-Lan; Chiang, Ming-Chao; Yang, Chu-Sing",Inderscience,2014
+,91,"Health big data analytics: current perspectives, challenges and potential solutions","Kuo, Mu-Hsing; Sahama, Tony; Kushniruk, Andre W.; Borycki, Elizabeth M.; Grunwell, Daniel K.",Inderscience,2014
+,92,Intelligent big data analysis: a review,"Tsai, Chun-Wei; Yang, Ya-Lan; Chiang, Ming-Chao; Yang, Chu-Sing",Inderscience,2015
+,93,"Health big data analytics: current perspectives, challenges and potential solutions","Kuo, Mu-Hsing; Sahama, Tony; Kushniruk, Andre W.; Borycki, Elizabeth M.; Grunwell, Daniel K.",Inderscience,2014
+,94,Guest Editorial: Big Data Analytics and the Web,"Sheng, Q. Z.; Vasilakos, A. V.; Yu, Q.; Yao, L.",unknown,2015
+,95,Guest Editorial: Big Data Infrastructure I,"Chen, J.; Wang, H.",unknown,2018
+,96,"Guest Editorial: Big Media Data: Understanding, Search, and Mining","Wang, J.; Qi, G.; Sebe, N.; Aggarwal, C.",unknown,2017
+,97,Guest Editorial: Big Scholar Data Discovery and Collaboration,"Lin, Y.; Tong, H.; Tang, J.; Candan, K. S.",unknown,2017
+,98,"Guest Editorial: Big Media Data: Understanding, Search, and Mining","Wang, J.; Qi, G.; Sebe, N.; Aggarwal, C. C.",unknown,2016
+,99,Speed Up Big Data Analytics by Unveiling the Storage Distribution of Sub-Datasets,"Wang, J.; Zhang, X.; Yin, J.; Wang, R.; Wu, H.; Han, D.",unknown,2018
+,100,Architecting Time-Critical Big-Data Systems,"Basanta-Val, P.; Audsley, N. C.; Wellings, A. J.; Gray, I.; Fernandez-Garcia, N.",unknown,2016
