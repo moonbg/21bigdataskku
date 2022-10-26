@@ -1,0 +1,1051 @@
+------------------------------------------------------------------------------------------------------
+       log:  c:\Imbook\bwebpage\Section6\mma25p1treatment.txt
+  log type:  text
+ opened on:  26 May 2005, 10:26:17
+
+. 
+. ********** OVERVIEW OF MMA25P1TREATMENT.DO **********
+. 
+. * STATA Program 
+. * copyright C 2005 by A. Colin Cameron and Pravin K. Trivedi 
+. * used for "Microeconometrics: Methods and Applications" 
+. * by A. Colin Cameron and Pravin K. Trivedi (2005)
+. * Cambridge University Press 
+. 
+. * Chapter 25.8.1-25.8.4 pages 889-893 Tables 25.3-25.4 and Fig. 25.3
+. * Evaluating treatment effect of training on Earnings
+. * using Dehejia-Wahba data (originally Lalonde data)
+. 
+. * (0) Summarize data for treatments and controls (Table 25.3)
+. * (1) Calculate the treatment effect by simple methods (Table 25.4)
+. *     To replicate some results in DW 1999
+. *     (1A) treatment-control
+. *     (1B) control function
+. *     (1C) before-after cpmparison
+. *     (1D) differences-in-differences
+. * (2) Calculate treatment effect by propensity score (matching by strata)
+. *     Last entry in Table 25.4 and Figure 25.3.
+. 
+. * The program MMA25P2MATCHING.DO uses propensity scores with matching
+. * methods more sophisticated than those usd in the MMA25P1TREAMENT.DO
+. 
+. * To run this program you need file 
+. *     nswpsid.da1
+. 
+. ********** STATA SETUP **********
+. 
+. set more off
+
+. version 8
+
+. set scheme s1mono   /* Used for graphs */
+
+. 
+. ********** DATA DESCRIPTION **********
+. 
+. * Data set nswpsid.da1 is data set nswpsid.da1 from Guido Imbens 
+. * http://emlab.berkeley.edu/users/imbens/index.shtml
+. 
+. * Data originally from DW99
+. *    R.H. Dehejia and S. Wahba (1999) 
+. *    "Causal Effects in Nonexperimental Studies: reevaluating the 
+. *    Evaluation of Training Programs", JASA, 1053-1062
+. * or DW02
+. *    R.H. Dehejia and S. Wahba (2002) 
+. *    "Propensity-score Matching Methods for Nonexperimental Causal
+. *     Studies", ReStat, 151-161
+. * which in turn are from 
+. *    Lalonde, R. (1986), "Evaluating the Econometric Evaluations of 
+. *    Training Programs with Experimental Data," AER,  604-620.
+. 
+. * Each observation is for an individual. 
+. * There are 2,675 observations: 185 in treated group and 2490 in control
+. 
+. * Variables are 
+. *  TREAT 1 if treated (NSW treated) and 0 if not (PSID-1 control)
+. *  AGE   in years
+. *  EDUC  in years   
+. *  BLACK 1 if black
+. *  HISP  1 if hispanic
+. *  MARR  1 if married
+. *  RE74  Real annual earnings in 1974  (pre-treatment)
+. *  RE75  Real annual earnings in 1974  (pre-treatment)
+. *  RE78  Real annual earnings in 1974  (post-treatment)
+. *  U74   1 if unemployed in 1974
+. *  U75   1 if unemployed in 1974
+. 
+. * NOTE: U74 and U75 are miscoded in these data and also in the 
+. *       summary statistics table of DW02
+. *       See below for correction to data
+. 
+. ********** READ DATA AND TRANSFORMATIONS **********
+. 
+. infile TREAT AGE EDUC BLACK HISP MARR RE74 RE75 RE78 U74 U75 /*
+>   */ using nswpsid.da1
+(2675 observations read)
+
+. 
+. * The original data reversed U74 and U75
+. * Should be U74=1 if R74=0 and U74=0 if R74>0 anmd similar for U75
+. * This effects results with propensity score though not eariler results
+. 
+. * Wrong U74 and U75
+. sum U74 U75
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         U74 |      2675    .1345794    .3413376          0          1
+         U75 |      2675    .1293458     .335645          0          1
+
+. 
+. * Correct the original data
+. drop U74 U75
+
+. gen U74 = cond(RE74 == 0, 1, 0)
+
+. gen U75 = cond(RE75 == 0, 1, 0) 
+
+. 
+. * Correct U74 and U75
+. sum U74 U75
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         U74 |      2675    .1293458     .335645          0          1
+         U75 |      2675    .1345794    .3413376          0          1
+
+. 
+. * Create regressors used as additional controls in regressions below
+. gen AGESQ = AGE*AGE
+
+. gen EDUCSQ = EDUC*EDUC
+
+. * DW99 do not define NODEGREE but following gives Table 1 means
+. gen NODEGREE = 0
+
+. replace NODEGREE = 1 if EDUC < 12
+(891 real changes made)
+
+. gen RE74SQ = RE74*RE74
+
+. gen RE75SQ = RE75*RE75
+
+. gen U74BLACK = U74*BLACK
+
+. gen U74HISP = U74*HISP
+
+. 
+. sum AGE EDUC NODEGREE BLACK HISP MARR U74 U75 RE74 RE75 RE78 TREAT /*
+>    */ AGESQ EDUCSQ RE74SQ RE75SQ U74BLACK U74HISP
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         AGE |      2675    34.22579    10.49984         17         55
+        EDUC |      2675    11.99439    3.053556          0         17
+    NODEGREE |      2675    .3330841    .4714045          0          1
+       BLACK |      2675    .2915888    .4545789          0          1
+        HISP |      2675    .0343925    .1822693          0          1
+-------------+--------------------------------------------------------
+        MARR |      2675    .8194393    .3847257          0          1
+         U74 |      2675    .1293458     .335645          0          1
+         U75 |      2675    .1345794    .3413376          0          1
+        RE74 |      2675       18230    13722.25          0     137149
+        RE75 |      2675    17850.89    13877.78          0     156653
+-------------+--------------------------------------------------------
+        RE78 |      2675    20502.38    15632.52          0     121174
+       TREAT |      2675    .0691589    .2537716          0          1
+       AGESQ |      2675     1281.61    766.8415        289       3025
+      EDUCSQ |      2675    153.1862    70.62231          0        289
+      RE74SQ |      2675    5.21e+08    8.47e+08          0   1.88e+10
+-------------+--------------------------------------------------------
+      RE75SQ |      2675    5.11e+08    8.91e+08          0   2.45e+10
+    U74BLACK |      2675    .0549533    .2279316          0          1
+     U74HISP |      2675    .0056075    .0746868          0          1
+
+. 
+. * Reproduce DW99 Table 1: RE74subset Treated and PSID-1 rows
+. * Same as CT Table 25.3 page 890
+. * except for changes to U74, U75 and U74BLACK
+. bysort TREAT: sum AGE EDUC NODEGREE BLACK HISP MARR U74 U75 RE74 RE75 RE78 TREAT /*
+>    */ AGESQ EDUCSQ RE74SQ RE75SQ U74BLACK
+
+----------------------------------------------------------------------------------------------------
+-> TREAT = 0
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         AGE |      2490     34.8506    10.44076         18         55
+        EDUC |      2490    12.11687    3.082435          0         17
+    NODEGREE |      2490    .3052209    .4605934          0          1
+       BLACK |      2490    .2506024     .433447          0          1
+        HISP |      2490    .0325301    .1774389          0          1
+-------------+--------------------------------------------------------
+        MARR |      2490    .8662651    .3404357          0          1
+         U74 |      2490    .0863454    .2809298          0          1
+         U75 |      2490          .1    .3000603          0          1
+        RE74 |      2490    19428.75    13406.88          0     137149
+        RE75 |      2490    19063.34    13596.95          0     156653
+-------------+--------------------------------------------------------
+        RE78 |      2490    21553.92    15555.35          0     121174
+       TREAT |      2490           0           0          0          0
+       AGESQ |      2490     1323.53     769.796        324       3025
+      EDUCSQ |      2490    156.3161    71.43048          0        289
+      RE74SQ |      2490    5.57e+08    8.66e+08          0   1.88e+10
+-------------+--------------------------------------------------------
+      RE75SQ |      2490    5.48e+08    9.12e+08          0   2.45e+10
+    U74BLACK |      2490    .0144578    .1193923          0          1
+
+----------------------------------------------------------------------------------------------------
+-> TREAT = 1
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+         AGE |       185    25.81622    7.155019         17         48
+        EDUC |       185    10.34595     2.01065          4         16
+    NODEGREE |       185    .7081081    .4558666          0          1
+       BLACK |       185    .8432432    .3645579          0          1
+        HISP |       185    .0594595    .2371244          0          1
+-------------+--------------------------------------------------------
+        MARR |       185    .1891892    .3927217          0          1
+         U74 |       185    .7081081    .4558666          0          1
+         U75 |       185          .6    .4912274          0          1
+        RE74 |       185    2095.574    4886.623          0    35040.1
+        RE75 |       185    1532.056    3219.251          0    25142.2
+-------------+--------------------------------------------------------
+        RE78 |       185    6349.145    7867.405          0    60307.9
+       TREAT |       185           1           0          1          1
+       AGESQ |       185    717.3946    431.2517        289       2304
+      EDUCSQ |       185    111.0595    39.30388         16        256
+      RE74SQ |       185    2.81e+07    1.14e+08          0   1.23e+09
+-------------+--------------------------------------------------------
+      RE75SQ |       185    1.27e+07    5.60e+07          0   6.32e+08
+    U74BLACK |       185          .6    .4912274          0          1
+
+
+. 
+. save nswpsid, replace
+file nswpsid.dta saved
+
+. 
+. ********** ANALYSIS: (1) CALCULATE EFFECT OF TRAINING (Table 25.4, p.891) ********** 
+. 
+. ***** (1A) TREATMENT-CONTROL COMPARISON USING POST_TREATMENT EARNINGS 
+. *****      [Difference in means]
+. 
+. * DW99 Table 5 column 1 and Table 3 column 1
+. regress RE78 T
+
+      Source |       SS       df       MS              Number of obs =    2675
+-------------+------------------------------           F(  1,  2673) =  173.41
+       Model |  3.9811e+10     1  3.9811e+10           Prob > F      =  0.0000
+    Residual |  6.1365e+11  2673   229573201           R-squared     =  0.0609
+-------------+------------------------------           Adj R-squared =  0.0606
+       Total |  6.5346e+11  2674   244375675           Root MSE      =   15152
+
+------------------------------------------------------------------------------
+        RE78 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       TREAT |  -15204.78   1154.614   -13.17   0.000     -17468.8   -12940.75
+       _cons |   21553.92   303.6414    70.98   0.000     20958.53    22149.32
+------------------------------------------------------------------------------
+
+. 
+. * CT Table 25.4 p.891 first row uses heteroskedastic-robust standard errors
+. regress RE78 TREAT, robust
+
+Regression with robust standard errors                 Number of obs =    2675
+                                                       F(  1,  2673) =  537.36
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.0609
+                                                       Root MSE      =   15152
+
+------------------------------------------------------------------------------
+             |               Robust
+        RE78 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       TREAT |  -15204.78   655.9143   -23.18   0.000    -16490.93   -13918.63
+       _cons |   21553.92    311.785    69.13   0.000     20942.56    22165.29
+------------------------------------------------------------------------------
+
+. estimates store treatcontrol
+
+. 
+. ***** (1B) CONTROL FUNCTION ESTIMATOR Additionally Include pre-treatment controls 
+. 
+. * DW99 Table 5 column 2 using regressors in footnote a 
+. * Same as DW99 Table 2 column 14 
+. regress RE78 TREAT AGE AGESQ EDUC NODEGREE BLACK HISP RE74 RE75
+
+      Source |       SS       df       MS              Number of obs =    2675
+-------------+------------------------------           F(  9,  2665) =  419.22
+       Model |  3.8296e+11     9  4.2551e+10           Prob > F      =  0.0000
+    Residual |  2.7050e+11  2665   101500967           R-squared     =  0.5860
+-------------+------------------------------           Adj R-squared =  0.5847
+       Total |  6.5346e+11  2674   244375675           Root MSE      =   10075
+
+------------------------------------------------------------------------------
+        RE78 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       TREAT |   217.9438   866.1968     0.25   0.801    -1480.542     1916.43
+         AGE |   158.5058   155.4065     1.02   0.308    -146.2239    463.2354
+       AGESQ |  -3.232885    2.11617    -1.53   0.127    -7.382386    .9166173
+        EDUC |   564.6237     103.56     5.45   0.000     361.5577    767.6898
+    NODEGREE |   502.0912   647.0243     0.78   0.438    -766.6292    1770.812
+       BLACK |  -699.3353   493.1811    -1.42   0.156    -1666.392    267.7211
+        HISP |   2226.535    1092.71     2.04   0.042     83.88965    4369.181
+        RE74 |   .2791682   .0279297    10.00   0.000     .2244021    .3339343
+        RE75 |   .5680874   .0275763    20.60   0.000     .5140143    .6221605
+       _cons |  -2836.703   2901.443    -0.98   0.328     -8526.01    2852.604
+------------------------------------------------------------------------------
+
+. 
+. * CT Table 25.4 p.891 second row uses heteroskedastic-robust standard errors
+. regress RE78 TREAT AGE AGESQ EDUC NODEGREE BLACK HISP RE74 RE75, robust
+
+Regression with robust standard errors                 Number of obs =    2675
+                                                       F(  9,  2665) =  232.85
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.5860
+                                                       Root MSE      =   10075
+
+------------------------------------------------------------------------------
+             |               Robust
+        RE78 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       TREAT |   217.9438   767.8811     0.28   0.777    -1287.759    1723.647
+         AGE |   158.5058   151.0305     1.05   0.294    -137.6431    454.6546
+       AGESQ |  -3.232885   2.103324    -1.54   0.124    -7.357197     .891428
+        EDUC |   564.6237   121.6483     4.64   0.000     326.0891    803.1583
+    NODEGREE |   502.0912   632.3685     0.79   0.427    -737.8914    1742.074
+       BLACK |  -699.3353   432.4582    -1.62   0.106    -1547.323    148.6523
+        HISP |   2226.535    1219.08     1.83   0.068    -163.9034    4616.974
+        RE74 |   .2791682   .0618802     4.51   0.000     .1578301    .4005063
+        RE75 |   .5680874   .0663995     8.56   0.000     .4378876    .6982872
+       _cons |  -2836.703   2937.385    -0.97   0.334    -8596.487    2923.081
+------------------------------------------------------------------------------
+
+. estimates store controlfunction
+
+. 
+. * Variation that lets OLS coefficients differ across treatment and controls 
+. * Interaction of regressors with T
+. gen TAGE = TREAT*AGE
+
+. gen TAGESQ = TREAT*AGESQ
+
+. gen TEDUC = TREAT*EDUC
+
+. gen TNODEGREE = TREAT*NODEGREE
+
+. gen TBLACK = TREAT*BLACK
+
+. gen THISP = TREAT*HISP
+
+. gen TRE74 = TREAT*RE74
+
+. gen TRE75 = TREAT*RE75
+
+. regress RE78 TREAT AGE AGESQ EDUC NODEGREE BLACK HISP RE74 RE75 /*
+>    */TAGE TAGESQ TEDUC TNODEGREE TBLACK THISP TRE74 TRE75
+
+      Source |       SS       df       MS              Number of obs =    2675
+-------------+------------------------------           F( 17,  2657) =  223.17
+       Model |  3.8431e+11    17  2.2607e+10           Prob > F      =  0.0000
+    Residual |  2.6915e+11  2657   101297131           R-squared     =  0.5881
+-------------+------------------------------           Adj R-squared =  0.5855
+       Total |  6.5346e+11  2674   244375675           Root MSE      =   10065
+
+------------------------------------------------------------------------------
+        RE78 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       TREAT |  -8202.823   11960.39    -0.69   0.493    -31655.45     15249.8
+         AGE |   79.46291   165.6177     0.48   0.631    -245.2897    404.2155
+       AGESQ |  -2.260967   2.239074    -1.01   0.313    -6.651471    2.129537
+        EDUC |   567.4906   106.2026     5.34   0.000     359.2424    775.7388
+    NODEGREE |   655.3534   679.5015     0.96   0.335     -677.052    1987.759
+       BLACK |  -707.0551   505.0048    -1.40   0.162    -1697.297    283.1872
+        HISP |   2553.662   1154.726     2.21   0.027     289.4107    4817.914
+        RE74 |   .2869368   .0282197    10.17   0.000      .231602    .3422715
+        RE75 |   .5677759   .0277689    20.45   0.000     .5133251    .6222267
+        TAGE |   668.0022   745.1401     0.90   0.370    -793.1112    2129.116
+      TAGESQ |  -8.651515   12.26876    -0.71   0.481     -32.7088    15.40577
+       TEDUC |  -27.54033   529.1855    -0.05   0.958    -1065.197    1010.117
+   TNODEGREE |  -963.4163   2410.973    -0.40   0.689    -5690.989    3764.157
+      TBLACK |  -384.5853   2593.349    -0.15   0.882    -5469.772    4700.601
+       THISP |  -2126.096   4086.539    -0.52   0.603    -10139.22    5887.023
+       TRE74 |  -.2540934   .2070566    -1.23   0.220    -.6601018    .1519151
+       TRE75 |   -.472797   .3097211    -1.53   0.127    -1.080116    .1345218
+       _cons |  -1603.593   3069.895    -0.52   0.601    -7623.219    4416.032
+------------------------------------------------------------------------------
+
+. 
+. ***** (1D) DIFFERENCE-IN-DIFFERENCES
+. 
+. * Need to stack two separate years of data RE75 and RE78
+. * into a panel of two years on RE
+. gen id = _n
+
+. label variable id "id"
+
+. gen EARNS1 = RE75
+
+. gen EARNS2 = RE78
+
+. reshape long EARNS, i(id) j(year)
+(note: j = 1 2)
+
+Data                               wide   ->   long
+-----------------------------------------------------------------------------
+Number of obs.                     2675   ->    5350
+Number of variables                  31   ->      31
+j variable (2 values)                     ->   year
+xij variables:
+                          EARNS1 EARNS2   ->   EARNS
+-----------------------------------------------------------------------------
+
+. gen dyear2 = 0
+
+. replace dyear2 = 1 if year==2
+(2675 real changes made)
+
+. gen Tdyear2 = TREAT*dyear2
+
+. regress EARNS Tdyear2 TREAT dyear2
+
+      Source |       SS       df       MS              Number of obs =    5350
+-------------+------------------------------           F(  3,  5346) =  169.20
+       Model |  1.0214e+11     3  3.4047e+10           Prob > F      =  0.0000
+    Residual |  1.0757e+12  5346   201218724           R-squared     =  0.0867
+-------------+------------------------------           Adj R-squared =  0.0862
+       Total |  1.1779e+12  5349   220201247           Root MSE      =   14185
+
+------------------------------------------------------------------------------
+       EARNS |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     Tdyear2 |   2326.505   1528.712     1.52   0.128    -670.3928    5323.403
+       TREAT |  -17531.28   1080.962   -16.22   0.000    -19650.41   -15412.15
+      dyear2 |   2490.585   402.0217     6.20   0.000     1702.458    3278.711
+       _cons |   19063.34   284.2723    67.06   0.000     18506.05    19620.63
+------------------------------------------------------------------------------
+
+. 
+. * CT Table 25.4 p.891 fourth row usea heteroskedastic-robust standard errors
+. regress EARNS Tdyear2 TREAT dyear2, robust
+
+Regression with robust standard errors                 Number of obs =    5350
+                                                       F(  3,  5346) = 1222.98
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.0867
+                                                       Root MSE      =   14185
+
+------------------------------------------------------------------------------
+             |               Robust
+       EARNS |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     Tdyear2 |   2326.505   748.5021     3.11   0.002     859.1359    3793.875
+       TREAT |  -17531.28   360.5992   -48.62   0.000     -18238.2   -16824.36
+      dyear2 |   2490.585   414.1056     6.01   0.000     1678.769      3302.4
+       _cons |   19063.34   272.5318    69.95   0.000     18529.06    19597.61
+------------------------------------------------------------------------------
+
+. estimates store diffindiff
+
+. 
+. * Adding pretreatment controls makes no differnce as timne-invariant
+. regress EARNS Tdyear2 TREAT dyear2 AGE AGESQ EDUC NODEGREE BLACK HISP
+
+      Source |       SS       df       MS              Number of obs =    5350
+-------------+------------------------------           F(  9,  5340) =  184.54
+       Model |  2.7943e+11     9  3.1048e+10           Prob > F      =  0.0000
+    Residual |  8.9843e+11  5340   168245017           R-squared     =  0.2372
+-------------+------------------------------           Adj R-squared =  0.2359
+       Total |  1.1779e+12  5349   220201247           Root MSE      =   12971
+
+------------------------------------------------------------------------------
+       EARNS |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     Tdyear2 |   2326.505   1397.856     1.66   0.096    -413.8634    5066.874
+       TREAT |  -9766.469   1043.296    -9.36   0.000    -11811.76   -7721.183
+      dyear2 |   2490.585   367.6092     6.78   0.000      1769.92    3211.249
+         AGE |   1357.093   139.6885     9.72   0.000     1083.246    1630.939
+       AGESQ |  -15.23373   1.911801    -7.97   0.000    -18.98164   -11.48582
+        EDUC |   1504.728   91.99622    16.36   0.000     1324.377    1685.078
+    NODEGREE |  -447.8275   588.8841    -0.76   0.447    -1602.281    706.6257
+       BLACK |  -3177.524   446.5098    -7.12   0.000    -4052.865   -2302.182
+        HISP |  -360.5058   993.7164    -0.36   0.717    -2308.596    1587.584
+       _cons |  -25357.74   2618.207    -9.69   0.000    -30490.49   -20224.98
+------------------------------------------------------------------------------
+
+. 
+. ***** (1C) BEFORE-AFTER COMPARISON 
+. 
+. * Regression for treated only 
+. regress EARNS Tdyear2 if TREAT==1
+
+      Source |       SS       df       MS              Number of obs =     370
+-------------+------------------------------           F(  1,   368) =   59.41
+       Model |  2.1464e+09     1  2.1464e+09           Prob > F      =  0.0000
+    Residual |  1.3296e+10   368  36129816.6           R-squared     =  0.1390
+-------------+------------------------------           Adj R-squared =  0.1367
+       Total |  1.5442e+10   369  41848713.4           Root MSE      =  6010.8
+
+------------------------------------------------------------------------------
+       EARNS |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     Tdyear2 |    4817.09   624.9741     7.71   0.000     3588.121    6046.058
+       _cons |   1532.056   441.9234     3.47   0.001     663.0436    2401.068
+------------------------------------------------------------------------------
+
+. 
+. * CT Table 25.4 p.891 third row uses heteroskedastic-robust standard errors
+. regress EARNS Tdyear2 if TREAT==1, robust
+
+Regression with robust standard errors                 Number of obs =     370
+                                                       F(  1,   368) =   59.41
+                                                       Prob > F      =  0.0000
+                                                       R-squared     =  0.1390
+                                                       Root MSE      =  6010.8
+
+------------------------------------------------------------------------------
+             |               Robust
+       EARNS |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+     Tdyear2 |    4817.09   624.9741     7.71   0.000     3588.121    6046.058
+       _cons |   1532.056    236.684     6.47   0.000     1066.633    1997.478
+------------------------------------------------------------------------------
+
+. estimates store beforeafter
+
+. 
+. ***** DISPLAY RESULTS FOR FIRST FOUR ROWSM OF Table 25.4, p.891
+. 
+. estimates table treatcontrol controlfunction beforeafter diffindiff, /*
+>    */ b(%10.0f) se(%10.0f) stats(N) 
+
+------------------------------------------------------------------
+    Variable | treatcon~l   controlf~n   beforeaf~r   diffindiff  
+-------------+----------------------------------------------------
+       TREAT |     -15205          218                    -17531  
+             |        656          768                       361  
+         AGE |                     159                            
+             |                     151                            
+       AGESQ |                      -3                            
+             |                       2                            
+        EDUC |                     565                            
+             |                     122                            
+    NODEGREE |                     502                            
+             |                     632                            
+       BLACK |                    -699                            
+             |                     432                            
+        HISP |                    2227                            
+             |                    1219                            
+        RE74 |                       0                            
+             |                       0                            
+        RE75 |                       1                            
+             |                       0                            
+     Tdyear2 |                                 4817         2327  
+             |                                  625          749  
+      dyear2 |                                              2491  
+             |                                               414  
+       _cons |      21554        -2837         1532        19063  
+             |        312         2937          237          273  
+-------------+----------------------------------------------------
+           N |       2675         2675          370         5350  
+------------------------------------------------------------------
+                                                      legend: b/se
+
+. 
+. ********** ANALYSIS: (2) PROPENSITY SCORE USING STRATA (Table 25.4, p.891) ********** 
+. 
+. use nswpsid, clear
+
+. 
+. ***** (2A) COMPUTE PROPENSITY SCORE 
+. 
+. * Calculate propensity score using regressors in DW99 Table 3 footnote e
+. logit TREAT AGE AGESQ EDUC EDUCSQ MARR NODEGREE BLACK HISP RE74 RE75 RE74SQ RE75SQ U74BLACK
+
+Iteration 0:   log likelihood = -672.64954
+Iteration 1:   log likelihood = -499.56574
+Iteration 2:   log likelihood = -318.55053
+Iteration 3:   log likelihood = -248.28844
+Iteration 4:   log likelihood = -225.08984
+Iteration 5:   log likelihood = -219.00396
+Iteration 6:   log likelihood = -209.30653
+Iteration 7:   log likelihood = -208.38887
+Iteration 8:   log likelihood = -205.17689
+Iteration 9:   log likelihood = -204.93156
+Iteration 10:  log likelihood = -204.92951
+Iteration 11:  log likelihood =  -204.9295
+
+Logit estimates                                   Number of obs   =       2675
+                                                  LR chi2(13)     =     935.44
+                                                  Prob > chi2     =     0.0000
+Log likelihood =  -204.9295                       Pseudo R2       =     0.6953
+
+------------------------------------------------------------------------------
+       TREAT |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         AGE |   .3305734   .1203353     2.75   0.006     .0947206    .5664262
+       AGESQ |  -.0063429   .0018561    -3.42   0.001    -.0099808   -.0027049
+        EDUC |   .8247711   .3534216     2.33   0.020     .1320775    1.517465
+      EDUCSQ |  -.0483153   .0186057    -2.60   0.009    -.0847819   -.0118488
+        MARR |  -1.884062   .2994614    -6.29   0.000    -2.470996   -1.297129
+    NODEGREE |   .1299868   .4284278     0.30   0.762    -.7097163      .96969
+       BLACK |   1.132961    .352088     3.22   0.001     .4428814    1.823041
+        HISP |   1.962762   .5673735     3.46   0.001     .8507302    3.074793
+        RE74 |  -.0001047   .0000355    -2.95   0.003    -.0001743   -.0000351
+        RE75 |  -.0002172   .0000415    -5.23   0.000    -.0002986   -.0001357
+      RE74SQ |   2.36e-09   6.57e-10     3.59   0.000     1.07e-09    3.65e-09
+      RE75SQ |   1.58e-10   6.68e-10     0.24   0.813    -1.15e-09    1.47e-09
+    U74BLACK |   2.137042   .4273667     5.00   0.000     1.299419    2.974665
+       _cons |  -7.552458   2.451721    -3.08   0.002    -12.35774   -2.747173
+------------------------------------------------------------------------------
+
+note: 19 failures and 0 successes completely determined.
+
+. * Note that Table 25.6 footnote b is wrong in stating RE74*RE75 is regressor
+. predict PSCORE
+(option p assumed; Pr(TREAT))
+
+. 
+. ***** (2B) PLOT PROPENSITY SCORE BY TREATMENT STATUS TO SEE OVERLAP
+. 
+. * Observations with no overlap in propensity score across treatment status are dropped
+. 
+. sum PSCORE if TREAT==1
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+      PSCORE |       185    .6876511    .3095136   .0006526   .9748755
+
+. scalar PTMIN = r(min)
+
+. scalar PTMAX = r(max)
+
+. sum PSCORE if TREAT==0
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+      PSCORE |      2490    .0232066    .0901373   4.49e-11   .9735255
+
+. scalar PCMIN = r(min)
+
+. scalar PCMAX = r(max)
+
+. drop if PSCORE < PTMIN
+(1344 observations deleted)
+
+. drop if PSCORE < PCMIN
+(0 observations deleted)
+
+. drop if PSCORE > PTMAX
+(0 observations deleted)
+
+. drop if PSCORE > PCMAX
+(6 observations deleted)
+
+. * Following gives number of observations left
+. sum PSCORE
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+      PSCORE |      1325    .1350934    .2703797   .0006526   .9735255
+
+. 
+. * This differs from CT text page 893 as now U74 and U75 are corrected
+. * Instead of losing  1423 controls and 8 treated leaving 1244
+. * now          lose  1344 controls and 6 treated leaving 1325
+. * versus DW Figure 1 1333 controls are dropped leaving 1342
+. * and Dw Table 3 column 6 says that there are 1255 left
+. 
+. ***** (2C) CREATE FIGURE 25.3 ON PAGE 892
+. 
+. * This will differ a little from figure in text due to U74 and U75 corrected
+. 
+. label define tstatus 0 Comparison_sample 1 Treated_sample
+
+. label values TREAT tstatus
+
+. label variable TREAT "Treatment Status"
+
+. graph twoway (scatter RE78 PSCORE if RE78 < 20000, msize(small)) /*
+>   */ (lowess RE78 PSCORE, bwidth(0.5) clpattern(solid)), /*
+>   */ by(TREAT, title("Post-treatment Earnings against Propensity Score", margin(b=3) size(vlarge))
+> ) /*
+>   */ subtitle(, bfcolor(none)) /* 
+>   */ scale (1.2) plotregion(style(none)) /*
+>   */ xtitle("     Propensity Score                             Propensity Score", size(medlarge)) 
+> xscale(titlegap(*5)) /*
+>   */ ytitle("Real Earnings 1978", size(medlarge)) yscale(titlegap(*5)) /*
+>   */ legend(pos(12) ring(0) col(2)) /*
+>   */ legend( label(1 "Original data") label(2 "Nonparametric regression")) 
+
+. graph export ch25treatment.wmf, replace
+(file c:\Imbook\bwebpage\Section6\ch25treatment.wmf written in Windows Metafile format)
+
+. 
+. ***** (2D) ADJUSTED DIFFERENCE  Use PSCORE to summarize pre-treatment controls 
+. 
+. * A simple method regressors RE78 on a quadratic on PSCORE and on TREAT
+. * And measures the treatment effect as coefficient of TREATED
+. 
+. gen PSCORESQ = PSCORE*PSCORE
+
+. regress RE78 TREAT PSCORE PSCORESQ
+
+      Source |       SS       df       MS              Number of obs =    1325
+-------------+------------------------------           F(  3,  1321) =   46.14
+       Model |  1.5152e+10     3  5.0505e+09           Prob > F      =  0.0000
+    Residual |  1.4458e+11  1321   109450232           R-squared     =  0.0949
+-------------+------------------------------           Adj R-squared =  0.0928
+       Total |  1.5974e+11  1324   120645977           Root MSE      =   10462
+
+------------------------------------------------------------------------------
+        RE78 |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+       TREAT |   301.5344   1388.756     0.22   0.828    -2422.874    3025.943
+      PSCORE |  -39475.21   4836.678    -8.16   0.000    -48963.62    -29986.8
+    PSCORESQ |   33122.86   5037.943     6.57   0.000     23239.61     43006.1
+       _cons |   14560.51   347.3596    41.92   0.000     13879.07    15241.95
+------------------------------------------------------------------------------
+
+. 
+. * This yields coefficient of 301 with nonrobust se of 1388
+. * which is close to DW 99 Table 3 column 3 
+. *             coefficient of 294 with nonrobust se of 1389
+. 
+. ***** (2E) CREATE STRATA 
+. 
+. * DW are not clear on how formed. 
+. * NBER Working Paper W6829 appendix suggests that form five cells 
+. * according to range of PSCORE (where nonoverlapping PSCOREs already dropped)
+. 
+. * Here we instead create ten strata 
+. * for PSCORE <0.1, 0.1-0.2, ...., 0.8-0.9 and > 0.9
+. global cut1 = 0.1
+
+. global cut2 = 0.2
+
+. global cut3 = 0.3
+
+. global cut4 = 0.4
+
+. global cut5 = 0.5
+
+. global cut6 = 0.6
+
+. global cut7 = 0.7
+
+. global cut8 = 0.8
+
+. global cut9 = 0.9
+
+. gen STRATA = 1
+
+. replace STRATA = 2 if PSCORE > $cut1 & PSCORE <= $cut2
+(60 real changes made)
+
+. replace STRATA = 3 if PSCORE > $cut2 & PSCORE <= $cut3
+(35 real changes made)
+
+. replace STRATA = 4 if PSCORE > $cut3 & PSCORE <= $cut4
+(33 real changes made)
+
+. replace STRATA = 5 if PSCORE > $cut4 & PSCORE <= $cut5
+(13 real changes made)
+
+. replace STRATA = 6 if PSCORE > $cut5 & PSCORE <= $cut6
+(21 real changes made)
+
+. replace STRATA = 7 if PSCORE > $cut6 & PSCORE <= $cut7
+(22 real changes made)
+
+. replace STRATA = 8 if PSCORE > $cut7 & PSCORE <= $cut8
+(13 real changes made)
+
+. replace STRATA = 9 if PSCORE > $cut8 & PSCORE <= $cut9
+(13 real changes made)
+
+. replace STRATA = 10 if PSCORE > $cut9
+(86 real changes made)
+
+. 
+. tab STRATA T
+
+           |   Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 |     1,018         11 |     1,029 
+         2 |        53          7 |        60 
+         3 |        24         11 |        35 
+         4 |        17         16 |        33 
+         5 |         8          5 |        13 
+         6 |         6         15 |        21 
+         7 |         8         14 |        22 
+         8 |         5          8 |        13 
+         9 |         0         13 |        13 
+        10 |         7         79 |        86 
+-----------+----------------------+----------
+     Total |     1,146        179 |     1,325 
+
+
+. 
+. ***** (2F) Test for similar regressor means for treated and nontreated within each Strata
+. 
+. * Compare means within Strata across treatment status
+. tab STRATA TREAT, sum(AGE) nostand nofreq
+
+                               Means of AGE
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | 31.427308  30.363636 | 31.415938
+         2 | 28.037736  28.714286 | 28.116667
+         3 | 27.833333  27.909091 | 27.857143
+         4 | 27.529412      28.25 | 27.878788
+         5 |    28.875       27.8 | 28.461538
+         6 |        25       23.4 | 23.857143
+         7 |    24.875       24.5 | 24.636364
+         8 |      24.8         32 | 29.230769
+         9 |         .  29.461538 | 29.461538
+        10 | 23.285714  23.367089 | 23.360465
+-----------+----------------------+----------
+     Total | 30.961606  25.765363 | 30.259623
+
+. tab STRATA TREAT, sum(EDUC) nostand nofreq
+
+                               Means of EDUC
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | 11.229862  11.545455 | 11.233236
+         2 | 10.433962  10.714286 | 10.466667
+         3 | 10.583333  10.181818 | 10.457143
+         4 | 10.647059    10.0625 | 10.363636
+         5 |    10.625        9.4 | 10.153846
+         6 | 9.3333333  10.066667 | 9.8571429
+         7 |     9.875  11.071429 | 10.636364
+         8 |      10.8      11.25 | 11.076923
+         9 |         .         11 |        11
+        10 | 10.571429  10.164557 | 10.197674
+-----------+----------------------+----------
+     Total | 11.141361  10.413408 | 11.043019
+
+. tab STRATA TREAT, sum(MARR) nostand nofreq
+
+                               Means of MARR
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 |  .8280943  .81818182 | .82798834
+         2 | .56603774  .85714286 |        .6
+         3 | .29166667  .18181818 | .25714286
+         4 | .23529412        .25 | .24242424
+         5 |       .25          0 | .15384615
+         6 | .16666667  .06666667 |  .0952381
+         7 |      .125  .07142857 | .09090909
+         8 |        .2       .625 | .46153846
+         9 |         .  .53846154 | .53846154
+        10 |         0          0 |         0
+-----------+----------------------+----------
+     Total | .77574171  .19553073 | .69735849
+
+. tab STRATA TREAT, sum(NODEGREE) nostand nofreq
+
+                             Means of NODEGREE
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | .38408644  .36363636 | .38386783
+         2 | .62264151  .57142857 | .61666667
+         3 |      .625  .54545455 |        .6
+         4 | .52941176       .625 | .57575758
+         5 |      .625         .8 | .69230769
+         6 | .83333333         .8 | .80952381
+         7 |      .625  .64285714 | .63636364
+         8 |        .8        .75 | .76923077
+         9 |         .  .76923077 | .76923077
+        10 | .71428571  .75949367 | .75581395
+-----------+----------------------+----------
+     Total | .41186736  .69832402 | .45056604
+
+. tab STRATA TREAT, sum(BLACK) nostand nofreq
+
+                              Means of BLACK
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | .36247544  .63636364 |  .3654033
+         2 | .60377358  .57142857 |        .6
+         3 | .66666667  .54545455 | .62857143
+         4 | .88235294       .875 | .87878788
+         5 |         1         .4 | .76923077
+         6 | .83333333         .6 | .66666667
+         7 |      .875  .92857143 | .90909091
+         8 |        .8          1 | .92307692
+         9 |         .  .92307692 | .92307692
+        10 |         1  .94936709 | .95348837
+-----------+----------------------+----------
+     Total | .40401396  .83798883 | .46264151
+
+. tab STRATA TREAT, sum(HISP) nostand nofreq
+
+                               Means of HISP
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | .04911591          0 | .04859086
+         2 |  .0754717  .28571429 |        .1
+         3 | .08333333          0 | .05714286
+         4 |         0          0 |         0
+         5 |         0         .2 | .07692308
+         6 | .16666667  .13333333 | .14285714
+         7 |      .125  .07142857 | .09090909
+         8 |        .2          0 | .07692308
+         9 |         .  .07692308 | .07692308
+        10 |         0  .05063291 | .04651163
+-----------+----------------------+----------
+     Total | .05148342  .06145251 | .05283019
+
+. tab STRATA TREAT, sum(RE74) nostand nofreq
+
+                               Means of RE74
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | 12216.528   12142.62 | 12215.738
+         2 | 5989.8844  2031.6573 | 5528.0912
+         3 | 6476.1906  5884.7335 | 6290.3041
+         4 |  4790.868    4895.09 | 4841.3999
+         5 | 2375.3662  5715.8799 | 3660.1792
+         6 | 3173.6867  2402.9567 | 2623.1653
+         7 | 1533.1259  2269.1672 | 2001.5158
+         8 |  1567.414          0 | 602.85154
+         9 |         .  34.243847 | 34.243847
+        10 |         0          0 |         0
+-----------+----------------------+----------
+     Total | 11386.483  2165.8167 | 10140.823
+
+. tab STRATA TREAT, sum(RE75) nostand nofreq
+
+                               Means of RE75
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | 10352.924  8964.4728 | 10338.081
+         2 |  3916.448  3250.0113 |  3838.697
+         3 | 2417.8314  2694.2624 | 2504.7097
+         4 |   3134.96   2905.615 | 3023.7624
+         5 | 3204.6788   1917.262 | 2709.5185
+         6 |   2878.54  1731.1554 | 2058.9796
+         7 | 643.84411  1230.5051 | 1017.1739
+         8 | 2539.0337  1501.9275 | 1900.8145
+         9 |         .  201.91542 | 201.91542
+        10 | 127.88014  234.47151 | 225.79547
+-----------+----------------------+----------
+     Total | 9528.6389  1583.4094 | 8455.2834
+
+. tab STRATA TREAT, sum(U74BLACK) nostand nofreq
+
+                             Means of U74BLACK
+
+           |  Treatment Status
+    STRATA | Compariso  Treated_s |     Total
+-----------+----------------------+----------
+         1 | .01473477          0 | .01457726
+         2 | .05660377  .14285714 | .06666667
+         3 | .08333333  .09090909 | .08571429
+         4 | .17647059      .1875 | .18181818
+         5 |       .25         .2 | .23076923
+         6 | .16666667  .06666667 |  .0952381
+         7 |      .125  .21428571 | .18181818
+         8 |        .4          1 | .76923077
+         9 |         .  .92307692 | .92307692
+        10 |         1  .94936709 | .95348837
+-----------+----------------------+----------
+     Total | .03141361  .58659218 | .10641509
+
+. 
+. * Formal test of difference in means within strata across treatment status
+. * Example is for education
+. * bysort STRATA: oneway EDUC T
+. 
+. ***** (2G) Calculate weighted average of within strata mean difference in outcome
+. 
+. #delimit ;
+delimiter now ;
+. global sum = 0 ;
+
+.        * Sums the estimate of interest over strata ;
+. global sumwgt = 0 ;
+
+.     /* Sums the number of treated obs over strata */ 
+> global count = 0 ;
+
+.      /* This gives the number of Strata used       */   
+> global numcut = 10;
+
+. * Possibly include extra regressors. 
+> * Not clear which ones, so same as DW99 Table 3 footnote a for column 2
+> global XLIST AGE AGESQ EDUC NODEGREE BLACK HISP RE74 RE75;
+. forvalues i = 1/$numcut { ;
+  2.    global addon = 0 ;
+  3.   /* Within strata estiamte of interest  */
+>    global tobs = 0 ;
+  4.    /* Within strata number of treated obs */
+>    capture { ;
+  5.         quiet regress RE78 TREAT $XLIST if STRATA == `i' ;
+  6.         global addon = _b[TREAT] ;
+  7.         quiet summarize TREAT if TREAT==1 & STRATA==`i' ;
+  8.         global tobs = _result(1) ;
+  9.   * # of treatment observations ;
+.     } ;
+ 10.    di "`i' estimate = $addon        Top cut = ${cut`i'}    #treat obs = $tobs" ;
+ 11.    if $addon ~= 0 { ;
+ 12.         global sum = $sum + $addon * $tobs ;
+ 13.         global sumwgt = $sumwgt + $tobs ;
+ 14.         global count = $count + 1 ;
+ 15.    } ;
+ 16. } ;
+1 estimate = -4410.946812653378        Top cut = .1    #treat obs = 11
+2 estimate = -2113.275144674707        Top cut = .2    #treat obs = 7
+3 estimate = 1486.684503266305        Top cut = .3    #treat obs = 11
+4 estimate = -6085.742371951832        Top cut = .4    #treat obs = 16
+5 estimate = 1899.984014892578        Top cut = .5    #treat obs = 5
+6 estimate = -411.1481648763024        Top cut = .6    #treat obs = 15
+7 estimate = 133.9267490931921        Top cut = .7    #treat obs = 14
+8 estimate = 1848.656362915039        Top cut = .8    #treat obs = 8
+9 estimate = 0        Top cut = .9    #treat obs = 13
+10 estimate = 4857.563579676591        Top cut =     #treat obs = 79
+
+. #delimit cr ;
+delimiter now cr
+.  
+. 
+. ***** DISPLAY RESULT: "Propensity Score" estimate in last row Table 25.4
+. 
+. * Weighted estimate
+. di $sum / $sumwgt "      Count = " $count 
+1562.7274      Count = 9
+
+. 
+. * This differs from value 995 given in text due to 
+. * previously mentioned correction of U74 and U75. 
+. * Now get 1562 with se not estimated
+. * compared to DW99 estimates Table 3 column 4 1608 and column 5 1494
+. 
+. ********** CLOSE OUTPUT **********
+. log close
+       log:  c:\Imbook\bwebpage\Section6\mma25p1treatment.txt
+  log type:  text
+ closed on:  26 May 2005, 10:26:22
+----------------------------------------------------------------------------------------------------
